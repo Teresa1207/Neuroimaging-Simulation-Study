@@ -1,0 +1,18 @@
+---
+title: "Tables for AB, tau and ROI atrophy pape"
+output: pdf_document
+---
+## Amyloid - $\beta$ Correlations
+
+Tables showing effects of amyloid-$\beta$. $\beta$ - estimates, confidences intervals and significance for multivariate regression of amyloid-$\beta$ controlling for age, gender and education and tau (where applicable), with atrophy and or cognitive outcome
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+setwd("~/Documents/Davis 2016-2017/ADC_Evan/R_RESULTS2")
+source('ResultsSum.R')
+figure2Func(fig2CN,'Cognitively Normal')
+figure2Func(fig2EMCI,'EMCI')
+figure2Func(fig2LMCI,'LMCI')
+figure2Func(fig2TOTAL,'Total Group')
+```
+

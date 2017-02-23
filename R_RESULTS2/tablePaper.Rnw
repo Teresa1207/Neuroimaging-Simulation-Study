@@ -1,0 +1,147 @@
+\documentclass{article}
+\usepackage{color, colortbl}
+\usepackage{float}
+\usepackage[letterpaper,margin=1in]{geometry}
+\usepackage{xcolor}
+\usepackage{fancyhdr}
+\usepackage{tgschola} % or any other font package you like
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{multicol}
+\usepackage{array,multirow,graphicx}
+\usepackage{booktabs}
+\usepackage{multirow}%\usepackage[nomarginpar]{geometry}%,
+\usepackage{caption, booktabs}
+\usepackage{tabularx}%
+ %\usepackage{rotating}
+ \usepackage{enumitem}
+ \usepackage{pdflscape}
+\usepackage[hyphens]{url}
+\usepackage{hyperref,fancyhdr,enumitem,color,pifont}
+ \usepackage[final]{pdfpages}
+\usepackage{natbib,bibentry}
+\begin{document}
+\SweaveOpts{concordance=TRUE}
+
+\section*{Amyloid - $\beta$ Correlations}
+Tables showing effects of amyloid-$\beta$. $\beta$ - estimates, confidences intervals and significance for multivariate regression of amyloid-$\beta$ controlling for age, gender and education and tau (where applicable), with atrophy and or cognitive outcome
+
+<<table1,results = tex,echo=FALSE>>=
+setwd("~/Documents/Davis 2016-2017/ADC_Evan/R_RESULTS2")
+source('ResultsSum.R')
+figure2Func(fig2CN,'Cognitively Normal')
+@
+
+\noindent\rule[0.5ex]{\linewidth}{1pt}
+
+<<table2,results = tex,echo=FALSE>>=
+figure2Func(fig2EMCI,'EMCI')
+@
+
+\noindent\rule[0.5ex]{\linewidth}{1pt}
+
+<<table3,results = tex,echo=FALSE>>=
+
+figure2Func(fig2LMCI,'LMCI')
+@
+
+\noindent\rule[0.5ex]{\linewidth}{1pt}
+
+<<table4,results = tex,echo=FALSE>>=
+
+figure2Func(fig2TOTAL,'Total Group')
+@
+
+\newpage
+\section*{Mediations: $\beta_2$ and $\beta_3$}
+
+Table showing $\beta_2$ and $\beta_3$ mediation pathways across diagostic groups. Red indicates significant $\beta_2$ pathway, blue indicates significant $\beta_3$ pathway, and green indicates that both $\beta_2$ and $\beta_3$ were significant.
+
+<<t5,echo=FALSE, results=tex>>=
+figure3Func(fig3EFEMCI,'EMCI: Executive Function')
+@
+
+<<t6,echo=FALSE, results=tex>>=
+figure3Func(fig3MEMEMCI,'EMCI: Memory')
+@
+
+
+<<t7,echo=FALSE, results=tex>>=
+figure3Func(fig3EFLMCI,'LMCI: Executive Function')
+@
+
+<<t8,echo=FALSE, results=tex>>=
+figure3Func(fig3MEMLMCI,'LMCI: Memory')
+@
+
+<<t9,echo=FALSE, results=tex>>=
+figure3Func(fig3EFTOTAL,'Total: Executive Function')
+@
+
+<<t10,echo=FALSE, results=tex>>=
+figure3Func(fig3MEMTOTAL,'Total: Memory')
+@
+
+\newpage
+\section*{Mediations: $\beta_1$}
+Table showing $\beta_1$ mediation pathway across diagostic groups. Orange indicates significant $\beta_1$ pathway. Only EMCI and Total group showed significant pathways in Memory. 
+<<t11,echo=FALSE, results=tex>>=
+figure4Func(B1EFCN,'CN: Executive')
+@
+<<t12,echo=FALSE, results=tex>>=
+figure4Func(B1MEMCN,'CN: Memory')
+@
+
+<<t13,echo=FALSE, results=tex>>=
+figure4Func(B1EFEMCI,'EMCI: Executive')
+@
+<<t14,echo=FALSE, results=tex>>=
+figure4Func(B1MEMEMCI,'EMCI: Memory')
+@
+
+<<t13,echo=FALSE, results=tex>>=
+figure4Func(B1EFLMCI,'LMCI: Executive')
+@
+<<t14,echo=FALSE, results=tex>>=
+figure4Func(B1MEMLMCI,'LMCI: Memory')
+@
+
+<<t15,echo=FALSE, results=tex>>=
+figure4Func(B1EFTOTAL,'Total: Executive')
+@
+<<t16,echo=FALSE, results=tex>>=
+figure4Func(B1MEMTOTAL,'Total: Memory')
+@
+
+\section*{Mediations: $ab$}
+Table showing $ab$ mediation pathway across diagostic groups. Orange indicates significant $ab$ pathway. Only EMCI and Total group showed significant pathways in Memory. 
+<<t11,echo=FALSE, results=tex>>=
+figure4Func(abEFCN,'CN: Executive')
+@
+<<t12,echo=FALSE, results=tex>>=
+figure4Func(abMEMCN,'CN: Memory')
+@
+
+<<t13,echo=FALSE, results=tex>>=
+figure4Func(abEFEMCI,'EMCI: Executive')
+@
+<<t14,echo=FALSE, results=tex>>=
+figure4Func(abMEMEMCI,'EMCI: Memory')
+@
+
+<<t13,echo=FALSE, results=tex>>=
+figure4Func(abEFLMCI,'LMCI: Executive')
+@
+<<t14,echo=FALSE, results=tex>>=
+figure4Func(abMEMLMCI,'LMCI: Memory')
+@
+
+<<t15,echo=FALSE, results=tex>>=
+figure4Func(abEFTOTAL,'Total: Executive')
+@
+<<t16,echo=FALSE, results=tex>>=
+figure4Func(abMEMTOTAL,'Total: Memory')
+@
+
+\end{document}

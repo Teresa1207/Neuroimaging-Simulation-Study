@@ -1,0 +1,1409 @@
+"","Atrophy","Cog","DX","MedPath","Paths","Sig","LCI","UCI","mean","se"
+"1","Atrophy_Amygdala","ADNI_MEM","NL","a","Abeta to Tau","0",-0.313608,0.023299,-0.14054,0.0882
+"2","Atrophy_Amygdala","ADNI_MEM","EMCI","a","Abeta to Tau","1",-0.660578,-0.178282,-0.409515,0.128401
+"3","Atrophy_Amygdala","ADNI_MEM","LMCI","a","Abeta to Tau","1",-0.831067,-0.433944,-0.637082,0.10161
+"4","Atrophy_Amygdala","ADNI_MEM","TOTAL","a","Abeta to Tau","1",-0.48795,-0.259339,-0.369156,0.058971
+"5","Atrophy_Amygdala","ADNI_EF","NL","a","Abeta to Tau","0",-0.313608,0.023299,-0.14054,0.0882
+"6","Atrophy_Amygdala","ADNI_EF","EMCI","a","Abeta to Tau","1",-0.660578,-0.178282,-0.409515,0.128401
+"7","Atrophy_Amygdala","ADNI_EF","LMCI","a","Abeta to Tau","1",-0.831067,-0.433944,-0.637082,0.10161
+"8","Atrophy_Amygdala","ADNI_EF","TOTAL","a","Abeta to Tau","1",-0.48795,-0.259339,-0.369156,0.058971
+"9","Atrophy_Entorhinal","ADNI_MEM","NL","a","Abeta to Tau","0",-0.313608,0.023299,-0.14054,0.0882
+"10","Atrophy_Entorhinal","ADNI_MEM","EMCI","a","Abeta to Tau","1",-0.660578,-0.178282,-0.409515,0.128401
+"11","Atrophy_Entorhinal","ADNI_MEM","LMCI","a","Abeta to Tau","1",-0.831067,-0.433944,-0.637082,0.10161
+"12","Atrophy_Entorhinal","ADNI_MEM","TOTAL","a","Abeta to Tau","1",-0.48795,-0.259339,-0.369156,0.058971
+"13","Atrophy_Entorhinal","ADNI_EF","NL","a","Abeta to Tau","0",-0.313608,0.023299,-0.14054,0.0882
+"14","Atrophy_Entorhinal","ADNI_EF","EMCI","a","Abeta to Tau","1",-0.660578,-0.178282,-0.409515,0.128401
+"15","Atrophy_Entorhinal","ADNI_EF","LMCI","a","Abeta to Tau","1",-0.831067,-0.433944,-0.637082,0.10161
+"16","Atrophy_Entorhinal","ADNI_EF","TOTAL","a","Abeta to Tau","1",-0.48795,-0.259339,-0.369156,0.058971
+"17","Atrophy_Hippocampus","ADNI_MEM","NL","a","Abeta to Tau","0",-0.313608,0.023299,-0.14054,0.0882
+"18","Atrophy_Hippocampus","ADNI_MEM","EMCI","a","Abeta to Tau","1",-0.660578,-0.178282,-0.409515,0.128401
+"19","Atrophy_Hippocampus","ADNI_MEM","LMCI","a","Abeta to Tau","1",-0.831067,-0.433944,-0.637082,0.10161
+"20","Atrophy_Hippocampus","ADNI_MEM","TOTAL","a","Abeta to Tau","1",-0.48795,-0.259339,-0.369156,0.058971
+"21","Atrophy_Hippocampus","ADNI_EF","NL","a","Abeta to Tau","0",-0.313608,0.023299,-0.14054,0.0882
+"22","Atrophy_Hippocampus","ADNI_EF","EMCI","a","Abeta to Tau","1",-0.660578,-0.178282,-0.409515,0.128401
+"23","Atrophy_Hippocampus","ADNI_EF","LMCI","a","Abeta to Tau","1",-0.831067,-0.433944,-0.637082,0.10161
+"24","Atrophy_Hippocampus","ADNI_EF","TOTAL","a","Abeta to Tau","1",-0.48795,-0.259339,-0.369156,0.058971
+"25","Atrophy_Insula","ADNI_MEM","NL","a","Abeta to Tau","0",-0.313608,0.023299,-0.14054,0.0882
+"26","Atrophy_Insula","ADNI_MEM","EMCI","a","Abeta to Tau","1",-0.660578,-0.178282,-0.409515,0.128401
+"27","Atrophy_Insula","ADNI_MEM","LMCI","a","Abeta to Tau","1",-0.831067,-0.433944,-0.637082,0.10161
+"28","Atrophy_Insula","ADNI_MEM","TOTAL","a","Abeta to Tau","1",-0.48795,-0.259339,-0.369156,0.058971
+"29","Atrophy_Insula","ADNI_EF","NL","a","Abeta to Tau","0",-0.313608,0.023299,-0.14054,0.0882
+"30","Atrophy_Insula","ADNI_EF","EMCI","a","Abeta to Tau","1",-0.660578,-0.178282,-0.409515,0.128401
+"31","Atrophy_Insula","ADNI_EF","LMCI","a","Abeta to Tau","1",-0.831067,-0.433944,-0.637082,0.10161
+"32","Atrophy_Insula","ADNI_EF","TOTAL","a","Abeta to Tau","1",-0.48795,-0.259339,-0.369156,0.058971
+"33","Atrophy_LateralTemporal","ADNI_MEM","NL","a","Abeta to Tau","0",-0.313608,0.023299,-0.14054,0.0882
+"34","Atrophy_LateralTemporal","ADNI_MEM","EMCI","a","Abeta to Tau","1",-0.660578,-0.178282,-0.409515,0.128401
+"35","Atrophy_LateralTemporal","ADNI_MEM","LMCI","a","Abeta to Tau","1",-0.831067,-0.433944,-0.637082,0.10161
+"36","Atrophy_LateralTemporal","ADNI_MEM","TOTAL","a","Abeta to Tau","1",-0.48795,-0.259339,-0.369156,0.058971
+"37","Atrophy_LateralTemporal","ADNI_EF","NL","a","Abeta to Tau","0",-0.313608,0.023299,-0.14054,0.0882
+"38","Atrophy_LateralTemporal","ADNI_EF","EMCI","a","Abeta to Tau","1",-0.660578,-0.178282,-0.409515,0.128401
+"39","Atrophy_LateralTemporal","ADNI_EF","LMCI","a","Abeta to Tau","1",-0.831067,-0.433944,-0.637082,0.10161
+"40","Atrophy_LateralTemporal","ADNI_EF","TOTAL","a","Abeta to Tau","1",-0.48795,-0.259339,-0.369156,0.058971
+"41","Atrophy_MediatTemporal","ADNI_MEM","NL","a","Abeta to Tau","0",-0.313608,0.023299,-0.14054,0.0882
+"42","Atrophy_MediatTemporal","ADNI_MEM","EMCI","a","Abeta to Tau","1",-0.660578,-0.178282,-0.409515,0.128401
+"43","Atrophy_MediatTemporal","ADNI_MEM","LMCI","a","Abeta to Tau","1",-0.831067,-0.433944,-0.637082,0.10161
+"44","Atrophy_MediatTemporal","ADNI_MEM","TOTAL","a","Abeta to Tau","1",-0.48795,-0.259339,-0.369156,0.058971
+"45","Atrophy_MediatTemporal","ADNI_EF","NL","a","Abeta to Tau","0",-0.313608,0.023299,-0.14054,0.0882
+"46","Atrophy_MediatTemporal","ADNI_EF","EMCI","a","Abeta to Tau","1",-0.660578,-0.178282,-0.409515,0.128401
+"47","Atrophy_MediatTemporal","ADNI_EF","LMCI","a","Abeta to Tau","1",-0.831067,-0.433944,-0.637082,0.10161
+"48","Atrophy_MediatTemporal","ADNI_EF","TOTAL","a","Abeta to Tau","1",-0.48795,-0.259339,-0.369156,0.058971
+"49","Atrophy_ParahippoGyrus","ADNI_MEM","NL","a","Abeta to Tau","0",-0.313608,0.023299,-0.14054,0.0882
+"50","Atrophy_ParahippoGyrus","ADNI_MEM","EMCI","a","Abeta to Tau","1",-0.660578,-0.178282,-0.409515,0.128401
+"51","Atrophy_ParahippoGyrus","ADNI_MEM","LMCI","a","Abeta to Tau","1",-0.831067,-0.433944,-0.637082,0.10161
+"52","Atrophy_ParahippoGyrus","ADNI_MEM","TOTAL","a","Abeta to Tau","1",-0.48795,-0.259339,-0.369156,0.058971
+"53","Atrophy_ParahippoGyrus","ADNI_EF","NL","a","Abeta to Tau","0",-0.313608,0.023299,-0.14054,0.0882
+"54","Atrophy_ParahippoGyrus","ADNI_EF","EMCI","a","Abeta to Tau","1",-0.660578,-0.178282,-0.409515,0.128401
+"55","Atrophy_ParahippoGyrus","ADNI_EF","LMCI","a","Abeta to Tau","1",-0.831067,-0.433944,-0.637082,0.10161
+"56","Atrophy_ParahippoGyrus","ADNI_EF","TOTAL","a","Abeta to Tau","1",-0.48795,-0.259339,-0.369156,0.058971
+"57","Atrophy_PostCingulate","ADNI_MEM","NL","a","Abeta to Tau","0",-0.313608,0.023299,-0.14054,0.0882
+"58","Atrophy_PostCingulate","ADNI_MEM","EMCI","a","Abeta to Tau","1",-0.660578,-0.178282,-0.409515,0.128401
+"59","Atrophy_PostCingulate","ADNI_MEM","LMCI","a","Abeta to Tau","1",-0.831067,-0.433944,-0.637082,0.10161
+"60","Atrophy_PostCingulate","ADNI_MEM","TOTAL","a","Abeta to Tau","1",-0.48795,-0.259339,-0.369156,0.058971
+"61","Atrophy_PostCingulate","ADNI_EF","NL","a","Abeta to Tau","0",-0.313608,0.023299,-0.14054,0.0882
+"62","Atrophy_PostCingulate","ADNI_EF","EMCI","a","Abeta to Tau","1",-0.660578,-0.178282,-0.409515,0.128401
+"63","Atrophy_PostCingulate","ADNI_EF","LMCI","a","Abeta to Tau","1",-0.831067,-0.433944,-0.637082,0.10161
+"64","Atrophy_PostCingulate","ADNI_EF","TOTAL","a","Abeta to Tau","1",-0.48795,-0.259339,-0.369156,0.058971
+"65","Atrophy_SLF_PT","ADNI_MEM","NL","a","Abeta to Tau","0",-0.313608,0.023299,-0.14054,0.0882
+"66","Atrophy_SLF_PT","ADNI_MEM","EMCI","a","Abeta to Tau","1",-0.660578,-0.178282,-0.409515,0.128401
+"67","Atrophy_SLF_PT","ADNI_MEM","LMCI","a","Abeta to Tau","1",-0.831067,-0.433944,-0.637082,0.10161
+"68","Atrophy_SLF_PT","ADNI_MEM","TOTAL","a","Abeta to Tau","1",-0.48795,-0.259339,-0.369156,0.058971
+"69","Atrophy_SLF_PT","ADNI_EF","NL","a","Abeta to Tau","0",-0.313608,0.023299,-0.14054,0.0882
+"70","Atrophy_SLF_PT","ADNI_EF","EMCI","a","Abeta to Tau","1",-0.660578,-0.178282,-0.409515,0.128401
+"71","Atrophy_SLF_PT","ADNI_EF","LMCI","a","Abeta to Tau","1",-0.831067,-0.433944,-0.637082,0.10161
+"72","Atrophy_SLF_PT","ADNI_EF","TOTAL","a","Abeta to Tau","1",-0.48795,-0.259339,-0.369156,0.058971
+"73","Atrophy_Splenium","ADNI_MEM","NL","a","Abeta to Tau","0",-0.313608,0.023299,-0.14054,0.0882
+"74","Atrophy_Splenium","ADNI_MEM","EMCI","a","Abeta to Tau","1",-0.660578,-0.178282,-0.409515,0.128401
+"75","Atrophy_Splenium","ADNI_MEM","LMCI","a","Abeta to Tau","1",-0.831067,-0.433944,-0.637082,0.10161
+"76","Atrophy_Splenium","ADNI_MEM","TOTAL","a","Abeta to Tau","1",-0.48795,-0.259339,-0.369156,0.058971
+"77","Atrophy_Splenium","ADNI_EF","NL","a","Abeta to Tau","0",-0.313608,0.023299,-0.14054,0.0882
+"78","Atrophy_Splenium","ADNI_EF","EMCI","a","Abeta to Tau","1",-0.660578,-0.178282,-0.409515,0.128401
+"79","Atrophy_Splenium","ADNI_EF","LMCI","a","Abeta to Tau","1",-0.831067,-0.433944,-0.637082,0.10161
+"80","Atrophy_Splenium","ADNI_EF","TOTAL","a","Abeta to Tau","1",-0.48795,-0.259339,-0.369156,0.058971
+"81","Atrophy_Thalamus","ADNI_MEM","NL","a","Abeta to Tau","0",-0.313608,0.023299,-0.14054,0.0882
+"82","Atrophy_Thalamus","ADNI_MEM","EMCI","a","Abeta to Tau","1",-0.660578,-0.178282,-0.409515,0.128401
+"83","Atrophy_Thalamus","ADNI_MEM","LMCI","a","Abeta to Tau","1",-0.831067,-0.433944,-0.637082,0.10161
+"84","Atrophy_Thalamus","ADNI_MEM","TOTAL","a","Abeta to Tau","1",-0.48795,-0.259339,-0.369156,0.058971
+"85","Atrophy_Thalamus","ADNI_EF","NL","a","Abeta to Tau","0",-0.313608,0.023299,-0.14054,0.0882
+"86","Atrophy_Thalamus","ADNI_EF","EMCI","a","Abeta to Tau","1",-0.660578,-0.178282,-0.409515,0.128401
+"87","Atrophy_Thalamus","ADNI_EF","LMCI","a","Abeta to Tau","1",-0.831067,-0.433944,-0.637082,0.10161
+"88","Atrophy_Thalamus","ADNI_EF","TOTAL","a","Abeta to Tau","1",-0.48795,-0.259339,-0.369156,0.058971
+"89","Atrophy_Amygdala","ADNI_MEM","NL","a2","Abeta to Atrophy","1",5.2e-05,0.000168,0.00011,3e-05
+"90","Atrophy_Amygdala","ADNI_MEM","EMCI","a2","Abeta to Atrophy","1",4.5e-05,0.000183,0.000114,3.4e-05
+"91","Atrophy_Amygdala","ADNI_MEM","LMCI","a2","Abeta to Atrophy","1",8.2e-05,0.000347,0.00022,6.7e-05
+"92","Atrophy_Amygdala","ADNI_MEM","TOTAL","a2","Abeta to Atrophy","1",0.000109,0.000199,0.000154,2.3e-05
+"93","Atrophy_Amygdala","ADNI_EF","NL","a2","Abeta to Atrophy","1",5.2e-05,0.000168,0.00011,3e-05
+"94","Atrophy_Amygdala","ADNI_EF","EMCI","a2","Abeta to Atrophy","1",4.5e-05,0.000183,0.000114,3.4e-05
+"95","Atrophy_Amygdala","ADNI_EF","LMCI","a2","Abeta to Atrophy","1",8.2e-05,0.000347,0.00022,6.7e-05
+"96","Atrophy_Amygdala","ADNI_EF","TOTAL","a2","Abeta to Atrophy","1",0.000109,0.000199,0.000154,2.3e-05
+"97","Atrophy_Entorhinal","ADNI_MEM","NL","a2","Abeta to Atrophy","1",1e-06,0.000226,0.000116,5.7e-05
+"98","Atrophy_Entorhinal","ADNI_MEM","EMCI","a2","Abeta to Atrophy","0",-1.1e-05,0.000196,9.5e-05,5.5e-05
+"99","Atrophy_Entorhinal","ADNI_MEM","LMCI","a2","Abeta to Atrophy","1",7.5e-05,0.000415,0.000253,8.4e-05
+"100","Atrophy_Entorhinal","ADNI_MEM","TOTAL","a2","Abeta to Atrophy","1",0.000101,0.000232,0.000166,3.3e-05
+"101","Atrophy_Entorhinal","ADNI_EF","NL","a2","Abeta to Atrophy","1",1e-06,0.000226,0.000116,5.7e-05
+"102","Atrophy_Entorhinal","ADNI_EF","EMCI","a2","Abeta to Atrophy","0",-1.1e-05,0.000196,9.5e-05,5.5e-05
+"103","Atrophy_Entorhinal","ADNI_EF","LMCI","a2","Abeta to Atrophy","1",7.5e-05,0.000415,0.000253,8.4e-05
+"104","Atrophy_Entorhinal","ADNI_EF","TOTAL","a2","Abeta to Atrophy","1",0.000101,0.000232,0.000166,3.3e-05
+"105","Atrophy_Hippocampus","ADNI_MEM","NL","a2","Abeta to Atrophy","1",2.8e-05,0.000154,9.1e-05,3.2e-05
+"106","Atrophy_Hippocampus","ADNI_MEM","EMCI","a2","Abeta to Atrophy","1",1e-05,0.000165,9.1e-05,3.9e-05
+"107","Atrophy_Hippocampus","ADNI_MEM","LMCI","a2","Abeta to Atrophy","1",6.4e-05,0.000278,0.00017,5.6e-05
+"108","Atrophy_Hippocampus","ADNI_MEM","TOTAL","a2","Abeta to Atrophy","1",8.3e-05,0.000169,0.000126,2.2e-05
+"109","Atrophy_Hippocampus","ADNI_EF","NL","a2","Abeta to Atrophy","1",2.8e-05,0.000154,9.1e-05,3.2e-05
+"110","Atrophy_Hippocampus","ADNI_EF","EMCI","a2","Abeta to Atrophy","1",1e-05,0.000165,9.1e-05,3.9e-05
+"111","Atrophy_Hippocampus","ADNI_EF","LMCI","a2","Abeta to Atrophy","1",6.4e-05,0.000278,0.00017,5.6e-05
+"112","Atrophy_Hippocampus","ADNI_EF","TOTAL","a2","Abeta to Atrophy","1",8.3e-05,0.000169,0.000126,2.2e-05
+"113","Atrophy_Insula","ADNI_MEM","NL","a2","Abeta to Atrophy","0",-1e-06,9.4e-05,4.8e-05,2.3e-05
+"114","Atrophy_Insula","ADNI_MEM","EMCI","a2","Abeta to Atrophy","0",-5.2e-05,0.000127,3.5e-05,4.3e-05
+"115","Atrophy_Insula","ADNI_MEM","LMCI","a2","Abeta to Atrophy","0",-6.6e-05,0.00013,3.3e-05,5.1e-05
+"116","Atrophy_Insula","ADNI_MEM","TOTAL","a2","Abeta to Atrophy","1",1.5e-05,9.4e-05,5.3e-05,2.1e-05
+"117","Atrophy_Insula","ADNI_EF","NL","a2","Abeta to Atrophy","0",-1e-06,9.4e-05,4.8e-05,2.3e-05
+"118","Atrophy_Insula","ADNI_EF","EMCI","a2","Abeta to Atrophy","0",-5.2e-05,0.000127,3.5e-05,4.3e-05
+"119","Atrophy_Insula","ADNI_EF","LMCI","a2","Abeta to Atrophy","0",-6.6e-05,0.00013,3.3e-05,5.1e-05
+"120","Atrophy_Insula","ADNI_EF","TOTAL","a2","Abeta to Atrophy","1",1.5e-05,9.4e-05,5.3e-05,2.1e-05
+"121","Atrophy_LateralTemporal","ADNI_MEM","NL","a2","Abeta to Atrophy","1",1.6e-05,0.00012,6.6e-05,2.7e-05
+"122","Atrophy_LateralTemporal","ADNI_MEM","EMCI","a2","Abeta to Atrophy","0",-4.6e-05,0.000121,3.7e-05,4.2e-05
+"123","Atrophy_LateralTemporal","ADNI_MEM","LMCI","a2","Abeta to Atrophy","0",-7.3e-05,0.000215,7e-05,7.5e-05
+"124","Atrophy_LateralTemporal","ADNI_MEM","TOTAL","a2","Abeta to Atrophy","1",2.6e-05,0.000122,7.5e-05,2.5e-05
+"125","Atrophy_LateralTemporal","ADNI_EF","NL","a2","Abeta to Atrophy","1",1.6e-05,0.00012,6.6e-05,2.7e-05
+"126","Atrophy_LateralTemporal","ADNI_EF","EMCI","a2","Abeta to Atrophy","0",-4.6e-05,0.000121,3.7e-05,4.2e-05
+"127","Atrophy_LateralTemporal","ADNI_EF","LMCI","a2","Abeta to Atrophy","0",-7.3e-05,0.000215,7e-05,7.5e-05
+"128","Atrophy_LateralTemporal","ADNI_EF","TOTAL","a2","Abeta to Atrophy","1",2.6e-05,0.000122,7.5e-05,2.5e-05
+"129","Atrophy_MediatTemporal","ADNI_MEM","NL","a2","Abeta to Atrophy","1",3.2e-05,0.000166,9.9e-05,3.6e-05
+"130","Atrophy_MediatTemporal","ADNI_MEM","EMCI","a2","Abeta to Atrophy","1",1.4e-05,0.000155,8.6e-05,3.7e-05
+"131","Atrophy_MediatTemporal","ADNI_MEM","LMCI","a2","Abeta to Atrophy","1",8.3e-05,0.000321,0.000206,6e-05
+"132","Atrophy_MediatTemporal","ADNI_MEM","TOTAL","a2","Abeta to Atrophy","1",9.5e-05,0.000185,0.000141,2.3e-05
+"133","Atrophy_MediatTemporal","ADNI_EF","NL","a2","Abeta to Atrophy","1",3.2e-05,0.000166,9.9e-05,3.6e-05
+"134","Atrophy_MediatTemporal","ADNI_EF","EMCI","a2","Abeta to Atrophy","1",1.4e-05,0.000155,8.6e-05,3.7e-05
+"135","Atrophy_MediatTemporal","ADNI_EF","LMCI","a2","Abeta to Atrophy","1",8.3e-05,0.000321,0.000206,6e-05
+"136","Atrophy_MediatTemporal","ADNI_EF","TOTAL","a2","Abeta to Atrophy","1",9.5e-05,0.000185,0.000141,2.3e-05
+"137","Atrophy_ParahippoGyrus","ADNI_MEM","NL","a2","Abeta to Atrophy","1",3.1e-05,0.000134,8.1e-05,2.7e-05
+"138","Atrophy_ParahippoGyrus","ADNI_MEM","EMCI","a2","Abeta to Atrophy","1",1.2e-05,0.000135,7.3e-05,3.1e-05
+"139","Atrophy_ParahippoGyrus","ADNI_MEM","LMCI","a2","Abeta to Atrophy","1",5e-05,0.000264,0.00016,5.4e-05
+"140","Atrophy_ParahippoGyrus","ADNI_MEM","TOTAL","a2","Abeta to Atrophy","1",7.4e-05,0.000155,0.000114,2e-05
+"141","Atrophy_ParahippoGyrus","ADNI_EF","NL","a2","Abeta to Atrophy","1",3.1e-05,0.000134,8.1e-05,2.7e-05
+"142","Atrophy_ParahippoGyrus","ADNI_EF","EMCI","a2","Abeta to Atrophy","1",1.2e-05,0.000135,7.3e-05,3.1e-05
+"143","Atrophy_ParahippoGyrus","ADNI_EF","LMCI","a2","Abeta to Atrophy","1",5e-05,0.000264,0.00016,5.4e-05
+"144","Atrophy_ParahippoGyrus","ADNI_EF","TOTAL","a2","Abeta to Atrophy","1",7.4e-05,0.000155,0.000114,2e-05
+"145","Atrophy_PostCingulate","ADNI_MEM","NL","a2","Abeta to Atrophy","0",-4.5e-05,0.000116,4e-05,4e-05
+"146","Atrophy_PostCingulate","ADNI_MEM","EMCI","a2","Abeta to Atrophy","0",-5.6e-05,0.000125,3.4e-05,4.7e-05
+"147","Atrophy_PostCingulate","ADNI_MEM","LMCI","a2","Abeta to Atrophy","0",-0.000166,0.000132,-7e-06,7.6e-05
+"148","Atrophy_PostCingulate","ADNI_MEM","TOTAL","a2","Abeta to Atrophy","0",-1e-06,0.00011,5e-05,2.9e-05
+"149","Atrophy_PostCingulate","ADNI_EF","NL","a2","Abeta to Atrophy","0",-4.5e-05,0.000116,4e-05,4e-05
+"150","Atrophy_PostCingulate","ADNI_EF","EMCI","a2","Abeta to Atrophy","0",-5.6e-05,0.000125,3.4e-05,4.7e-05
+"151","Atrophy_PostCingulate","ADNI_EF","LMCI","a2","Abeta to Atrophy","0",-0.000166,0.000132,-7e-06,7.6e-05
+"152","Atrophy_PostCingulate","ADNI_EF","TOTAL","a2","Abeta to Atrophy","0",-1e-06,0.00011,5e-05,2.9e-05
+"153","Atrophy_SLF_PT","ADNI_MEM","NL","a2","Abeta to Atrophy","1",3e-06,0.000101,5.1e-05,2.5e-05
+"154","Atrophy_SLF_PT","ADNI_MEM","EMCI","a2","Abeta to Atrophy","0",-3.5e-05,9.3e-05,2.7e-05,3.3e-05
+"155","Atrophy_SLF_PT","ADNI_MEM","LMCI","a2","Abeta to Atrophy","0",-1.5e-05,0.00021,9.2e-05,5.7e-05
+"156","Atrophy_SLF_PT","ADNI_MEM","TOTAL","a2","Abeta to Atrophy","1",2.3e-05,9.8e-05,6e-05,1.9e-05
+"157","Atrophy_SLF_PT","ADNI_EF","NL","a2","Abeta to Atrophy","1",3e-06,0.000101,5.1e-05,2.5e-05
+"158","Atrophy_SLF_PT","ADNI_EF","EMCI","a2","Abeta to Atrophy","0",-3.5e-05,9.3e-05,2.7e-05,3.3e-05
+"159","Atrophy_SLF_PT","ADNI_EF","LMCI","a2","Abeta to Atrophy","0",-1.5e-05,0.00021,9.2e-05,5.7e-05
+"160","Atrophy_SLF_PT","ADNI_EF","TOTAL","a2","Abeta to Atrophy","1",2.3e-05,9.8e-05,6e-05,1.9e-05
+"161","Atrophy_Splenium","ADNI_MEM","NL","a2","Abeta to Atrophy","1",1e-06,8.4e-05,4.2e-05,2.1e-05
+"162","Atrophy_Splenium","ADNI_MEM","EMCI","a2","Abeta to Atrophy","1",4e-06,0.000121,5.9e-05,3e-05
+"163","Atrophy_Splenium","ADNI_MEM","LMCI","a2","Abeta to Atrophy","0",-5.8e-05,0.000148,5e-05,5.4e-05
+"164","Atrophy_Splenium","ADNI_MEM","TOTAL","a2","Abeta to Atrophy","1",3.1e-05,0.000101,6.5e-05,1.8e-05
+"165","Atrophy_Splenium","ADNI_EF","NL","a2","Abeta to Atrophy","1",1e-06,8.4e-05,4.2e-05,2.1e-05
+"166","Atrophy_Splenium","ADNI_EF","EMCI","a2","Abeta to Atrophy","1",4e-06,0.000121,5.9e-05,3e-05
+"167","Atrophy_Splenium","ADNI_EF","LMCI","a2","Abeta to Atrophy","0",-5.8e-05,0.000148,5e-05,5.4e-05
+"168","Atrophy_Splenium","ADNI_EF","TOTAL","a2","Abeta to Atrophy","1",3.1e-05,0.000101,6.5e-05,1.8e-05
+"169","Atrophy_Thalamus","ADNI_MEM","NL","a2","Abeta to Atrophy","1",5e-06,0.000108,5.7e-05,2.6e-05
+"170","Atrophy_Thalamus","ADNI_MEM","EMCI","a2","Abeta to Atrophy","0",-2.9e-05,0.000125,5.2e-05,4e-05
+"171","Atrophy_Thalamus","ADNI_MEM","LMCI","a2","Abeta to Atrophy","0",-2.5e-05,0.000182,8.3e-05,5.2e-05
+"172","Atrophy_Thalamus","ADNI_MEM","TOTAL","a2","Abeta to Atrophy","1",3e-05,0.000111,7e-05,2e-05
+"173","Atrophy_Thalamus","ADNI_EF","NL","a2","Abeta to Atrophy","1",5e-06,0.000108,5.7e-05,2.6e-05
+"174","Atrophy_Thalamus","ADNI_EF","EMCI","a2","Abeta to Atrophy","0",-2.9e-05,0.000125,5.2e-05,4e-05
+"175","Atrophy_Thalamus","ADNI_EF","LMCI","a2","Abeta to Atrophy","0",-2.5e-05,0.000182,8.3e-05,5.2e-05
+"176","Atrophy_Thalamus","ADNI_EF","TOTAL","a2","Abeta to Atrophy","1",3e-05,0.000111,7e-05,2e-05
+"177","Atrophy_Amygdala","ADNI_MEM","NL","a2c","B3 = Abeta to Atrophy to Cog","0",-0.000218,0.000356,7.5e-05,0.000142
+"178","Atrophy_Amygdala","ADNI_MEM","EMCI","a2c","B3 = Abeta to Atrophy to Cog","0",-6.6e-05,0.000666,0.000238,0.000184
+"179","Atrophy_Amygdala","ADNI_MEM","LMCI","a2c","B3 = Abeta to Atrophy to Cog","1",3.9e-05,0.0013,0.000559,0.000333
+"180","Atrophy_Amygdala","ADNI_MEM","TOTAL","a2c","B3 = Abeta to Atrophy to Cog","1",0.000204,0.000694,0.000443,0.000128
+"181","Atrophy_Amygdala","ADNI_EF","NL","a2c","B3 = Abeta to Atrophy to Cog","0",-0.000243,0.000622,0.000158,0.000214
+"182","Atrophy_Amygdala","ADNI_EF","EMCI","a2c","B3 = Abeta to Atrophy to Cog","0",-0.000237,0.000962,0.000319,0.00029
+"183","Atrophy_Amygdala","ADNI_EF","LMCI","a2c","B3 = Abeta to Atrophy to Cog","0",-0.000218,0.001503,0.000534,0.00045
+"184","Atrophy_Amygdala","ADNI_EF","TOTAL","a2c","B3 = Abeta to Atrophy to Cog","1",3.8e-05,0.000789,0.000373,0.000185
+"185","Atrophy_Entorhinal","ADNI_MEM","NL","a2c","B3 = Abeta to Atrophy to Cog","0",-0.000144,0.000353,7.6e-05,0.000123
+"186","Atrophy_Entorhinal","ADNI_MEM","EMCI","a2c","B3 = Abeta to Atrophy to Cog","0",-8.4e-05,0.000393,0.000111,0.000126
+"187","Atrophy_Entorhinal","ADNI_MEM","LMCI","a2c","B3 = Abeta to Atrophy to Cog","1",5.8e-05,0.001203,0.000556,0.000302
+"188","Atrophy_Entorhinal","ADNI_MEM","TOTAL","a2c","B3 = Abeta to Atrophy to Cog","1",0.000142,0.000559,0.000328,0.00011
+"189","Atrophy_Entorhinal","ADNI_EF","NL","a2c","B3 = Abeta to Atrophy to Cog","0",-3.2e-05,0.00065,0.000223,0.00018
+"190","Atrophy_Entorhinal","ADNI_EF","EMCI","a2c","B3 = Abeta to Atrophy to Cog","0",-6.8e-05,0.000869,0.000314,0.00024
+"191","Atrophy_Entorhinal","ADNI_EF","LMCI","a2c","B3 = Abeta to Atrophy to Cog","0",-0.000271,0.001362,0.000452,0.000402
+"192","Atrophy_Entorhinal","ADNI_EF","TOTAL","a2c","B3 = Abeta to Atrophy to Cog","1",0.000117,0.000707,0.000366,0.000151
+"193","Atrophy_Hippocampus","ADNI_MEM","NL","a2c","B3 = Abeta to Atrophy to Cog","0",-0.000363,0.00035,3.8e-05,0.00017
+"194","Atrophy_Hippocampus","ADNI_MEM","EMCI","a2c","B3 = Abeta to Atrophy to Cog","1",1.3e-05,0.000691,0.000281,0.00018
+"195","Atrophy_Hippocampus","ADNI_MEM","LMCI","a2c","B3 = Abeta to Atrophy to Cog","1",3.3e-05,0.001306,0.000507,0.000328
+"196","Atrophy_Hippocampus","ADNI_MEM","TOTAL","a2c","B3 = Abeta to Atrophy to Cog","1",2e-04,0.000644,0.000412,0.000115
+"197","Atrophy_Hippocampus","ADNI_EF","NL","a2c","B3 = Abeta to Atrophy to Cog","0",-0.000198,0.000578,0.000142,0.000183
+"198","Atrophy_Hippocampus","ADNI_EF","EMCI","a2c","B3 = Abeta to Atrophy to Cog","0",-0.000116,0.000918,0.00028,0.000271
+"199","Atrophy_Hippocampus","ADNI_EF","LMCI","a2c","B3 = Abeta to Atrophy to Cog","0",-0.000623,0.000976,0.000114,0.000396
+"200","Atrophy_Hippocampus","ADNI_EF","TOTAL","a2c","B3 = Abeta to Atrophy to Cog","0",-9.4e-05,0.000559,0.000194,0.000162
+"201","Atrophy_Insula","ADNI_MEM","NL","a2c","B3 = Abeta to Atrophy to Cog","0",-0.000228,8.8e-05,-5.6e-05,8.2e-05
+"202","Atrophy_Insula","ADNI_MEM","EMCI","a2c","B3 = Abeta to Atrophy to Cog","0",-0.000183,0.000137,-1.3e-05,7.9e-05
+"203","Atrophy_Insula","ADNI_MEM","LMCI","a2c","B3 = Abeta to Atrophy to Cog","0",-0.000188,0.000216,8e-06,9.3e-05
+"204","Atrophy_Insula","ADNI_MEM","TOTAL","a2c","B3 = Abeta to Atrophy to Cog","0",-3.8e-05,0.000158,4.6e-05,5e-05
+"205","Atrophy_Insula","ADNI_EF","NL","a2c","B3 = Abeta to Atrophy to Cog","0",-0.000359,0.000146,-7.4e-05,0.000125
+"206","Atrophy_Insula","ADNI_EF","EMCI","a2c","B3 = Abeta to Atrophy to Cog","0",-0.000195,0.000182,-7e-06,9.3e-05
+"207","Atrophy_Insula","ADNI_EF","LMCI","a2c","B3 = Abeta to Atrophy to Cog","0",-0.000334,0.000541,8.9e-05,0.000217
+"208","Atrophy_Insula","ADNI_EF","TOTAL","a2c","B3 = Abeta to Atrophy to Cog","0",-6.1e-05,0.000245,6.7e-05,7.6e-05
+"209","Atrophy_LateralTemporal","ADNI_MEM","NL","a2c","B3 = Abeta to Atrophy to Cog","0",-0.000139,0.000228,2.8e-05,9.1e-05
+"210","Atrophy_LateralTemporal","ADNI_MEM","EMCI","a2c","B3 = Abeta to Atrophy to Cog","0",-0.000214,0.000518,0.000149,0.000187
+"211","Atrophy_LateralTemporal","ADNI_MEM","LMCI","a2c","B3 = Abeta to Atrophy to Cog","0",-0.000194,0.000608,0.000155,0.000196
+"212","Atrophy_LateralTemporal","ADNI_MEM","TOTAL","a2c","B3 = Abeta to Atrophy to Cog","1",7e-05,0.00046,0.000245,9.7e-05
+"213","Atrophy_LateralTemporal","ADNI_EF","NL","a2c","B3 = Abeta to Atrophy to Cog","0",-0.000187,0.000457,7.3e-05,0.000153
+"214","Atrophy_LateralTemporal","ADNI_EF","EMCI","a2c","B3 = Abeta to Atrophy to Cog","0",-0.000162,0.000449,8e-05,0.000147
+"215","Atrophy_LateralTemporal","ADNI_EF","LMCI","a2c","B3 = Abeta to Atrophy to Cog","0",-0.000227,0.000802,0.000194,0.000261
+"216","Atrophy_LateralTemporal","ADNI_EF","TOTAL","a2c","B3 = Abeta to Atrophy to Cog","1",3.2e-05,0.000471,0.000206,0.000114
+"217","Atrophy_MediatTemporal","ADNI_MEM","NL","a2c","B3 = Abeta to Atrophy to Cog","0",-0.000246,0.000367,5.4e-05,0.000147
+"218","Atrophy_MediatTemporal","ADNI_MEM","EMCI","a2c","B3 = Abeta to Atrophy to Cog","0",-3.4e-05,0.000531,2e-04,0.000149
+"219","Atrophy_MediatTemporal","ADNI_MEM","LMCI","a2c","B3 = Abeta to Atrophy to Cog","1",0.000135,0.001352,0.000674,0.000308
+"220","Atrophy_MediatTemporal","ADNI_MEM","TOTAL","a2c","B3 = Abeta to Atrophy to Cog","1",0.00023,0.000683,0.00044,0.000121
+"221","Atrophy_MediatTemporal","ADNI_EF","NL","a2c","B3 = Abeta to Atrophy to Cog","0",-1.9e-05,0.000782,0.000298,0.000211
+"222","Atrophy_MediatTemporal","ADNI_EF","EMCI","a2c","B3 = Abeta to Atrophy to Cog","0",-7.2e-05,0.000927,0.000328,0.000257
+"223","Atrophy_MediatTemporal","ADNI_EF","LMCI","a2c","B3 = Abeta to Atrophy to Cog","1",5e-06,0.001622,0.000707,0.000423
+"224","Atrophy_MediatTemporal","ADNI_EF","TOTAL","a2c","B3 = Abeta to Atrophy to Cog","1",0.000164,0.000844,0.000463,0.000176
+"225","Atrophy_ParahippoGyrus","ADNI_MEM","NL","a2c","B3 = Abeta to Atrophy to Cog","0",-0.000301,0.000245,-4e-05,0.000135
+"226","Atrophy_ParahippoGyrus","ADNI_MEM","EMCI","a2c","B3 = Abeta to Atrophy to Cog","0",-2e-05,0.00059,0.000211,0.000157
+"227","Atrophy_ParahippoGyrus","ADNI_MEM","LMCI","a2c","B3 = Abeta to Atrophy to Cog","1",0.000105,0.001144,0.000558,0.000262
+"228","Atrophy_ParahippoGyrus","ADNI_MEM","TOTAL","a2c","B3 = Abeta to Atrophy to Cog","1",0.000175,0.000621,0.000376,0.000112
+"229","Atrophy_ParahippoGyrus","ADNI_EF","NL","a2c","B3 = Abeta to Atrophy to Cog","0",-6.6e-05,0.000734,0.000251,0.000201
+"230","Atrophy_ParahippoGyrus","ADNI_EF","EMCI","a2c","B3 = Abeta to Atrophy to Cog","0",-0.000271,0.000516,8.9e-05,0.000197
+"231","Atrophy_ParahippoGyrus","ADNI_EF","LMCI","a2c","B3 = Abeta to Atrophy to Cog","1",0.000152,0.001543,0.000763,0.000361
+"232","Atrophy_ParahippoGyrus","ADNI_EF","TOTAL","a2c","B3 = Abeta to Atrophy to Cog","1",0.000102,0.000716,0.000373,0.000159
+"233","Atrophy_PostCingulate","ADNI_MEM","NL","a2c","B3 = Abeta to Atrophy to Cog","0",-0.000173,6.3e-05,-3.5e-05,5.8e-05
+"234","Atrophy_PostCingulate","ADNI_MEM","EMCI","a2c","B3 = Abeta to Atrophy to Cog","0",-0.00012,0.00022,2.1e-05,8.1e-05
+"235","Atrophy_PostCingulate","ADNI_MEM","LMCI","a2c","B3 = Abeta to Atrophy to Cog","0",-0.000247,0.000268,-1e-06,0.000119
+"236","Atrophy_PostCingulate","ADNI_MEM","TOTAL","a2c","B3 = Abeta to Atrophy to Cog","0",-3e-05,0.000146,3.8e-05,4.5e-05
+"237","Atrophy_PostCingulate","ADNI_EF","NL","a2c","B3 = Abeta to Atrophy to Cog","0",-0.00019,0.000189,5e-06,8.9e-05
+"238","Atrophy_PostCingulate","ADNI_EF","EMCI","a2c","B3 = Abeta to Atrophy to Cog","0",-0.000115,0.000273,3.6e-05,9.6e-05
+"239","Atrophy_PostCingulate","ADNI_EF","LMCI","a2c","B3 = Abeta to Atrophy to Cog","0",-0.000824,0.000695,-3.6e-05,0.000361
+"240","Atrophy_PostCingulate","ADNI_EF","TOTAL","a2c","B3 = Abeta to Atrophy to Cog","0",-1.7e-05,0.000294,0.000102,8.1e-05
+"241","Atrophy_SLF_PT","ADNI_MEM","NL","a2c","B3 = Abeta to Atrophy to Cog","0",-0.000214,0.000147,-2.9e-05,8.7e-05
+"242","Atrophy_SLF_PT","ADNI_MEM","EMCI","a2c","B3 = Abeta to Atrophy to Cog","0",-0.000125,0.000456,1e-04,0.000144
+"243","Atrophy_SLF_PT","ADNI_MEM","LMCI","a2c","B3 = Abeta to Atrophy to Cog","0",-0.000119,0.00071,0.000185,0.000203
+"244","Atrophy_SLF_PT","ADNI_MEM","TOTAL","a2c","B3 = Abeta to Atrophy to Cog","1",3.9e-05,0.000361,0.00017,8.2e-05
+"245","Atrophy_SLF_PT","ADNI_EF","NL","a2c","B3 = Abeta to Atrophy to Cog","0",-0.000145,0.000476,9.1e-05,0.000152
+"246","Atrophy_SLF_PT","ADNI_EF","EMCI","a2c","B3 = Abeta to Atrophy to Cog","0",-0.00017,0.000363,3.6e-05,0.000128
+"247","Atrophy_SLF_PT","ADNI_EF","LMCI","a2c","B3 = Abeta to Atrophy to Cog","0",-0.000107,0.001456,0.000492,0.000415
+"248","Atrophy_SLF_PT","ADNI_EF","TOTAL","a2c","B3 = Abeta to Atrophy to Cog","1",2.9e-05,0.000514,0.000219,0.000123
+"249","Atrophy_Splenium","ADNI_MEM","NL","a2c","B3 = Abeta to Atrophy to Cog","0",-0.000165,0.000211,1e-05,9.1e-05
+"250","Atrophy_Splenium","ADNI_MEM","EMCI","a2c","B3 = Abeta to Atrophy to Cog","0",-9.3e-05,0.000448,0.00013,0.00014
+"251","Atrophy_Splenium","ADNI_MEM","LMCI","a2c","B3 = Abeta to Atrophy to Cog","0",-0.000146,0.000349,4.7e-05,0.000115
+"252","Atrophy_Splenium","ADNI_MEM","TOTAL","a2c","B3 = Abeta to Atrophy to Cog","1",1.3e-05,0.000329,0.000148,8.1e-05
+"253","Atrophy_Splenium","ADNI_EF","NL","a2c","B3 = Abeta to Atrophy to Cog","0",-0.000327,0.000263,-2.7e-05,0.000142
+"254","Atrophy_Splenium","ADNI_EF","EMCI","a2c","B3 = Abeta to Atrophy to Cog","0",-0.000138,0.000404,0.000103,0.000143
+"255","Atrophy_Splenium","ADNI_EF","LMCI","a2c","B3 = Abeta to Atrophy to Cog","0",-0.000408,0.001047,0.000317,0.000373
+"256","Atrophy_Splenium","ADNI_EF","TOTAL","a2c","B3 = Abeta to Atrophy to Cog","1",5.5e-05,0.000523,0.000263,0.000115
+"257","Atrophy_Thalamus","ADNI_MEM","NL","a2c","B3 = Abeta to Atrophy to Cog","0",-0.000267,0.000165,-3.5e-05,0.000103
+"258","Atrophy_Thalamus","ADNI_MEM","EMCI","a2c","B3 = Abeta to Atrophy to Cog","0",-8.8e-05,0.000495,0.000113,0.000146
+"259","Atrophy_Thalamus","ADNI_MEM","LMCI","a2c","B3 = Abeta to Atrophy to Cog","0",-0.000134,0.000488,0.000142,0.000164
+"260","Atrophy_Thalamus","ADNI_MEM","TOTAL","a2c","B3 = Abeta to Atrophy to Cog","1",2.8e-05,0.00033,0.000152,8e-05
+"261","Atrophy_Thalamus","ADNI_EF","NL","a2c","B3 = Abeta to Atrophy to Cog","0",-0.000224,0.000358,4.5e-05,0.000141
+"262","Atrophy_Thalamus","ADNI_EF","EMCI","a2c","B3 = Abeta to Atrophy to Cog","0",-0.000191,0.000456,5.2e-05,0.000151
+"263","Atrophy_Thalamus","ADNI_EF","LMCI","a2c","B3 = Abeta to Atrophy to Cog","0",-0.000142,0.001144,0.000449,0.000331
+"264","Atrophy_Thalamus","ADNI_EF","TOTAL","a2c","B3 = Abeta to Atrophy to Cog","1",3.1e-05,0.000478,0.000209,0.000113
+"265","Atrophy_Amygdala","ADNI_MEM","NL","ab","Abeta to Tau to Atrophy","0",-6e-06,3.2e-05,8e-06,1e-05
+"266","Atrophy_Amygdala","ADNI_MEM","EMCI","ab","Abeta to Tau to Atrophy","0",-1.2e-05,8.5e-05,3.1e-05,2.4e-05
+"267","Atrophy_Amygdala","ADNI_MEM","LMCI","ab","Abeta to Tau to Atrophy","1",3.6e-05,0.000207,0.000108,4.3e-05
+"268","Atrophy_Amygdala","ADNI_MEM","TOTAL","ab","Abeta to Tau to Atrophy","1",2.2e-05,7.1e-05,4.5e-05,1.2e-05
+"269","Atrophy_Amygdala","ADNI_EF","NL","ab","Abeta to Tau to Atrophy","0",-6e-06,3.2e-05,8e-06,1e-05
+"270","Atrophy_Amygdala","ADNI_EF","EMCI","ab","Abeta to Tau to Atrophy","0",-1.2e-05,8.5e-05,3.1e-05,2.4e-05
+"271","Atrophy_Amygdala","ADNI_EF","LMCI","ab","Abeta to Tau to Atrophy","1",3.6e-05,0.000207,0.000108,4.3e-05
+"272","Atrophy_Amygdala","ADNI_EF","TOTAL","ab","Abeta to Tau to Atrophy","1",2.2e-05,7.1e-05,4.5e-05,1.2e-05
+"273","Atrophy_Entorhinal","ADNI_MEM","NL","ab","Abeta to Tau to Atrophy","0",-2.7e-05,2.2e-05,-2e-06,1.1e-05
+"274","Atrophy_Entorhinal","ADNI_MEM","EMCI","ab","Abeta to Tau to Atrophy","1",2e-06,0.000117,5.3e-05,3e-05
+"275","Atrophy_Entorhinal","ADNI_MEM","LMCI","ab","Abeta to Tau to Atrophy","0",-2.9e-05,0.000169,5.7e-05,5e-05
+"276","Atrophy_Entorhinal","ADNI_MEM","TOTAL","ab","Abeta to Tau to Atrophy","1",8e-06,6.8e-05,3.6e-05,1.5e-05
+"277","Atrophy_Entorhinal","ADNI_EF","NL","ab","Abeta to Tau to Atrophy","0",-2.7e-05,2.2e-05,-2e-06,1.1e-05
+"278","Atrophy_Entorhinal","ADNI_EF","EMCI","ab","Abeta to Tau to Atrophy","1",2e-06,0.000117,5.3e-05,3e-05
+"279","Atrophy_Entorhinal","ADNI_EF","LMCI","ab","Abeta to Tau to Atrophy","0",-2.9e-05,0.000169,5.7e-05,5e-05
+"280","Atrophy_Entorhinal","ADNI_EF","TOTAL","ab","Abeta to Tau to Atrophy","1",8e-06,6.8e-05,3.6e-05,1.5e-05
+"281","Atrophy_Hippocampus","ADNI_MEM","NL","ab","Abeta to Tau to Atrophy","0",-1.3e-05,1.6e-05,1e-06,7e-06
+"282","Atrophy_Hippocampus","ADNI_MEM","EMCI","ab","Abeta to Tau to Atrophy","0",-1.9e-05,6e-05,1.7e-05,2e-05
+"283","Atrophy_Hippocampus","ADNI_MEM","LMCI","ab","Abeta to Tau to Atrophy","0",-6e-06,0.000141,5.8e-05,3.6e-05
+"284","Atrophy_Hippocampus","ADNI_MEM","TOTAL","ab","Abeta to Tau to Atrophy","1",6e-06,5.1e-05,2.7e-05,1.1e-05
+"285","Atrophy_Hippocampus","ADNI_EF","NL","ab","Abeta to Tau to Atrophy","0",-1.3e-05,1.6e-05,1e-06,7e-06
+"286","Atrophy_Hippocampus","ADNI_EF","EMCI","ab","Abeta to Tau to Atrophy","0",-1.9e-05,6e-05,1.7e-05,2e-05
+"287","Atrophy_Hippocampus","ADNI_EF","LMCI","ab","Abeta to Tau to Atrophy","0",-6e-06,0.000141,5.8e-05,3.6e-05
+"288","Atrophy_Hippocampus","ADNI_EF","TOTAL","ab","Abeta to Tau to Atrophy","1",6e-06,5.1e-05,2.7e-05,1.1e-05
+"289","Atrophy_Insula","ADNI_MEM","NL","ab","Abeta to Tau to Atrophy","0",-1.4e-05,1.1e-05,-1e-06,6e-06
+"290","Atrophy_Insula","ADNI_MEM","EMCI","ab","Abeta to Tau to Atrophy","0",-3.4e-05,1.4e-05,-1e-05,1.2e-05
+"291","Atrophy_Insula","ADNI_MEM","LMCI","ab","Abeta to Tau to Atrophy","1",3.8e-05,0.00016,8.9e-05,3e-05
+"292","Atrophy_Insula","ADNI_MEM","TOTAL","ab","Abeta to Tau to Atrophy","1",3e-06,3.5e-05,1.8e-05,8e-06
+"293","Atrophy_Insula","ADNI_EF","NL","ab","Abeta to Tau to Atrophy","0",-1.4e-05,1.1e-05,-1e-06,6e-06
+"294","Atrophy_Insula","ADNI_EF","EMCI","ab","Abeta to Tau to Atrophy","0",-3.4e-05,1.4e-05,-1e-05,1.2e-05
+"295","Atrophy_Insula","ADNI_EF","LMCI","ab","Abeta to Tau to Atrophy","1",3.8e-05,0.00016,8.9e-05,3e-05
+"296","Atrophy_Insula","ADNI_EF","TOTAL","ab","Abeta to Tau to Atrophy","1",3e-06,3.5e-05,1.8e-05,8e-06
+"297","Atrophy_LateralTemporal","ADNI_MEM","NL","ab","Abeta to Tau to Atrophy","0",-1.6e-05,9e-06,-2e-06,6e-06
+"298","Atrophy_LateralTemporal","ADNI_MEM","EMCI","ab","Abeta to Tau to Atrophy","1",3e-06,7.5e-05,3.4e-05,1.9e-05
+"299","Atrophy_LateralTemporal","ADNI_MEM","LMCI","ab","Abeta to Tau to Atrophy","1",7.5e-05,0.000277,0.000167,5e-05
+"300","Atrophy_LateralTemporal","ADNI_MEM","TOTAL","ab","Abeta to Tau to Atrophy","1",2.4e-05,7.6e-05,4.9e-05,1.4e-05
+"301","Atrophy_LateralTemporal","ADNI_EF","NL","ab","Abeta to Tau to Atrophy","0",-1.6e-05,9e-06,-2e-06,6e-06
+"302","Atrophy_LateralTemporal","ADNI_EF","EMCI","ab","Abeta to Tau to Atrophy","1",3e-06,7.5e-05,3.4e-05,1.9e-05
+"303","Atrophy_LateralTemporal","ADNI_EF","LMCI","ab","Abeta to Tau to Atrophy","1",7.5e-05,0.000277,0.000167,5e-05
+"304","Atrophy_LateralTemporal","ADNI_EF","TOTAL","ab","Abeta to Tau to Atrophy","1",2.4e-05,7.6e-05,4.9e-05,1.4e-05
+"305","Atrophy_MediatTemporal","ADNI_MEM","NL","ab","Abeta to Tau to Atrophy","0",-1.3e-05,1.9e-05,2e-06,8e-06
+"306","Atrophy_MediatTemporal","ADNI_MEM","EMCI","ab","Abeta to Tau to Atrophy","1",3e-06,8.4e-05,4e-05,2.1e-05
+"307","Atrophy_MediatTemporal","ADNI_MEM","LMCI","ab","Abeta to Tau to Atrophy","1",1.1e-05,0.000155,6.8e-05,3.5e-05
+"308","Atrophy_MediatTemporal","ADNI_MEM","TOTAL","ab","Abeta to Tau to Atrophy","1",1.6e-05,5.8e-05,3.6e-05,1.1e-05
+"309","Atrophy_MediatTemporal","ADNI_EF","NL","ab","Abeta to Tau to Atrophy","0",-1.3e-05,1.9e-05,2e-06,8e-06
+"310","Atrophy_MediatTemporal","ADNI_EF","EMCI","ab","Abeta to Tau to Atrophy","1",3e-06,8.4e-05,4e-05,2.1e-05
+"311","Atrophy_MediatTemporal","ADNI_EF","LMCI","ab","Abeta to Tau to Atrophy","1",1.1e-05,0.000155,6.8e-05,3.5e-05
+"312","Atrophy_MediatTemporal","ADNI_EF","TOTAL","ab","Abeta to Tau to Atrophy","1",1.6e-05,5.8e-05,3.6e-05,1.1e-05
+"313","Atrophy_ParahippoGyrus","ADNI_MEM","NL","ab","Abeta to Tau to Atrophy","0",-5e-06,1.7e-05,4e-06,6e-06
+"314","Atrophy_ParahippoGyrus","ADNI_MEM","EMCI","ab","Abeta to Tau to Atrophy","0",-2e-06,6.5e-05,2.8e-05,1.7e-05
+"315","Atrophy_ParahippoGyrus","ADNI_MEM","LMCI","ab","Abeta to Tau to Atrophy","1",2.1e-05,0.000142,7.4e-05,3e-05
+"316","Atrophy_ParahippoGyrus","ADNI_MEM","TOTAL","ab","Abeta to Tau to Atrophy","1",1.8e-05,5.6e-05,3.5e-05,1e-05
+"317","Atrophy_ParahippoGyrus","ADNI_EF","NL","ab","Abeta to Tau to Atrophy","0",-5e-06,1.7e-05,4e-06,6e-06
+"318","Atrophy_ParahippoGyrus","ADNI_EF","EMCI","ab","Abeta to Tau to Atrophy","0",-2e-06,6.5e-05,2.8e-05,1.7e-05
+"319","Atrophy_ParahippoGyrus","ADNI_EF","LMCI","ab","Abeta to Tau to Atrophy","1",2.1e-05,0.000142,7.4e-05,3e-05
+"320","Atrophy_ParahippoGyrus","ADNI_EF","TOTAL","ab","Abeta to Tau to Atrophy","1",1.8e-05,5.6e-05,3.5e-05,1e-05
+"321","Atrophy_PostCingulate","ADNI_MEM","NL","ab","Abeta to Tau to Atrophy","0",-2.8e-05,1e-05,-6e-06,9e-06
+"322","Atrophy_PostCingulate","ADNI_MEM","EMCI","ab","Abeta to Tau to Atrophy","0",-2.5e-05,5.5e-05,1.1e-05,2.1e-05
+"323","Atrophy_PostCingulate","ADNI_MEM","LMCI","ab","Abeta to Tau to Atrophy","1",2.8e-05,0.000198,0.000102,4.6e-05
+"324","Atrophy_PostCingulate","ADNI_MEM","TOTAL","ab","Abeta to Tau to Atrophy","1",1e-06,4.7e-05,2.2e-05,1.2e-05
+"325","Atrophy_PostCingulate","ADNI_EF","NL","ab","Abeta to Tau to Atrophy","0",-2.8e-05,1e-05,-6e-06,9e-06
+"326","Atrophy_PostCingulate","ADNI_EF","EMCI","ab","Abeta to Tau to Atrophy","0",-2.5e-05,5.5e-05,1.1e-05,2.1e-05
+"327","Atrophy_PostCingulate","ADNI_EF","LMCI","ab","Abeta to Tau to Atrophy","1",2.8e-05,0.000198,0.000102,4.6e-05
+"328","Atrophy_PostCingulate","ADNI_EF","TOTAL","ab","Abeta to Tau to Atrophy","1",1e-06,4.7e-05,2.2e-05,1.2e-05
+"329","Atrophy_SLF_PT","ADNI_MEM","NL","ab","Abeta to Tau to Atrophy","0",-6e-06,2.1e-05,4e-06,7e-06
+"330","Atrophy_SLF_PT","ADNI_MEM","EMCI","ab","Abeta to Tau to Atrophy","0",-1e-05,4.4e-05,1.4e-05,1.4e-05
+"331","Atrophy_SLF_PT","ADNI_MEM","LMCI","ab","Abeta to Tau to Atrophy","1",5e-06,0.00014,6.6e-05,3.4e-05
+"332","Atrophy_SLF_PT","ADNI_MEM","TOTAL","ab","Abeta to Tau to Atrophy","1",9e-06,4.5e-05,2.6e-05,1e-05
+"333","Atrophy_SLF_PT","ADNI_EF","NL","ab","Abeta to Tau to Atrophy","0",-6e-06,2.1e-05,4e-06,7e-06
+"334","Atrophy_SLF_PT","ADNI_EF","EMCI","ab","Abeta to Tau to Atrophy","0",-1e-05,4.4e-05,1.4e-05,1.4e-05
+"335","Atrophy_SLF_PT","ADNI_EF","LMCI","ab","Abeta to Tau to Atrophy","1",5e-06,0.00014,6.6e-05,3.4e-05
+"336","Atrophy_SLF_PT","ADNI_EF","TOTAL","ab","Abeta to Tau to Atrophy","1",9e-06,4.5e-05,2.6e-05,1e-05
+"337","Atrophy_Splenium","ADNI_MEM","NL","ab","Abeta to Tau to Atrophy","0",-1.8e-05,2e-06,-6e-06,5e-06
+"338","Atrophy_Splenium","ADNI_MEM","EMCI","ab","Abeta to Tau to Atrophy","0",-1.5e-05,2.9e-05,5e-06,1.2e-05
+"339","Atrophy_Splenium","ADNI_MEM","LMCI","ab","Abeta to Tau to Atrophy","1",3.4e-05,0.000194,0.000102,4.1e-05
+"340","Atrophy_Splenium","ADNI_MEM","TOTAL","ab","Abeta to Tau to Atrophy","1",5e-06,4.3e-05,2.2e-05,1e-05
+"341","Atrophy_Splenium","ADNI_EF","NL","ab","Abeta to Tau to Atrophy","0",-1.8e-05,2e-06,-6e-06,5e-06
+"342","Atrophy_Splenium","ADNI_EF","EMCI","ab","Abeta to Tau to Atrophy","0",-1.5e-05,2.9e-05,5e-06,1.2e-05
+"343","Atrophy_Splenium","ADNI_EF","LMCI","ab","Abeta to Tau to Atrophy","1",3.4e-05,0.000194,0.000102,4.1e-05
+"344","Atrophy_Splenium","ADNI_EF","TOTAL","ab","Abeta to Tau to Atrophy","1",5e-06,4.3e-05,2.2e-05,1e-05
+"345","Atrophy_Thalamus","ADNI_MEM","NL","ab","Abeta to Tau to Atrophy","0",-1.5e-05,7e-06,-3e-06,5e-06
+"346","Atrophy_Thalamus","ADNI_MEM","EMCI","ab","Abeta to Tau to Atrophy","0",-2.5e-05,3.1e-05,1e-06,1.5e-05
+"347","Atrophy_Thalamus","ADNI_MEM","LMCI","ab","Abeta to Tau to Atrophy","1",3.5e-05,0.000166,9.1e-05,3.4e-05
+"348","Atrophy_Thalamus","ADNI_MEM","TOTAL","ab","Abeta to Tau to Atrophy","1",4e-06,3.9e-05,2e-05,9e-06
+"349","Atrophy_Thalamus","ADNI_EF","NL","ab","Abeta to Tau to Atrophy","0",-1.5e-05,7e-06,-3e-06,5e-06
+"350","Atrophy_Thalamus","ADNI_EF","EMCI","ab","Abeta to Tau to Atrophy","0",-2.5e-05,3.1e-05,1e-06,1.5e-05
+"351","Atrophy_Thalamus","ADNI_EF","LMCI","ab","Abeta to Tau to Atrophy","1",3.5e-05,0.000166,9.1e-05,3.4e-05
+"352","Atrophy_Thalamus","ADNI_EF","TOTAL","ab","Abeta to Tau to Atrophy","1",4e-06,3.9e-05,2e-05,9e-06
+"353","Atrophy_Amygdala","ADNI_MEM","NL","ab2","B1 = Abeta to Tau to Cog","0",-0.000299,4.4e-05,-7.4e-05,8.8e-05
+"354","Atrophy_Amygdala","ADNI_MEM","EMCI","ab2","B1 = Abeta to Tau to Cog","0",-5.7e-05,0.000673,0.000277,0.000185
+"355","Atrophy_Amygdala","ADNI_MEM","LMCI","ab2","B1 = Abeta to Tau to Cog","0",-0.000332,0.00094,0.000285,0.000323
+"356","Atrophy_Amygdala","ADNI_MEM","TOTAL","ab2","B1 = Abeta to Tau to Cog","0",-7.7e-05,0.00032,0.00012,0.000101
+"357","Atrophy_Amygdala","ADNI_EF","NL","ab2","B1 = Abeta to Tau to Cog","0",-0.000286,0.000435,3.1e-05,0.000166
+"358","Atrophy_Amygdala","ADNI_EF","EMCI","ab2","B1 = Abeta to Tau to Cog","0",-0.000996,0.000278,-0.000243,0.000326
+"359","Atrophy_Amygdala","ADNI_EF","LMCI","ab2","B1 = Abeta to Tau to Cog","0",-0.001003,0.001279,0.000287,0.000579
+"360","Atrophy_Amygdala","ADNI_EF","TOTAL","ab2","B1 = Abeta to Tau to Cog","0",-0.000344,0.000438,6.1e-05,0.000198
+"361","Atrophy_Entorhinal","ADNI_MEM","NL","ab2","B1 = Abeta to Tau to Cog","0",-0.00029,4.7e-05,-7e-05,8.7e-05
+"362","Atrophy_Entorhinal","ADNI_MEM","EMCI","ab2","B1 = Abeta to Tau to Cog","0",-7.8e-05,0.00067,0.000271,0.000189
+"363","Atrophy_Entorhinal","ADNI_MEM","LMCI","ab2","B1 = Abeta to Tau to Cog","0",-0.000251,0.001142,0.000431,0.000352
+"364","Atrophy_Entorhinal","ADNI_MEM","TOTAL","ab2","B1 = Abeta to Tau to Cog","0",-2e-05,0.000399,0.00018,0.000109
+"365","Atrophy_Entorhinal","ADNI_EF","NL","ab2","B1 = Abeta to Tau to Cog","0",-0.000231,0.000434,4.6e-05,0.000157
+"366","Atrophy_Entorhinal","ADNI_EF","EMCI","ab2","B1 = Abeta to Tau to Cog","0",-0.001072,0.000205,-0.000337,0.000335
+"367","Atrophy_Entorhinal","ADNI_EF","LMCI","ab2","B1 = Abeta to Tau to Cog","0",-0.000824,0.001474,0.000431,0.000598
+"368","Atrophy_Entorhinal","ADNI_EF","TOTAL","ab2","B1 = Abeta to Tau to Cog","0",-0.000307,0.000481,9.1e-05,0.000198
+"369","Atrophy_Hippocampus","ADNI_MEM","NL","ab2","B1 = Abeta to Tau to Cog","0",-0.000297,4.6e-05,-7.1e-05,8.7e-05
+"370","Atrophy_Hippocampus","ADNI_MEM","EMCI","ab2","B1 = Abeta to Tau to Cog","0",-1.1e-05,0.00065,0.000285,0.000168
+"371","Atrophy_Hippocampus","ADNI_MEM","LMCI","ab2","B1 = Abeta to Tau to Cog","0",-0.000206,0.001033,0.000393,0.000314
+"372","Atrophy_Hippocampus","ADNI_MEM","TOTAL","ab2","B1 = Abeta to Tau to Cog","0",-2.2e-05,0.00037,0.000164,0.000101
+"373","Atrophy_Hippocampus","ADNI_EF","NL","ab2","B1 = Abeta to Tau to Cog","0",-0.000247,0.000445,4.2e-05,0.000164
+"374","Atrophy_Hippocampus","ADNI_EF","EMCI","ab2","B1 = Abeta to Tau to Cog","0",-0.000947,0.000375,-0.000197,0.000337
+"375","Atrophy_Hippocampus","ADNI_EF","LMCI","ab2","B1 = Abeta to Tau to Cog","0",-0.000721,0.00148,0.000494,0.000549
+"376","Atrophy_Hippocampus","ADNI_EF","TOTAL","ab2","B1 = Abeta to Tau to Cog","0",-0.000282,0.000506,0.000127,0.000197
+"377","Atrophy_Insula","ADNI_MEM","NL","ab2","B1 = Abeta to Tau to Cog","0",-0.000294,4.7e-05,-7e-05,8.8e-05
+"378","Atrophy_Insula","ADNI_MEM","EMCI","ab2","B1 = Abeta to Tau to Cog","1",3e-05,0.000711,0.000326,0.000176
+"379","Atrophy_Insula","ADNI_MEM","LMCI","ab2","B1 = Abeta to Tau to Cog","0",-0.000149,0.001317,0.000522,0.000352
+"380","Atrophy_Insula","ADNI_MEM","TOTAL","ab2","B1 = Abeta to Tau to Cog","1",4.1e-05,0.000449,0.000234,0.000107
+"381","Atrophy_Insula","ADNI_EF","NL","ab2","B1 = Abeta to Tau to Cog","0",-0.000268,0.000442,3.8e-05,0.000167
+"382","Atrophy_Insula","ADNI_EF","EMCI","ab2","B1 = Abeta to Tau to Cog","0",-0.000859,0.000369,-0.000153,0.000313
+"383","Atrophy_Insula","ADNI_EF","LMCI","ab2","B1 = Abeta to Tau to Cog","0",-0.001005,0.0013,0.000225,0.000592
+"384","Atrophy_Insula","ADNI_EF","TOTAL","ab2","B1 = Abeta to Tau to Cog","0",-0.00026,0.000516,0.000142,0.000192
+"385","Atrophy_LateralTemporal","ADNI_MEM","NL","ab2","B1 = Abeta to Tau to Cog","0",-0.000293,4.6e-05,-6.7e-05,8.8e-05
+"386","Atrophy_LateralTemporal","ADNI_MEM","EMCI","ab2","B1 = Abeta to Tau to Cog","0",-0.000146,0.000555,0.000185,0.000177
+"387","Atrophy_LateralTemporal","ADNI_MEM","LMCI","ab2","B1 = Abeta to Tau to Cog","0",-0.000438,0.00087,0.000174,0.00032
+"388","Atrophy_LateralTemporal","ADNI_MEM","TOTAL","ab2","B1 = Abeta to Tau to Cog","0",-8.3e-05,0.000269,9e-05,9.2e-05
+"389","Atrophy_LateralTemporal","ADNI_EF","NL","ab2","B1 = Abeta to Tau to Cog","0",-0.000246,0.000444,4.4e-05,0.000164
+"390","Atrophy_LateralTemporal","ADNI_EF","EMCI","ab2","B1 = Abeta to Tau to Cog","0",-0.00096,0.000281,-0.000233,0.000312
+"391","Atrophy_LateralTemporal","ADNI_EF","LMCI","ab2","B1 = Abeta to Tau to Cog","0",-0.001231,0.001139,5.7e-05,0.000605
+"392","Atrophy_LateralTemporal","ADNI_EF","TOTAL","ab2","B1 = Abeta to Tau to Cog","0",-0.000365,0.000418,3.4e-05,0.000192
+"393","Atrophy_MediatTemporal","ADNI_MEM","NL","ab2","B1 = Abeta to Tau to Cog","0",-0.000294,4.7e-05,-7.2e-05,8.7e-05
+"394","Atrophy_MediatTemporal","ADNI_MEM","EMCI","ab2","B1 = Abeta to Tau to Cog","0",-0.000111,0.000644,0.000238,0.000189
+"395","Atrophy_MediatTemporal","ADNI_MEM","LMCI","ab2","B1 = Abeta to Tau to Cog","0",-0.000303,0.00101,0.000336,0.000332
+"396","Atrophy_MediatTemporal","ADNI_MEM","TOTAL","ab2","B1 = Abeta to Tau to Cog","0",-6.1e-05,0.000351,0.000137,0.000105
+"397","Atrophy_MediatTemporal","ADNI_EF","NL","ab2","B1 = Abeta to Tau to Cog","0",-0.000246,0.000423,3.8e-05,0.000156
+"398","Atrophy_MediatTemporal","ADNI_EF","EMCI","ab2","B1 = Abeta to Tau to Cog","0",-0.001073,0.000223,-0.000314,0.000335
+"399","Atrophy_MediatTemporal","ADNI_EF","LMCI","ab2","B1 = Abeta to Tau to Cog","0",-0.000975,0.001337,0.000299,0.000598
+"400","Atrophy_MediatTemporal","ADNI_EF","TOTAL","ab2","B1 = Abeta to Tau to Cog","0",-0.000357,0.000424,5e-05,0.000197
+"401","Atrophy_ParahippoGyrus","ADNI_MEM","NL","ab2","B1 = Abeta to Tau to Cog","0",-0.000289,5.1e-05,-6.8e-05,8.5e-05
+"402","Atrophy_ParahippoGyrus","ADNI_MEM","EMCI","ab2","B1 = Abeta to Tau to Cog","0",-6.9e-05,0.000647,0.000253,0.000178
+"403","Atrophy_ParahippoGyrus","ADNI_MEM","LMCI","ab2","B1 = Abeta to Tau to Cog","0",-0.000326,0.000996,0.000296,0.000326
+"404","Atrophy_ParahippoGyrus","ADNI_MEM","TOTAL","ab2","B1 = Abeta to Tau to Cog","0",-5.2e-05,0.000341,0.000134,0.000103
+"405","Atrophy_ParahippoGyrus","ADNI_EF","NL","ab2","B1 = Abeta to Tau to Cog","0",-0.000285,0.000417,3e-05,0.000159
+"406","Atrophy_ParahippoGyrus","ADNI_EF","EMCI","ab2","B1 = Abeta to Tau to Cog","0",-0.000842,0.000311,-0.000187,0.000303
+"407","Atrophy_ParahippoGyrus","ADNI_EF","LMCI","ab2","B1 = Abeta to Tau to Cog","0",-0.000988,0.001203,0.000148,0.000567
+"408","Atrophy_ParahippoGyrus","ADNI_EF","TOTAL","ab2","B1 = Abeta to Tau to Cog","0",-0.000357,0.00042,4.8e-05,0.000194
+"409","Atrophy_PostCingulate","ADNI_MEM","NL","ab2","B1 = Abeta to Tau to Cog","0",-0.00031,4.7e-05,-7.4e-05,9e-05
+"410","Atrophy_PostCingulate","ADNI_MEM","EMCI","ab2","B1 = Abeta to Tau to Cog","1",2.1e-05,0.000702,0.000328,0.000179
+"411","Atrophy_PostCingulate","ADNI_MEM","LMCI","ab2","B1 = Abeta to Tau to Cog","0",-0.000175,0.001172,0.000446,0.000337
+"412","Atrophy_PostCingulate","ADNI_MEM","TOTAL","ab2","B1 = Abeta to Tau to Cog","1",4.2e-05,0.000453,0.000235,0.000108
+"413","Atrophy_PostCingulate","ADNI_EF","NL","ab2","B1 = Abeta to Tau to Cog","0",-0.000253,0.000453,4.5e-05,0.000165
+"414","Atrophy_PostCingulate","ADNI_EF","EMCI","ab2","B1 = Abeta to Tau to Cog","0",-0.000868,0.000339,-0.000155,0.000311
+"415","Atrophy_PostCingulate","ADNI_EF","LMCI","ab2","B1 = Abeta to Tau to Cog","0",-0.00097,0.001095,9.7e-05,0.000541
+"416","Atrophy_PostCingulate","ADNI_EF","TOTAL","ab2","B1 = Abeta to Tau to Cog","0",-0.000287,0.000481,0.00012,0.000189
+"417","Atrophy_SLF_PT","ADNI_MEM","NL","ab2","B1 = Abeta to Tau to Cog","0",-0.000289,6.2e-05,-6.5e-05,8.8e-05
+"418","Atrophy_SLF_PT","ADNI_MEM","EMCI","ab2","B1 = Abeta to Tau to Cog","0",-3.9e-05,0.000682,0.000287,0.000181
+"419","Atrophy_SLF_PT","ADNI_MEM","LMCI","ab2","B1 = Abeta to Tau to Cog","0",-0.000208,0.001138,0.000427,0.000333
+"420","Atrophy_SLF_PT","ADNI_MEM","TOTAL","ab2","B1 = Abeta to Tau to Cog","0",-8e-06,0.000384,0.000178,0.000102
+"421","Atrophy_SLF_PT","ADNI_EF","NL","ab2","B1 = Abeta to Tau to Cog","0",-0.00025,0.000435,4.2e-05,0.000163
+"422","Atrophy_SLF_PT","ADNI_EF","EMCI","ab2","B1 = Abeta to Tau to Cog","0",-0.000903,0.000329,-0.000179,0.000314
+"423","Atrophy_SLF_PT","ADNI_EF","LMCI","ab2","B1 = Abeta to Tau to Cog","0",-0.000952,0.001197,0.000166,0.000547
+"424","Atrophy_SLF_PT","ADNI_EF","TOTAL","ab2","B1 = Abeta to Tau to Cog","0",-0.000314,0.000431,7.2e-05,0.000189
+"425","Atrophy_Splenium","ADNI_MEM","NL","ab2","B1 = Abeta to Tau to Cog","0",-0.00029,4.8e-05,-6.8e-05,8.9e-05
+"426","Atrophy_Splenium","ADNI_MEM","EMCI","ab2","B1 = Abeta to Tau to Cog","1",2.4e-05,0.000705,0.000326,0.000176
+"427","Atrophy_Splenium","ADNI_MEM","LMCI","ab2","B1 = Abeta to Tau to Cog","0",-0.000136,0.001243,0.000501,0.000351
+"428","Atrophy_Splenium","ADNI_MEM","TOTAL","ab2","B1 = Abeta to Tau to Cog","1",1.8e-05,0.000405,0.000203,0.000103
+"429","Atrophy_Splenium","ADNI_EF","NL","ab2","B1 = Abeta to Tau to Cog","0",-0.00028,0.000457,4.1e-05,0.00017
+"430","Atrophy_Splenium","ADNI_EF","EMCI","ab2","B1 = Abeta to Tau to Cog","0",-0.000898,0.000367,-0.000158,0.000314
+"431","Atrophy_Splenium","ADNI_EF","LMCI","ab2","B1 = Abeta to Tau to Cog","0",-0.001136,0.000657,-0.000153,0.000465
+"432","Atrophy_Splenium","ADNI_EF","TOTAL","ab2","B1 = Abeta to Tau to Cog","0",-0.000315,0.000418,7.5e-05,0.000185
+"433","Atrophy_Thalamus","ADNI_MEM","NL","ab2","B1 = Abeta to Tau to Cog","0",-0.000299,4.6e-05,-7e-05,8.8e-05
+"434","Atrophy_Thalamus","ADNI_MEM","EMCI","ab2","B1 = Abeta to Tau to Cog","1",1.4e-05,0.000725,0.000329,0.00018
+"435","Atrophy_Thalamus","ADNI_MEM","LMCI","ab2","B1 = Abeta to Tau to Cog","0",-0.00026,0.001147,0.000398,0.00035
+"436","Atrophy_Thalamus","ADNI_MEM","TOTAL","ab2","B1 = Abeta to Tau to Cog","1",1.2e-05,0.000412,0.000207,0.000105
+"437","Atrophy_Thalamus","ADNI_EF","NL","ab2","B1 = Abeta to Tau to Cog","0",-0.000249,0.000447,4.6e-05,0.000165
+"438","Atrophy_Thalamus","ADNI_EF","EMCI","ab2","B1 = Abeta to Tau to Cog","0",-0.000866,0.000381,-0.00015,0.000311
+"439","Atrophy_Thalamus","ADNI_EF","LMCI","ab2","B1 = Abeta to Tau to Cog","0",-0.001156,0.001042,4e-05,0.000556
+"440","Atrophy_Thalamus","ADNI_EF","TOTAL","ab2","B1 = Abeta to Tau to Cog","0",-0.000292,0.000471,0.000109,0.000191
+"441","Atrophy_Amygdala","ADNI_MEM","NL","abc","B2 = Abeta to Tau to Atrophy to Cog","0",-2.4e-05,3.7e-05,4e-06,1.5e-05
+"442","Atrophy_Amygdala","ADNI_MEM","EMCI","abc","B2 = Abeta to Tau to Atrophy to Cog","0",-4.5e-05,0.000194,5.1e-05,6e-05
+"443","Atrophy_Amygdala","ADNI_MEM","LMCI","abc","B2 = Abeta to Tau to Atrophy to Cog","1",1.2e-05,0.000692,0.000272,0.000169
+"444","Atrophy_Amygdala","ADNI_MEM","TOTAL","abc","B2 = Abeta to Tau to Atrophy to Cog","1",5e-05,0.000224,0.000129,4.4e-05
+"445","Atrophy_Amygdala","ADNI_EF","NL","abc","B2 = Abeta to Tau to Atrophy to Cog","0",-3e-05,8.8e-05,1.3e-05,2.8e-05
+"446","Atrophy_Amygdala","ADNI_EF","EMCI","abc","B2 = Abeta to Tau to Atrophy to Cog","0",-5.1e-05,0.000389,9.2e-05,0.000115
+"447","Atrophy_Amygdala","ADNI_EF","LMCI","abc","B2 = Abeta to Tau to Atrophy to Cog","0",-9.6e-05,0.000835,0.00026,0.000228
+"448","Atrophy_Amygdala","ADNI_EF","TOTAL","abc","B2 = Abeta to Tau to Atrophy to Cog","1",1e-05,0.00024,0.000109,5.8e-05
+"449","Atrophy_Entorhinal","ADNI_MEM","NL","abc","B2 = Abeta to Tau to Atrophy to Cog","0",-2.3e-05,2.7e-05,0,1.3e-05
+"450","Atrophy_Entorhinal","ADNI_MEM","EMCI","abc","B2 = Abeta to Tau to Atrophy to Cog","0",-4.7e-05,0.000214,5.8e-05,6.6e-05
+"451","Atrophy_Entorhinal","ADNI_MEM","LMCI","abc","B2 = Abeta to Tau to Atrophy to Cog","0",-6.3e-05,0.000439,0.000128,0.000129
+"452","Atrophy_Entorhinal","ADNI_MEM","TOTAL","abc","B2 = Abeta to Tau to Atrophy to Cog","1",1.5e-05,0.00014,7e-05,3.3e-05
+"453","Atrophy_Entorhinal","ADNI_EF","NL","abc","B2 = Abeta to Tau to Atrophy to Cog","0",-5.5e-05,4.8e-05,-3e-06,2.7e-05
+"454","Atrophy_Entorhinal","ADNI_EF","EMCI","abc","B2 = Abeta to Tau to Atrophy to Cog","0",-8e-06,0.000522,0.000186,0.000143
+"455","Atrophy_Entorhinal","ADNI_EF","LMCI","abc","B2 = Abeta to Tau to Atrophy to Cog","0",-7.6e-05,0.000492,0.00011,0.000146
+"456","Atrophy_Entorhinal","ADNI_EF","TOTAL","abc","B2 = Abeta to Tau to Atrophy to Cog","1",1.2e-05,0.000172,7.8e-05,4.1e-05
+"457","Atrophy_Hippocampus","ADNI_MEM","NL","abc","B2 = Abeta to Tau to Atrophy to Cog","0",-2.5e-05,3.2e-05,1e-06,1.4e-05
+"458","Atrophy_Hippocampus","ADNI_MEM","EMCI","abc","B2 = Abeta to Tau to Atrophy to Cog","0",-6.8e-05,0.000174,4.3e-05,6.3e-05
+"459","Atrophy_Hippocampus","ADNI_MEM","LMCI","abc","B2 = Abeta to Tau to Atrophy to Cog","0",-2.6e-05,0.000499,0.000165,0.000137
+"460","Atrophy_Hippocampus","ADNI_MEM","TOTAL","abc","B2 = Abeta to Tau to Atrophy to Cog","1",1.9e-05,0.000166,8.6e-05,3.9e-05
+"461","Atrophy_Hippocampus","ADNI_EF","NL","abc","B2 = Abeta to Tau to Atrophy to Cog","0",-3.4e-05,4.1e-05,2e-06,1.7e-05
+"462","Atrophy_Hippocampus","ADNI_EF","EMCI","abc","B2 = Abeta to Tau to Atrophy to Cog","0",-9.1e-05,0.000233,4.4e-05,7.8e-05
+"463","Atrophy_Hippocampus","ADNI_EF","LMCI","abc","B2 = Abeta to Tau to Atrophy to Cog","0",-0.000293,0.000337,2.6e-05,0.000145
+"464","Atrophy_Hippocampus","ADNI_EF","TOTAL","abc","B2 = Abeta to Tau to Atrophy to Cog","0",-2e-05,0.000123,3.9e-05,3.6e-05
+"465","Atrophy_Insula","ADNI_MEM","NL","abc","B2 = Abeta to Tau to Atrophy to Cog","0",-2.2e-05,2.1e-05,0,1e-05
+"466","Atrophy_Insula","ADNI_MEM","EMCI","abc","B2 = Abeta to Tau to Atrophy to Cog","0",-4.1e-05,5.4e-05,3e-06,2.1e-05
+"467","Atrophy_Insula","ADNI_MEM","LMCI","abc","B2 = Abeta to Tau to Atrophy to Cog","0",-0.000248,0.000337,3.7e-05,0.000147
+"468","Atrophy_Insula","ADNI_MEM","TOTAL","abc","B2 = Abeta to Tau to Atrophy to Cog","0",-1.3e-05,5.3e-05,1.5e-05,1.7e-05
+"469","Atrophy_Insula","ADNI_EF","NL","abc","B2 = Abeta to Tau to Atrophy to Cog","0",-1.8e-05,5e-05,5e-06,1.7e-05
+"470","Atrophy_Insula","ADNI_EF","EMCI","abc","B2 = Abeta to Tau to Atrophy to Cog","0",-5.1e-05,6.6e-05,2e-06,3e-05
+"471","Atrophy_Insula","ADNI_EF","LMCI","abc","B2 = Abeta to Tau to Atrophy to Cog","0",-0.000108,0.000865,0.000303,0.000249
+"472","Atrophy_Insula","ADNI_EF","TOTAL","abc","B2 = Abeta to Tau to Atrophy to Cog","0",-1.9e-05,8.2e-05,2.3e-05,2.6e-05
+"473","Atrophy_LateralTemporal","ADNI_MEM","NL","abc","B2 = Abeta to Tau to Atrophy to Cog","0",-3.1e-05,9e-06,-3e-06,1e-05
+"474","Atrophy_LateralTemporal","ADNI_MEM","EMCI","abc","B2 = Abeta to Tau to Atrophy to Cog","1",1.2e-05,0.000358,0.000144,9.2e-05
+"475","Atrophy_LateralTemporal","ADNI_MEM","LMCI","abc","B2 = Abeta to Tau to Atrophy to Cog","1",4.9e-05,0.00081,0.000382,0.000198
+"476","Atrophy_LateralTemporal","ADNI_MEM","TOTAL","abc","B2 = Abeta to Tau to Atrophy to Cog","1",6.4e-05,0.000274,0.000159,5.4e-05
+"477","Atrophy_LateralTemporal","ADNI_EF","NL","abc","B2 = Abeta to Tau to Atrophy to Cog","0",-2.9e-05,2.8e-05,-1e-06,1.3e-05
+"478","Atrophy_LateralTemporal","ADNI_EF","EMCI","abc","B2 = Abeta to Tau to Atrophy to Cog","0",-4.1e-05,0.000293,8.1e-05,8.7e-05
+"479","Atrophy_LateralTemporal","ADNI_EF","LMCI","abc","B2 = Abeta to Tau to Atrophy to Cog","0",-4.8e-05,0.001171,0.000473,0.00031
+"480","Atrophy_LateralTemporal","ADNI_EF","TOTAL","abc","B2 = Abeta to Tau to Atrophy to Cog","1",2.6e-05,0.000279,0.000133,6.7e-05
+"481","Atrophy_MediatTemporal","ADNI_MEM","NL","abc","B2 = Abeta to Tau to Atrophy to Cog","0",-1.9e-05,2.6e-05,1e-06,1.2e-05
+"482","Atrophy_MediatTemporal","ADNI_MEM","EMCI","abc","B2 = Abeta to Tau to Atrophy to Cog","0",-1.9e-05,0.000268,9e-05,7.4e-05
+"483","Atrophy_MediatTemporal","ADNI_MEM","LMCI","abc","B2 = Abeta to Tau to Atrophy to Cog","1",2.1e-05,0.000529,0.000222,0.000134
+"484","Atrophy_MediatTemporal","ADNI_MEM","TOTAL","abc","B2 = Abeta to Tau to Atrophy to Cog","1",4.3e-05,0.000193,0.000113,3.9e-05
+"485","Atrophy_MediatTemporal","ADNI_EF","NL","abc","B2 = Abeta to Tau to Atrophy to Cog","0",-4.5e-05,6.9e-05,5e-06,2.7e-05
+"486","Atrophy_MediatTemporal","ADNI_EF","EMCI","abc","B2 = Abeta to Tau to Atrophy to Cog","0",-2.8e-05,0.000529,0.000162,0.000142
+"487","Atrophy_MediatTemporal","ADNI_EF","LMCI","abc","B2 = Abeta to Tau to Atrophy to Cog","0",-7e-06,0.000703,0.000241,0.000184
+"488","Atrophy_MediatTemporal","ADNI_EF","TOTAL","abc","B2 = Abeta to Tau to Atrophy to Cog","1",3.5e-05,0.000237,0.000118,5.1e-05
+"489","Atrophy_ParahippoGyrus","ADNI_MEM","NL","abc","B2 = Abeta to Tau to Atrophy to Cog","0",-3e-05,1.7e-05,-2e-06,1.1e-05
+"490","Atrophy_ParahippoGyrus","ADNI_MEM","EMCI","abc","B2 = Abeta to Tau to Atrophy to Cog","0",-1.8e-05,0.000239,7.5e-05,6.6e-05
+"491","Atrophy_ParahippoGyrus","ADNI_MEM","LMCI","abc","B2 = Abeta to Tau to Atrophy to Cog","1",4.4e-05,0.000571,0.000261,0.00014
+"492","Atrophy_ParahippoGyrus","ADNI_MEM","TOTAL","abc","B2 = Abeta to Tau to Atrophy to Cog","1",4.7e-05,0.000201,0.000116,4.1e-05
+"493","Atrophy_ParahippoGyrus","ADNI_EF","NL","abc","B2 = Abeta to Tau to Atrophy to Cog","0",-2.2e-05,7.6e-05,1.3e-05,2.5e-05
+"494","Atrophy_ParahippoGyrus","ADNI_EF","EMCI","abc","B2 = Abeta to Tau to Atrophy to Cog","0",-0.000101,0.000213,3.5e-05,8.2e-05
+"495","Atrophy_ParahippoGyrus","ADNI_EF","LMCI","abc","B2 = Abeta to Tau to Atrophy to Cog","1",5.4e-05,0.000896,0.000367,0.000214
+"496","Atrophy_ParahippoGyrus","ADNI_EF","TOTAL","abc","B2 = Abeta to Tau to Atrophy to Cog","1",2.8e-05,0.000236,0.000115,5.5e-05
+"497","Atrophy_PostCingulate","ADNI_MEM","NL","abc","B2 = Abeta to Tau to Atrophy to Cog","0",-1.4e-05,3e-05,4e-06,1.2e-05
+"498","Atrophy_PostCingulate","ADNI_MEM","EMCI","abc","B2 = Abeta to Tau to Atrophy to Cog","0",-5.7e-05,6.3e-05,1e-06,3e-05
+"499","Atrophy_PostCingulate","ADNI_MEM","LMCI","abc","B2 = Abeta to Tau to Atrophy to Cog","0",-0.000113,0.000415,0.000113,0.000131
+"500","Atrophy_PostCingulate","ADNI_MEM","TOTAL","abc","B2 = Abeta to Tau to Atrophy to Cog","0",-1.6e-05,5.7e-05,1.5e-05,1.9e-05
+"501","Atrophy_PostCingulate","ADNI_EF","NL","abc","B2 = Abeta to Tau to Atrophy to Cog","0",-4.2e-05,3.7e-05,-2e-06,1.8e-05
+"502","Atrophy_PostCingulate","ADNI_EF","EMCI","abc","B2 = Abeta to Tau to Atrophy to Cog","0",-7.1e-05,1e-04,4e-06,3.9e-05
+"503","Atrophy_PostCingulate","ADNI_EF","LMCI","abc","B2 = Abeta to Tau to Atrophy to Cog","0",-1.7e-05,0.001134,0.00044,0.000312
+"504","Atrophy_PostCingulate","ADNI_EF","TOTAL","abc","B2 = Abeta to Tau to Atrophy to Cog","0",-3e-06,0.000134,4.6e-05,3.6e-05
+"505","Atrophy_SLF_PT","ADNI_MEM","NL","abc","B2 = Abeta to Tau to Atrophy to Cog","0",-3.9e-05,1e-05,-5e-06,1.3e-05
+"506","Atrophy_SLF_PT","ADNI_MEM","EMCI","abc","B2 = Abeta to Tau to Atrophy to Cog","0",-4.6e-05,0.00016,4.2e-05,5.3e-05
+"507","Atrophy_SLF_PT","ADNI_MEM","LMCI","abc","B2 = Abeta to Tau to Atrophy to Cog","0",-7.7e-05,0.000436,0.000129,0.000131
+"508","Atrophy_SLF_PT","ADNI_MEM","TOTAL","abc","B2 = Abeta to Tau to Atrophy to Cog","1",1.6e-05,0.00015,7.2e-05,3.5e-05
+"509","Atrophy_SLF_PT","ADNI_EF","NL","abc","B2 = Abeta to Tau to Atrophy to Cog","0",-4.4e-05,4.1e-05,1e-06,1.9e-05
+"510","Atrophy_SLF_PT","ADNI_EF","EMCI","abc","B2 = Abeta to Tau to Atrophy to Cog","0",-5.5e-05,0.000176,2.8e-05,5.7e-05
+"511","Atrophy_SLF_PT","ADNI_EF","LMCI","abc","B2 = Abeta to Tau to Atrophy to Cog","0",-3.4e-05,0.000983,0.000345,0.000267
+"512","Atrophy_SLF_PT","ADNI_EF","TOTAL","abc","B2 = Abeta to Tau to Atrophy to Cog","1",1.3e-05,0.000211,9.2e-05,5.2e-05
+"513","Atrophy_Splenium","ADNI_MEM","NL","abc","B2 = Abeta to Tau to Atrophy to Cog","0",-3.7e-05,2.5e-05,-2e-06,1.4e-05
+"514","Atrophy_Splenium","ADNI_MEM","EMCI","abc","B2 = Abeta to Tau to Atrophy to Cog","0",-6.5e-05,6.7e-05,3e-06,3.2e-05
+"515","Atrophy_Splenium","ADNI_MEM","LMCI","abc","B2 = Abeta to Tau to Atrophy to Cog","0",-0.000266,0.000409,5.8e-05,0.000163
+"516","Atrophy_Splenium","ADNI_MEM","TOTAL","abc","B2 = Abeta to Tau to Atrophy to Cog","1",3e-06,0.000114,4.7e-05,2.9e-05
+"517","Atrophy_Splenium","ADNI_EF","NL","abc","B2 = Abeta to Tau to Atrophy to Cog","0",-4.6e-05,5.3e-05,2e-06,2.5e-05
+"518","Atrophy_Splenium","ADNI_EF","EMCI","abc","B2 = Abeta to Tau to Atrophy to Cog","0",-6.1e-05,9.4e-05,6e-06,3.8e-05
+"519","Atrophy_Splenium","ADNI_EF","LMCI","abc","B2 = Abeta to Tau to Atrophy to Cog","1",0.000151,0.001525,0.000691,0.000357
+"520","Atrophy_Splenium","ADNI_EF","TOTAL","abc","B2 = Abeta to Tau to Atrophy to Cog","1",7e-06,0.00023,9.3e-05,5.8e-05
+"521","Atrophy_Thalamus","ADNI_MEM","NL","abc","B2 = Abeta to Tau to Atrophy to Cog","0",-2.4e-05,1.9e-05,0,1e-05
+"522","Atrophy_Thalamus","ADNI_MEM","EMCI","abc","B2 = Abeta to Tau to Atrophy to Cog","0",-7.4e-05,8.4e-05,1e-06,3.9e-05
+"523","Atrophy_Thalamus","ADNI_MEM","LMCI","abc","B2 = Abeta to Tau to Atrophy to Cog","0",-0.000131,0.000516,0.00016,0.000159
+"524","Atrophy_Thalamus","ADNI_MEM","TOTAL","abc","B2 = Abeta to Tau to Atrophy to Cog","1",4e-06,0.000101,4.4e-05,2.6e-05
+"525","Atrophy_Thalamus","ADNI_EF","NL","abc","B2 = Abeta to Tau to Atrophy to Cog","0",-3.5e-05,2.6e-05,-3e-06,1.5e-05
+"526","Atrophy_Thalamus","ADNI_EF","EMCI","abc","B2 = Abeta to Tau to Atrophy to Cog","0",-8.5e-05,6.7e-05,-1e-06,3.6e-05
+"527","Atrophy_Thalamus","ADNI_EF","LMCI","abc","B2 = Abeta to Tau to Atrophy to Cog","1",0.000103,0.001151,0.000516,0.000277
+"528","Atrophy_Thalamus","ADNI_EF","TOTAL","abc","B2 = Abeta to Tau to Atrophy to Cog","1",5e-06,0.000148,6e-05,3.7e-05
+"529","Atrophy_Amygdala","ADNI_MEM","NL","b","Tau to Atrophy","0",-0.000156,3.6e-05,-5.5e-05,5e-05
+"530","Atrophy_Amygdala","ADNI_MEM","EMCI","b","Tau to Atrophy","0",-0.000162,3.8e-05,-7.1e-05,5.1e-05
+"531","Atrophy_Amygdala","ADNI_MEM","LMCI","b","Tau to Atrophy","1",-0.00032,-6e-05,-0.000171,6.5e-05
+"532","Atrophy_Amygdala","ADNI_MEM","TOTAL","b","Tau to Atrophy","1",-0.000181,-7e-05,-0.000123,2.9e-05
+"533","Atrophy_Amygdala","ADNI_EF","NL","b","Tau to Atrophy","0",-0.000156,3.6e-05,-5.5e-05,5e-05
+"534","Atrophy_Amygdala","ADNI_EF","EMCI","b","Tau to Atrophy","0",-0.000162,3.8e-05,-7.1e-05,5.1e-05
+"535","Atrophy_Amygdala","ADNI_EF","LMCI","b","Tau to Atrophy","1",-0.00032,-6e-05,-0.000171,6.5e-05
+"536","Atrophy_Amygdala","ADNI_EF","TOTAL","b","Tau to Atrophy","1",-0.000181,-7e-05,-0.000123,2.9e-05
+"537","Atrophy_Entorhinal","ADNI_MEM","NL","b","Tau to Atrophy","0",-0.000136,0.000155,1.7e-05,7.2e-05
+"538","Atrophy_Entorhinal","ADNI_MEM","EMCI","b","Tau to Atrophy","1",-0.000244,-5e-06,-0.00013,6e-05
+"539","Atrophy_Entorhinal","ADNI_MEM","LMCI","b","Tau to Atrophy","0",-0.000265,4.4e-05,-9.1e-05,7.9e-05
+"540","Atrophy_Entorhinal","ADNI_MEM","TOTAL","b","Tau to Atrophy","1",-0.000174,-2.3e-05,-9.8e-05,3.8e-05
+"541","Atrophy_Entorhinal","ADNI_EF","NL","b","Tau to Atrophy","0",-0.000136,0.000155,1.7e-05,7.2e-05
+"542","Atrophy_Entorhinal","ADNI_EF","EMCI","b","Tau to Atrophy","1",-0.000244,-5e-06,-0.00013,6e-05
+"543","Atrophy_Entorhinal","ADNI_EF","LMCI","b","Tau to Atrophy","0",-0.000265,4.4e-05,-9.1e-05,7.9e-05
+"544","Atrophy_Entorhinal","ADNI_EF","TOTAL","b","Tau to Atrophy","1",-0.000174,-2.3e-05,-9.8e-05,3.8e-05
+"545","Atrophy_Hippocampus","ADNI_MEM","NL","b","Tau to Atrophy","0",-9.7e-05,7e-05,-8e-06,4.2e-05
+"546","Atrophy_Hippocampus","ADNI_MEM","EMCI","b","Tau to Atrophy","0",-0.000128,5.6e-05,-3.9e-05,4.9e-05
+"547","Atrophy_Hippocampus","ADNI_MEM","LMCI","b","Tau to Atrophy","0",-0.000211,1e-05,-9.2e-05,5.6e-05
+"548","Atrophy_Hippocampus","ADNI_MEM","TOTAL","b","Tau to Atrophy","1",-0.000134,-1.8e-05,-7.3e-05,3e-05
+"549","Atrophy_Hippocampus","ADNI_EF","NL","b","Tau to Atrophy","0",-9.7e-05,7e-05,-8e-06,4.2e-05
+"550","Atrophy_Hippocampus","ADNI_EF","EMCI","b","Tau to Atrophy","0",-0.000128,5.6e-05,-3.9e-05,4.9e-05
+"551","Atrophy_Hippocampus","ADNI_EF","LMCI","b","Tau to Atrophy","0",-0.000211,1e-05,-9.2e-05,5.6e-05
+"552","Atrophy_Hippocampus","ADNI_EF","TOTAL","b","Tau to Atrophy","1",-0.000134,-1.8e-05,-7.3e-05,3e-05
+"553","Atrophy_Insula","ADNI_MEM","NL","b","Tau to Atrophy","0",-6.4e-05,7.4e-05,6e-06,3.6e-05
+"554","Atrophy_Insula","ADNI_MEM","EMCI","b","Tau to Atrophy","0",-3e-05,8.7e-05,2.5e-05,2.9e-05
+"555","Atrophy_Insula","ADNI_MEM","LMCI","b","Tau to Atrophy","1",-0.000236,-7.3e-05,-0.00014,4.3e-05
+"556","Atrophy_Insula","ADNI_MEM","TOTAL","b","Tau to Atrophy","1",-9.3e-05,-1e-05,-4.9e-05,2.1e-05
+"557","Atrophy_Insula","ADNI_EF","NL","b","Tau to Atrophy","0",-6.4e-05,7.4e-05,6e-06,3.6e-05
+"558","Atrophy_Insula","ADNI_EF","EMCI","b","Tau to Atrophy","0",-3e-05,8.7e-05,2.5e-05,2.9e-05
+"559","Atrophy_Insula","ADNI_EF","LMCI","b","Tau to Atrophy","1",-0.000236,-7.3e-05,-0.00014,4.3e-05
+"560","Atrophy_Insula","ADNI_EF","TOTAL","b","Tau to Atrophy","1",-9.3e-05,-1e-05,-4.9e-05,2.1e-05
+"561","Atrophy_LateralTemporal","ADNI_MEM","NL","b","Tau to Atrophy","0",-5.7e-05,8.9e-05,1.8e-05,3.8e-05
+"562","Atrophy_LateralTemporal","ADNI_MEM","EMCI","b","Tau to Atrophy","1",-0.000161,-9e-06,-8.2e-05,3.8e-05
+"563","Atrophy_LateralTemporal","ADNI_MEM","LMCI","b","Tau to Atrophy","1",-0.000397,-0.00014,-0.000261,6.3e-05
+"564","Atrophy_LateralTemporal","ADNI_MEM","TOTAL","b","Tau to Atrophy","1",-0.000192,-7.5e-05,-0.000132,3.1e-05
+"565","Atrophy_LateralTemporal","ADNI_EF","NL","b","Tau to Atrophy","0",-5.7e-05,8.9e-05,1.8e-05,3.8e-05
+"566","Atrophy_LateralTemporal","ADNI_EF","EMCI","b","Tau to Atrophy","1",-0.000161,-9e-06,-8.2e-05,3.8e-05
+"567","Atrophy_LateralTemporal","ADNI_EF","LMCI","b","Tau to Atrophy","1",-0.000397,-0.00014,-0.000261,6.3e-05
+"568","Atrophy_LateralTemporal","ADNI_EF","TOTAL","b","Tau to Atrophy","1",-0.000192,-7.5e-05,-0.000132,3.1e-05
+"569","Atrophy_MediatTemporal","ADNI_MEM","NL","b","Tau to Atrophy","0",-0.000104,7.8e-05,-1e-05,4.7e-05
+"570","Atrophy_MediatTemporal","ADNI_MEM","EMCI","b","Tau to Atrophy","1",-0.000162,-9e-06,-9.5e-05,3.8e-05
+"571","Atrophy_MediatTemporal","ADNI_MEM","LMCI","b","Tau to Atrophy","1",-0.000239,-1.9e-05,-0.000109,5.5e-05
+"572","Atrophy_MediatTemporal","ADNI_MEM","TOTAL","b","Tau to Atrophy","1",-0.000148,-4.7e-05,-9.8e-05,2.5e-05
+"573","Atrophy_MediatTemporal","ADNI_EF","NL","b","Tau to Atrophy","0",-0.000104,7.8e-05,-1e-05,4.7e-05
+"574","Atrophy_MediatTemporal","ADNI_EF","EMCI","b","Tau to Atrophy","1",-0.000162,-9e-06,-9.5e-05,3.8e-05
+"575","Atrophy_MediatTemporal","ADNI_EF","LMCI","b","Tau to Atrophy","1",-0.000239,-1.9e-05,-0.000109,5.5e-05
+"576","Atrophy_MediatTemporal","ADNI_EF","TOTAL","b","Tau to Atrophy","1",-0.000148,-4.7e-05,-9.8e-05,2.5e-05
+"577","Atrophy_ParahippoGyrus","ADNI_MEM","NL","b","Tau to Atrophy","0",-9.4e-05,4e-05,-3e-05,3.4e-05
+"578","Atrophy_ParahippoGyrus","ADNI_MEM","EMCI","b","Tau to Atrophy","0",-0.000116,6e-06,-6.5e-05,3.2e-05
+"579","Atrophy_ParahippoGyrus","ADNI_MEM","LMCI","b","Tau to Atrophy","1",-0.00022,-3.6e-05,-0.000117,4.6e-05
+"580","Atrophy_ParahippoGyrus","ADNI_MEM","TOTAL","b","Tau to Atrophy","1",-0.00014,-5.6e-05,-9.6e-05,2.1e-05
+"581","Atrophy_ParahippoGyrus","ADNI_EF","NL","b","Tau to Atrophy","0",-9.4e-05,4e-05,-3e-05,3.4e-05
+"582","Atrophy_ParahippoGyrus","ADNI_EF","EMCI","b","Tau to Atrophy","0",-0.000116,6e-06,-6.5e-05,3.2e-05
+"583","Atrophy_ParahippoGyrus","ADNI_EF","LMCI","b","Tau to Atrophy","1",-0.00022,-3.6e-05,-0.000117,4.6e-05
+"584","Atrophy_ParahippoGyrus","ADNI_EF","TOTAL","b","Tau to Atrophy","1",-0.00014,-5.6e-05,-9.6e-05,2.1e-05
+"585","Atrophy_PostCingulate","ADNI_MEM","NL","b","Tau to Atrophy","0",-6.4e-05,0.00015,4.3e-05,5.5e-05
+"586","Atrophy_PostCingulate","ADNI_MEM","EMCI","b","Tau to Atrophy","0",-0.000112,7.8e-05,-2.2e-05,4.8e-05
+"587","Atrophy_PostCingulate","ADNI_MEM","LMCI","b","Tau to Atrophy","1",-0.000291,-4.9e-05,-0.000158,6.4e-05
+"588","Atrophy_PostCingulate","ADNI_MEM","TOTAL","b","Tau to Atrophy","1",-0.000113,-4e-06,-5.9e-05,3e-05
+"589","Atrophy_PostCingulate","ADNI_EF","NL","b","Tau to Atrophy","0",-6.4e-05,0.00015,4.3e-05,5.5e-05
+"590","Atrophy_PostCingulate","ADNI_EF","EMCI","b","Tau to Atrophy","0",-0.000112,7.8e-05,-2.2e-05,4.8e-05
+"591","Atrophy_PostCingulate","ADNI_EF","LMCI","b","Tau to Atrophy","1",-0.000291,-4.9e-05,-0.000158,6.4e-05
+"592","Atrophy_PostCingulate","ADNI_EF","TOTAL","b","Tau to Atrophy","1",-0.000113,-4e-06,-5.9e-05,3e-05
+"593","Atrophy_SLF_PT","ADNI_MEM","NL","b","Tau to Atrophy","0",-0.000112,3.6e-05,-3.2e-05,3.9e-05
+"594","Atrophy_SLF_PT","ADNI_MEM","EMCI","b","Tau to Atrophy","0",-8.9e-05,3.3e-05,-3.1e-05,3.2e-05
+"595","Atrophy_SLF_PT","ADNI_MEM","LMCI","b","Tau to Atrophy","1",-0.000201,-9e-06,-0.000102,4.8e-05
+"596","Atrophy_SLF_PT","ADNI_MEM","TOTAL","b","Tau to Atrophy","1",-0.000114,-2.6e-05,-7e-05,2.3e-05
+"597","Atrophy_SLF_PT","ADNI_EF","NL","b","Tau to Atrophy","0",-0.000112,3.6e-05,-3.2e-05,3.9e-05
+"598","Atrophy_SLF_PT","ADNI_EF","EMCI","b","Tau to Atrophy","0",-8.9e-05,3.3e-05,-3.1e-05,3.2e-05
+"599","Atrophy_SLF_PT","ADNI_EF","LMCI","b","Tau to Atrophy","1",-0.000201,-9e-06,-0.000102,4.8e-05
+"600","Atrophy_SLF_PT","ADNI_EF","TOTAL","b","Tau to Atrophy","1",-0.000114,-2.6e-05,-7e-05,2.3e-05
+"601","Atrophy_Splenium","ADNI_MEM","NL","b","Tau to Atrophy","0",-5e-06,9e-05,4.2e-05,2.4e-05
+"602","Atrophy_Splenium","ADNI_MEM","EMCI","b","Tau to Atrophy","0",-6.1e-05,4.9e-05,-9e-06,2.9e-05
+"603","Atrophy_Splenium","ADNI_MEM","LMCI","b","Tau to Atrophy","1",-0.000266,-5.8e-05,-0.000159,5.4e-05
+"604","Atrophy_Splenium","ADNI_MEM","TOTAL","b","Tau to Atrophy","1",-0.000105,-1.3e-05,-5.9e-05,2.3e-05
+"605","Atrophy_Splenium","ADNI_EF","NL","b","Tau to Atrophy","0",-5e-06,9e-05,4.2e-05,2.4e-05
+"606","Atrophy_Splenium","ADNI_EF","EMCI","b","Tau to Atrophy","0",-6.1e-05,4.9e-05,-9e-06,2.9e-05
+"607","Atrophy_Splenium","ADNI_EF","LMCI","b","Tau to Atrophy","1",-0.000266,-5.8e-05,-0.000159,5.4e-05
+"608","Atrophy_Splenium","ADNI_EF","TOTAL","b","Tau to Atrophy","1",-0.000105,-1.3e-05,-5.9e-05,2.3e-05
+"609","Atrophy_Thalamus","ADNI_MEM","NL","b","Tau to Atrophy","0",-3.8e-05,9.7e-05,2.6e-05,3.3e-05
+"610","Atrophy_Thalamus","ADNI_MEM","EMCI","b","Tau to Atrophy","0",-6.3e-05,7.9e-05,1e-06,3.7e-05
+"611","Atrophy_Thalamus","ADNI_MEM","LMCI","b","Tau to Atrophy","1",-0.000246,-6.2e-05,-0.000142,4.7e-05
+"612","Atrophy_Thalamus","ADNI_MEM","TOTAL","b","Tau to Atrophy","1",-9.9e-05,-1.4e-05,-5.5e-05,2.2e-05
+"613","Atrophy_Thalamus","ADNI_EF","NL","b","Tau to Atrophy","0",-3.8e-05,9.7e-05,2.6e-05,3.3e-05
+"614","Atrophy_Thalamus","ADNI_EF","EMCI","b","Tau to Atrophy","0",-6.3e-05,7.9e-05,1e-06,3.7e-05
+"615","Atrophy_Thalamus","ADNI_EF","LMCI","b","Tau to Atrophy","1",-0.000246,-6.2e-05,-0.000142,4.7e-05
+"616","Atrophy_Thalamus","ADNI_EF","TOTAL","b","Tau to Atrophy","1",-9.9e-05,-1.4e-05,-5.5e-05,2.2e-05
+"617","Atrophy_Amygdala","ADNI_MEM","NL","b2","Tau to Cog","0",-0.000398,0.001323,0.000476,0.000416
+"618","Atrophy_Amygdala","ADNI_MEM","EMCI","b2","Tau to Cog","0",-0.001727,0.000115,-0.000743,0.000496
+"619","Atrophy_Amygdala","ADNI_MEM","LMCI","b2","Tau to Cog","0",-0.001408,0.000522,-0.000448,0.000494
+"620","Atrophy_Amygdala","ADNI_MEM","TOTAL","b2","Tau to Cog","0",-0.000897,0.000197,-0.000335,0.000276
+"621","Atrophy_Amygdala","ADNI_EF","NL","b2","Tau to Cog","0",-0.002334,0.001614,-0.000278,0.001026
+"622","Atrophy_Amygdala","ADNI_EF","EMCI","b2","Tau to Cog","0",-0.001094,0.001761,0.000486,0.000729
+"623","Atrophy_Amygdala","ADNI_EF","LMCI","b2","Tau to Cog","0",-0.001853,0.001544,-0.000431,0.000888
+"624","Atrophy_Amygdala","ADNI_EF","TOTAL","b2","Tau to Cog","0",-0.001261,0.000863,-0.000181,0.000539
+"625","Atrophy_Entorhinal","ADNI_MEM","NL","b2","Tau to Cog","0",-0.000398,0.001278,0.000441,0.000418
+"626","Atrophy_Entorhinal","ADNI_MEM","EMCI","b2","Tau to Cog","0",-0.001719,0.000153,-0.000726,0.000501
+"627","Atrophy_Entorhinal","ADNI_MEM","LMCI","b2","Tau to Cog","0",-0.001702,0.000392,-0.000673,0.000531
+"628","Atrophy_Entorhinal","ADNI_MEM","TOTAL","b2","Tau to Cog","0",-0.001091,4.6e-05,-0.000497,0.000294
+"629","Atrophy_Entorhinal","ADNI_EF","NL","b2","Tau to Cog","0",-0.002319,0.001413,-0.000384,0.000966
+"630","Atrophy_Entorhinal","ADNI_EF","EMCI","b2","Tau to Cog","0",-0.000792,0.001998,0.000732,0.000714
+"631","Atrophy_Entorhinal","ADNI_EF","LMCI","b2","Tau to Cog","0",-0.002144,0.001379,-0.000654,0.00091
+"632","Atrophy_Entorhinal","ADNI_EF","TOTAL","b2","Tau to Cog","0",-0.001333,0.000801,-0.00026,0.00054
+"633","Atrophy_Hippocampus","ADNI_MEM","NL","b2","Tau to Cog","0",-0.00041,0.001311,0.000457,0.000418
+"634","Atrophy_Hippocampus","ADNI_MEM","EMCI","b2","Tau to Cog","0",-0.001795,2.6e-05,-0.000763,0.000464
+"635","Atrophy_Hippocampus","ADNI_MEM","LMCI","b2","Tau to Cog","0",-0.001505,0.000341,-0.000618,0.000479
+"636","Atrophy_Hippocampus","ADNI_MEM","TOTAL","b2","Tau to Cog","0",-0.001015,5.6e-05,-0.000452,0.000275
+"637","Atrophy_Hippocampus","ADNI_EF","NL","b2","Tau to Cog","0",-0.002417,0.001448,-0.000346,0.001016
+"638","Atrophy_Hippocampus","ADNI_EF","EMCI","b2","Tau to Cog","0",-0.001332,0.001859,0.000388,0.000791
+"639","Atrophy_Hippocampus","ADNI_EF","LMCI","b2","Tau to Cog","0",-0.002111,0.001136,-0.000758,0.000829
+"640","Atrophy_Hippocampus","ADNI_EF","TOTAL","b2","Tau to Cog","0",-0.001425,0.000679,-0.000357,0.000539
+"641","Atrophy_Insula","ADNI_MEM","NL","b2","Tau to Cog","0",-0.000431,0.00131,0.000447,0.000427
+"642","Atrophy_Insula","ADNI_MEM","EMCI","b2","Tau to Cog","1",-0.001833,-5.6e-05,-0.000859,0.000468
+"643","Atrophy_Insula","ADNI_MEM","LMCI","b2","Tau to Cog","0",-0.001926,0.000234,-0.00082,0.00053
+"644","Atrophy_Insula","ADNI_MEM","TOTAL","b2","Tau to Cog","1",-0.001244,-0.000116,-0.000646,0.000292
+"645","Atrophy_Insula","ADNI_EF","NL","b2","Tau to Cog","0",-0.002396,0.001617,-0.000314,0.001037
+"646","Atrophy_Insula","ADNI_EF","EMCI","b2","Tau to Cog","0",-0.001263,0.001606,0.00028,0.000738
+"647","Atrophy_Insula","ADNI_EF","LMCI","b2","Tau to Cog","0",-0.001863,0.001708,-0.000333,0.000913
+"648","Atrophy_Insula","ADNI_EF","TOTAL","b2","Tau to Cog","0",-0.001448,0.000655,-4e-04,0.000526
+"649","Atrophy_LateralTemporal","ADNI_MEM","NL","b2","Tau to Cog","0",-0.000471,0.001263,0.000421,0.000427
+"650","Atrophy_LateralTemporal","ADNI_MEM","EMCI","b2","Tau to Cog","0",-0.001513,0.000333,-0.000512,0.000476
+"651","Atrophy_LateralTemporal","ADNI_MEM","LMCI","b2","Tau to Cog","0",-0.001306,0.000643,-0.000272,0.000489
+"652","Atrophy_LateralTemporal","ADNI_MEM","TOTAL","b2","Tau to Cog","0",-0.000787,0.000192,-0.000255,0.000253
+"653","Atrophy_LateralTemporal","ADNI_EF","NL","b2","Tau to Cog","0",-0.00239,0.001513,-0.000363,0.001009
+"654","Atrophy_LateralTemporal","ADNI_EF","EMCI","b2","Tau to Cog","0",-0.001044,0.001703,0.000467,0.00071
+"655","Atrophy_LateralTemporal","ADNI_EF","LMCI","b2","Tau to Cog","0",-0.001675,0.001863,-6.8e-05,0.000931
+"656","Atrophy_LateralTemporal","ADNI_EF","TOTAL","b2","Tau to Cog","0",-0.001216,0.000872,-0.00011,0.000522
+"657","Atrophy_MediatTemporal","ADNI_MEM","NL","b2","Tau to Cog","0",-0.000415,0.001285,0.000456,0.000419
+"658","Atrophy_MediatTemporal","ADNI_MEM","EMCI","b2","Tau to Cog","0",-0.001652,0.000215,-0.000647,0.000502
+"659","Atrophy_MediatTemporal","ADNI_MEM","LMCI","b2","Tau to Cog","0",-0.00147,0.000472,-0.000525,0.000504
+"660","Atrophy_MediatTemporal","ADNI_MEM","TOTAL","b2","Tau to Cog","0",-0.000947,0.00015,-0.000381,0.000285
+"661","Atrophy_MediatTemporal","ADNI_EF","NL","b2","Tau to Cog","0",-0.00229,0.001414,-0.000325,0.000964
+"662","Atrophy_MediatTemporal","ADNI_EF","EMCI","b2","Tau to Cog","0",-0.000872,0.001958,0.000669,0.000729
+"663","Atrophy_MediatTemporal","ADNI_EF","LMCI","b2","Tau to Cog","0",-0.001934,0.001566,-0.000444,0.000917
+"664","Atrophy_MediatTemporal","ADNI_EF","TOTAL","b2","Tau to Cog","0",-0.001216,0.000936,-0.000147,0.000536
+"665","Atrophy_ParahippoGyrus","ADNI_MEM","NL","b2","Tau to Cog","0",-0.000428,0.001262,0.000429,0.000419
+"666","Atrophy_ParahippoGyrus","ADNI_MEM","EMCI","b2","Tau to Cog","0",-0.001672,0.000151,-0.000687,0.000488
+"667","Atrophy_ParahippoGyrus","ADNI_MEM","LMCI","b2","Tau to Cog","0",-0.001409,0.00052,-0.000461,0.000491
+"668","Atrophy_ParahippoGyrus","ADNI_MEM","TOTAL","b2","Tau to Cog","0",-0.000954,0.000138,-0.000373,0.000281
+"669","Atrophy_ParahippoGyrus","ADNI_EF","NL","b2","Tau to Cog","0",-0.002245,0.001514,-0.000266,0.000988
+"670","Atrophy_ParahippoGyrus","ADNI_EF","EMCI","b2","Tau to Cog","0",-0.001099,0.001619,0.000362,0.000711
+"671","Atrophy_ParahippoGyrus","ADNI_EF","LMCI","b2","Tau to Cog","0",-0.001727,0.001638,-0.000208,0.000873
+"672","Atrophy_ParahippoGyrus","ADNI_EF","TOTAL","b2","Tau to Cog","0",-0.001249,0.000891,-0.000145,0.000527
+"673","Atrophy_PostCingulate","ADNI_MEM","NL","b2","Tau to Cog","0",-0.00042,0.001276,0.000471,0.000427
+"674","Atrophy_PostCingulate","ADNI_MEM","EMCI","b2","Tau to Cog","1",-0.001834,-3.7e-05,-0.000864,0.000473
+"675","Atrophy_PostCingulate","ADNI_MEM","LMCI","b2","Tau to Cog","0",-0.001713,0.000267,-0.000699,0.000506
+"676","Atrophy_PostCingulate","ADNI_MEM","TOTAL","b2","Tau to Cog","1",-0.00124,-0.000113,-0.000647,0.000294
+"677","Atrophy_PostCingulate","ADNI_EF","NL","b2","Tau to Cog","0",-0.002359,0.001503,-0.000364,0.001014
+"678","Atrophy_PostCingulate","ADNI_EF","EMCI","b2","Tau to Cog","0",-0.001274,0.001616,0.000283,0.000735
+"679","Atrophy_PostCingulate","ADNI_EF","LMCI","b2","Tau to Cog","0",-0.001635,0.001583,-0.000143,0.000832
+"680","Atrophy_PostCingulate","ADNI_EF","TOTAL","b2","Tau to Cog","0",-0.001394,0.000697,-0.000342,0.000517
+"681","Atrophy_SLF_PT","ADNI_MEM","NL","b2","Tau to Cog","0",-0.00051,0.001292,0.00041,0.000442
+"682","Atrophy_SLF_PT","ADNI_MEM","EMCI","b2","Tau to Cog","0",-0.001833,7e-05,-0.00077,0.000499
+"683","Atrophy_SLF_PT","ADNI_MEM","LMCI","b2","Tau to Cog","0",-0.001666,0.000324,-0.00067,0.000499
+"684","Atrophy_SLF_PT","ADNI_MEM","TOTAL","b2","Tau to Cog","0",-0.001053,2.5e-05,-0.000493,0.000281
+"685","Atrophy_SLF_PT","ADNI_EF","NL","b2","Tau to Cog","0",-0.002389,0.001457,-0.000344,0.000999
+"686","Atrophy_SLF_PT","ADNI_EF","EMCI","b2","Tau to Cog","0",-0.001242,0.001617,0.000338,0.000735
+"687","Atrophy_SLF_PT","ADNI_EF","LMCI","b2","Tau to Cog","0",-0.001698,0.001495,-0.000247,0.000837
+"688","Atrophy_SLF_PT","ADNI_EF","TOTAL","b2","Tau to Cog","0",-0.001262,0.000799,-0.00021,0.000514
+"689","Atrophy_Splenium","ADNI_MEM","NL","b2","Tau to Cog","0",-0.000445,0.001293,0.000422,0.000437
+"690","Atrophy_Splenium","ADNI_MEM","EMCI","b2","Tau to Cog","1",-0.00187,-4.5e-05,-0.000864,0.000477
+"691","Atrophy_Splenium","ADNI_MEM","LMCI","b2","Tau to Cog","0",-0.001838,0.000208,-0.000783,0.000523
+"692","Atrophy_Splenium","ADNI_MEM","TOTAL","b2","Tau to Cog","1",-0.001142,-4.7e-05,-0.000562,0.000284
+"693","Atrophy_Splenium","ADNI_EF","NL","b2","Tau to Cog","0",-0.002423,0.00159,-0.00033,0.001047
+"694","Atrophy_Splenium","ADNI_EF","EMCI","b2","Tau to Cog","0",-0.001316,0.001603,0.000287,0.000743
+"695","Atrophy_Splenium","ADNI_EF","LMCI","b2","Tau to Cog","0",-0.000997,0.001737,0.000243,0.000712
+"696","Atrophy_Splenium","ADNI_EF","TOTAL","b2","Tau to Cog","0",-0.00127,0.000808,-0.000221,0.000507
+"697","Atrophy_Thalamus","ADNI_MEM","NL","b2","Tau to Cog","0",-0.000409,0.001276,0.000443,0.000426
+"698","Atrophy_Thalamus","ADNI_MEM","EMCI","b2","Tau to Cog","1",-0.001952,-2.1e-05,-0.000875,0.000498
+"699","Atrophy_Thalamus","ADNI_MEM","LMCI","b2","Tau to Cog","0",-0.001684,0.000434,-0.000626,0.000535
+"700","Atrophy_Thalamus","ADNI_MEM","TOTAL","b2","Tau to Cog","1",-0.001147,-2.5e-05,-0.000571,0.000288
+"701","Atrophy_Thalamus","ADNI_EF","NL","b2","Tau to Cog","0",-0.002425,0.001546,-0.000375,0.001021
+"702","Atrophy_Thalamus","ADNI_EF","EMCI","b2","Tau to Cog","0",-0.001296,0.001573,0.000269,0.000737
+"703","Atrophy_Thalamus","ADNI_EF","LMCI","b2","Tau to Cog","0",-0.001527,0.001829,-4.7e-05,0.000865
+"704","Atrophy_Thalamus","ADNI_EF","TOTAL","b2","Tau to Cog","0",-0.001378,0.000733,-0.000311,0.000522
+"705","Atrophy_Amygdala","ADNI_MEM","NL","bc","Tau to Atrophy to Cog","0",-0.000246,0.000142,-3.1e-05,9.3e-05
+"706","Atrophy_Amygdala","ADNI_MEM","EMCI","bc","Tau to Atrophy to Cog","0",-0.000443,0.000145,-0.000123,0.000146
+"707","Atrophy_Amygdala","ADNI_MEM","LMCI","bc","Tau to Atrophy to Cog","1",-0.001037,-2.1e-05,-0.000425,0.000255
+"708","Atrophy_Amygdala","ADNI_MEM","TOTAL","bc","Tau to Atrophy to Cog","1",-0.00059,-0.00015,-0.000351,0.000111
+"709","Atrophy_Amygdala","ADNI_EF","NL","bc","Tau to Atrophy to Cog","0",-0.000444,0.000184,-7.5e-05,0.000152
+"710","Atrophy_Amygdala","ADNI_EF","EMCI","bc","Tau to Atrophy to Cog","0",-0.000824,0.00017,-0.00021,0.000249
+"711","Atrophy_Amygdala","ADNI_EF","LMCI","bc","Tau to Atrophy to Cog","0",-0.001269,0.000166,-0.000411,0.000362
+"712","Atrophy_Amygdala","ADNI_EF","TOTAL","bc","Tau to Atrophy to Cog","1",-0.000621,-3e-05,-0.000296,0.00015
+"713","Atrophy_Entorhinal","ADNI_MEM","NL","bc","Tau to Atrophy to Cog","0",-0.000177,0.00018,4e-06,8.1e-05
+"714","Atrophy_Entorhinal","ADNI_MEM","EMCI","bc","Tau to Atrophy to Cog","0",-0.000484,0.000127,-0.00014,0.000153
+"715","Atrophy_Entorhinal","ADNI_MEM","LMCI","bc","Tau to Atrophy to Cog","0",-0.000664,9.7e-05,-0.000203,0.000201
+"716","Atrophy_Entorhinal","ADNI_MEM","TOTAL","bc","Tau to Atrophy to Cog","1",-0.000376,-4.2e-05,-0.000191,8.7e-05
+"717","Atrophy_Entorhinal","ADNI_EF","NL","bc","Tau to Atrophy to Cog","0",-0.000267,0.00037,2.9e-05,0.000152
+"718","Atrophy_Entorhinal","ADNI_EF","EMCI","bc","Tau to Atrophy to Cog","0",-0.001179,2.2e-05,-0.000455,0.000316
+"719","Atrophy_Entorhinal","ADNI_EF","LMCI","bc","Tau to Atrophy to Cog","0",-0.000804,0.000121,-0.000179,0.000238
+"720","Atrophy_Entorhinal","ADNI_EF","TOTAL","bc","Tau to Atrophy to Cog","1",-0.000472,-3.6e-05,-0.000214,0.000113
+"721","Atrophy_Hippocampus","ADNI_MEM","NL","bc","Tau to Atrophy to Cog","0",-0.000217,0.000147,-1.3e-05,8.4e-05
+"722","Atrophy_Hippocampus","ADNI_MEM","EMCI","bc","Tau to Atrophy to Cog","0",-0.000393,0.000215,-0.000101,0.000151
+"723","Atrophy_Hippocampus","ADNI_MEM","LMCI","bc","Tau to Atrophy to Cog","0",-0.000778,4.8e-05,-0.000257,0.000207
+"724","Atrophy_Hippocampus","ADNI_MEM","TOTAL","bc","Tau to Atrophy to Cog","1",-0.000452,-5.9e-05,-0.000234,0.000102
+"725","Atrophy_Hippocampus","ADNI_EF","NL","bc","Tau to Atrophy to Cog","0",-0.000219,0.000194,-9e-06,9.7e-05
+"726","Atrophy_Hippocampus","ADNI_EF","EMCI","bc","Tau to Atrophy to Cog","0",-0.000597,0.000263,-0.000109,0.000199
+"727","Atrophy_Hippocampus","ADNI_EF","LMCI","bc","Tau to Atrophy to Cog","0",-0.000525,0.000458,-3.9e-05,0.000229
+"728","Atrophy_Hippocampus","ADNI_EF","TOTAL","bc","Tau to Atrophy to Cog","0",-0.000336,4.9e-05,-0.000107,9.8e-05
+"729","Atrophy_Insula","ADNI_MEM","NL","bc","Tau to Atrophy to Cog","0",-0.000148,0.000131,-1e-06,6.5e-05
+"730","Atrophy_Insula","ADNI_MEM","EMCI","bc","Tau to Atrophy to Cog","0",-0.000132,0.000102,-7e-06,5.3e-05
+"731","Atrophy_Insula","ADNI_MEM","LMCI","bc","Tau to Atrophy to Cog","0",-0.000518,0.000409,-5.6e-05,0.000229
+"732","Atrophy_Insula","ADNI_MEM","TOTAL","bc","Tau to Atrophy to Cog","0",-0.000144,3.9e-05,-4.1e-05,4.6e-05
+"733","Atrophy_Insula","ADNI_EF","NL","bc","Tau to Atrophy to Cog","0",-0.000296,0.000115,-3.8e-05,0.000105
+"734","Atrophy_Insula","ADNI_EF","EMCI","bc","Tau to Atrophy to Cog","0",-0.000158,0.000127,-4e-06,7.2e-05
+"735","Atrophy_Insula","ADNI_EF","LMCI","bc","Tau to Atrophy to Cog","0",-0.001369,0.000165,-0.000477,0.000388
+"736","Atrophy_Insula","ADNI_EF","TOTAL","bc","Tau to Atrophy to Cog","0",-0.000218,5.4e-05,-6.1e-05,7e-05
+"737","Atrophy_LateralTemporal","ADNI_MEM","NL","bc","Tau to Atrophy to Cog","0",-6.5e-05,0.000184,2.4e-05,6.8e-05
+"738","Atrophy_LateralTemporal","ADNI_MEM","EMCI","bc","Tau to Atrophy to Cog","1",-0.000813,-3.2e-05,-0.000354,0.000204
+"739","Atrophy_LateralTemporal","ADNI_MEM","LMCI","bc","Tau to Atrophy to Cog","1",-0.001253,-7.9e-05,-0.000598,0.000293
+"740","Atrophy_LateralTemporal","ADNI_MEM","TOTAL","bc","Tau to Atrophy to Cog","1",-0.000703,-0.000195,-0.000432,0.000131
+"741","Atrophy_LateralTemporal","ADNI_EF","NL","bc","Tau to Atrophy to Cog","0",-0.000155,0.000197,8e-06,8.5e-05
+"742","Atrophy_LateralTemporal","ADNI_EF","EMCI","bc","Tau to Atrophy to Cog","0",-0.000639,8.8e-05,-0.000191,0.000187
+"743","Atrophy_LateralTemporal","ADNI_EF","LMCI","bc","Tau to Atrophy to Cog","0",-0.001803,7.4e-05,-0.000745,0.000477
+"744","Atrophy_LateralTemporal","ADNI_EF","TOTAL","bc","Tau to Atrophy to Cog","1",-0.000704,-8.2e-05,-0.000358,0.000166
+"745","Atrophy_MediatTemporal","ADNI_MEM","NL","bc","Tau to Atrophy to Cog","0",-0.00019,0.00013,-1.1e-05,7.3e-05
+"746","Atrophy_MediatTemporal","ADNI_MEM","EMCI","bc","Tau to Atrophy to Cog","0",-0.000579,5.3e-05,-0.000218,0.000162
+"747","Atrophy_MediatTemporal","ADNI_MEM","LMCI","bc","Tau to Atrophy to Cog","1",-0.000847,-3.3e-05,-0.00035,0.000207
+"748","Atrophy_MediatTemporal","ADNI_MEM","TOTAL","bc","Tau to Atrophy to Cog","1",-0.000511,-0.000127,-0.000306,9.9e-05
+"749","Atrophy_MediatTemporal","ADNI_EF","NL","bc","Tau to Atrophy to Cog","0",-0.000371,0.000302,-3e-05,0.000156
+"750","Atrophy_MediatTemporal","ADNI_EF","EMCI","bc","Tau to Atrophy to Cog","0",-0.001134,6.3e-05,-0.000392,0.000311
+"751","Atrophy_MediatTemporal","ADNI_EF","LMCI","bc","Tau to Atrophy to Cog","0",-0.001173,1e-05,-0.000386,0.000302
+"752","Atrophy_MediatTemporal","ADNI_EF","TOTAL","bc","Tau to Atrophy to Cog","1",-0.000625,-0.000103,-0.000323,0.000136
+"753","Atrophy_ParahippoGyrus","ADNI_MEM","NL","bc","Tau to Atrophy to Cog","0",-0.00012,0.000165,1.6e-05,6.9e-05
+"754","Atrophy_ParahippoGyrus","ADNI_MEM","EMCI","bc","Tau to Atrophy to Cog","0",-0.000506,5.3e-05,-0.000178,0.000141
+"755","Atrophy_ParahippoGyrus","ADNI_MEM","LMCI","bc","Tau to Atrophy to Cog","1",-0.000918,-7.5e-05,-0.000413,0.000215
+"756","Atrophy_ParahippoGyrus","ADNI_MEM","TOTAL","bc","Tau to Atrophy to Cog","1",-0.000513,-0.000147,-0.000313,9.8e-05
+"757","Atrophy_ParahippoGyrus","ADNI_EF","NL","bc","Tau to Atrophy to Cog","0",-0.000418,0.000173,-8.7e-05,0.000142
+"758","Atrophy_ParahippoGyrus","ADNI_EF","EMCI","bc","Tau to Atrophy to Cog","0",-0.000524,0.000244,-8.6e-05,0.000185
+"759","Atrophy_ParahippoGyrus","ADNI_EF","LMCI","bc","Tau to Atrophy to Cog","1",-0.001456,-8.9e-05,-0.000585,0.000347
+"760","Atrophy_ParahippoGyrus","ADNI_EF","TOTAL","bc","Tau to Atrophy to Cog","1",-0.000638,-8.1e-05,-0.000313,0.000142
+"761","Atrophy_PostCingulate","ADNI_MEM","NL","bc","Tau to Atrophy to Cog","0",-0.000174,9.7e-05,-2.5e-05,7.1e-05
+"762","Atrophy_PostCingulate","ADNI_MEM","EMCI","bc","Tau to Atrophy to Cog","0",-0.000155,0.000148,-3e-06,6.9e-05
+"763","Atrophy_PostCingulate","ADNI_MEM","LMCI","bc","Tau to Atrophy to Cog","0",-0.000598,0.000177,-0.000177,0.000197
+"764","Atrophy_PostCingulate","ADNI_MEM","TOTAL","bc","Tau to Atrophy to Cog","0",-0.000147,4e-05,-4.1e-05,4.9e-05
+"765","Atrophy_PostCingulate","ADNI_EF","NL","bc","Tau to Atrophy to Cog","0",-0.000217,0.000256,1.1e-05,0.000113
+"766","Atrophy_PostCingulate","ADNI_EF","EMCI","bc","Tau to Atrophy to Cog","0",-0.000202,0.000166,-7e-06,8.9e-05
+"767","Atrophy_PostCingulate","ADNI_EF","LMCI","bc","Tau to Atrophy to Cog","0",-0.001693,2.8e-05,-0.000683,0.000455
+"768","Atrophy_PostCingulate","ADNI_EF","TOTAL","bc","Tau to Atrophy to Cog","0",-0.000336,8e-06,-0.000123,9.3e-05
+"769","Atrophy_SLF_PT","ADNI_MEM","NL","bc","Tau to Atrophy to Cog","0",-7.2e-05,0.000237,3.6e-05,7.9e-05
+"770","Atrophy_SLF_PT","ADNI_MEM","EMCI","bc","Tau to Atrophy to Cog","0",-0.000411,0.000135,-9.7e-05,0.00013
+"771","Atrophy_SLF_PT","ADNI_MEM","LMCI","bc","Tau to Atrophy to Cog","0",-0.000639,0.000118,-0.000202,0.000199
+"772","Atrophy_SLF_PT","ADNI_MEM","TOTAL","bc","Tau to Atrophy to Cog","1",-0.000381,-4.8e-05,-0.000193,8.9e-05
+"773","Atrophy_SLF_PT","ADNI_EF","NL","bc","Tau to Atrophy to Cog","0",-0.000262,0.000227,-1.1e-05,0.000116
+"774","Atrophy_SLF_PT","ADNI_EF","EMCI","bc","Tau to Atrophy to Cog","0",-0.000369,0.000129,-6.2e-05,0.000125
+"775","Atrophy_SLF_PT","ADNI_EF","LMCI","bc","Tau to Atrophy to Cog","0",-0.001509,6e-05,-0.000538,0.000402
+"776","Atrophy_SLF_PT","ADNI_EF","TOTAL","bc","Tau to Atrophy to Cog","1",-0.000534,-3.9e-05,-0.000248,0.000131
+"777","Atrophy_Splenium","ADNI_MEM","NL","bc","Tau to Atrophy to Cog","0",-0.00015,0.000252,2.4e-05,0.000103
+"778","Atrophy_Splenium","ADNI_MEM","EMCI","bc","Tau to Atrophy to Cog","0",-0.000153,0.000175,-2e-06,7.9e-05
+"779","Atrophy_Splenium","ADNI_MEM","LMCI","bc","Tau to Atrophy to Cog","0",-0.00059,0.000421,-9.4e-05,0.000248
+"780","Atrophy_Splenium","ADNI_MEM","TOTAL","bc","Tau to Atrophy to Cog","1",-0.000285,-8e-06,-0.000126,7.2e-05
+"781","Atrophy_Splenium","ADNI_EF","NL","bc","Tau to Atrophy to Cog","0",-0.000364,0.000293,-2.2e-05,0.000151
+"782","Atrophy_Splenium","ADNI_EF","EMCI","bc","Tau to Atrophy to Cog","0",-0.000195,0.000147,-1.1e-05,8.6e-05
+"783","Atrophy_Splenium","ADNI_EF","LMCI","bc","Tau to Atrophy to Cog","1",-0.002158,-0.000247,-0.00107,0.000483
+"784","Atrophy_Splenium","ADNI_EF","TOTAL","bc","Tau to Atrophy to Cog","1",-0.000562,-2.1e-05,-0.000249,0.000143
+"785","Atrophy_Thalamus","ADNI_MEM","NL","bc","Tau to Atrophy to Cog","0",-0.00013,0.000163,3e-06,7.7e-05
+"786","Atrophy_Thalamus","ADNI_MEM","EMCI","bc","Tau to Atrophy to Cog","0",-0.000186,0.000277,8e-06,0.000105
+"787","Atrophy_Thalamus","ADNI_MEM","LMCI","bc","Tau to Atrophy to Cog","0",-0.000794,0.000202,-0.000249,0.000241
+"788","Atrophy_Thalamus","ADNI_MEM","TOTAL","bc","Tau to Atrophy to Cog","1",-0.000261,-1.3e-05,-0.000117,6.6e-05
+"789","Atrophy_Thalamus","ADNI_EF","NL","bc","Tau to Atrophy to Cog","0",-0.000158,0.000246,2.1e-05,0.000102
+"790","Atrophy_Thalamus","ADNI_EF","EMCI","bc","Tau to Atrophy to Cog","0",-0.000165,0.000203,7e-06,8.7e-05
+"791","Atrophy_Thalamus","ADNI_EF","LMCI","bc","Tau to Atrophy to Cog","1",-0.001764,-0.000173,-0.000807,0.00041
+"792","Atrophy_Thalamus","ADNI_EF","TOTAL","bc","Tau to Atrophy to Cog","1",-0.000379,-1.6e-05,-0.000161,9.3e-05
+"793","Atrophy_Amygdala","ADNI_MEM","NL","c","Atrophy to Cog","0",-1.723168,3.300823,0.754351,1.274179
+"794","Atrophy_Amygdala","ADNI_MEM","EMCI","c","Atrophy to Cog","0",-0.65328,4.869817,2.054867,1.397059
+"795","Atrophy_Amygdala","ADNI_MEM","LMCI","c","Atrophy to Cog","1",0.209646,5.103698,2.546439,1.263263
+"796","Atrophy_Amygdala","ADNI_MEM","TOTAL","c","Atrophy to Cog","1",1.593437,4.17804,2.868923,0.70159
+"797","Atrophy_Amygdala","ADNI_EF","NL","c","Atrophy to Cog","0",-2.062757,5.237706,1.500901,1.90253
+"798","Atrophy_Amygdala","ADNI_EF","EMCI","c","Atrophy to Cog","0",-2.026869,6.954997,2.811739,2.299932
+"799","Atrophy_Amygdala","ADNI_EF","LMCI","c","Atrophy to Cog","0",-1.110328,6.156116,2.418493,1.824594
+"800","Atrophy_Amygdala","ADNI_EF","TOTAL","c","Atrophy to Cog","1",0.249983,4.556521,2.404535,1.0945
+"801","Atrophy_Entorhinal","ADNI_MEM","NL","c","Atrophy to Cog","0",-1.181004,2.291948,0.678382,0.88587
+"802","Atrophy_Entorhinal","ADNI_MEM","EMCI","c","Atrophy to Cog","0",-0.853611,3.104458,1.140525,1.0048
+"803","Atrophy_Entorhinal","ADNI_MEM","LMCI","c","Atrophy to Cog","1",0.409417,4.094483,2.226305,0.940666
+"804","Atrophy_Entorhinal","ADNI_MEM","TOTAL","c","Atrophy to Cog","1",0.957383,2.903133,1.96088,0.49145
+"805","Atrophy_Entorhinal","ADNI_EF","NL","c","Atrophy to Cog","0",-0.124665,4.337347,1.932718,1.170764
+"806","Atrophy_Entorhinal","ADNI_EF","EMCI","c","Atrophy to Cog","1",0.344118,6.292726,3.415987,1.53435
+"807","Atrophy_Entorhinal","ADNI_EF","LMCI","c","Atrophy to Cog","0",-1.042038,4.678816,1.826353,1.396288
+"808","Atrophy_Entorhinal","ADNI_EF","TOTAL","c","Atrophy to Cog","1",0.829001,3.697909,2.182236,0.740374
+"809","Atrophy_Hippocampus","ADNI_MEM","NL","c","Atrophy to Cog","0",-2.838404,4.039608,0.636221,1.787843
+"810","Atrophy_Hippocampus","ADNI_MEM","EMCI","c","Atrophy to Cog","1",0.806426,5.238512,2.9817,1.140007
+"811","Atrophy_Hippocampus","ADNI_MEM","LMCI","c","Atrophy to Cog","1",0.347487,6.202886,2.971451,1.499498
+"812","Atrophy_Hippocampus","ADNI_MEM","TOTAL","c","Atrophy to Cog","1",1.974644,4.591134,3.269041,0.657313
+"813","Atrophy_Hippocampus","ADNI_EF","NL","c","Atrophy to Cog","0",-1.793789,5.901324,1.601257,1.922362
+"814","Atrophy_Hippocampus","ADNI_EF","EMCI","c","Atrophy to Cog","0",-1.202389,8.184142,3.024497,2.379945
+"815","Atrophy_Hippocampus","ADNI_EF","LMCI","c","Atrophy to Cog","0",-3.765445,4.846265,0.580506,2.202667
+"816","Atrophy_Hippocampus","ADNI_EF","TOTAL","c","Atrophy to Cog","0",-0.753138,3.894139,1.505668,1.200372
+"817","Atrophy_Insula","ADNI_MEM","NL","c","Atrophy to Cog","0",-3.375584,1.946629,-1.05653,1.388994
+"818","Atrophy_Insula","ADNI_MEM","EMCI","c","Atrophy to Cog","0",-3.333234,2.368891,-0.466242,1.450413
+"819","Atrophy_Insula","ADNI_MEM","LMCI","c","Atrophy to Cog","0",-2.793242,3.429144,0.395267,1.585661
+"820","Atrophy_Insula","ADNI_MEM","TOTAL","c","Atrophy to Cog","0",-0.865702,2.416082,0.838423,0.821839
+"821","Atrophy_Insula","ADNI_EF","NL","c","Atrophy to Cog","0",-5.489535,2.935193,-1.425788,2.167711
+"822","Atrophy_Insula","ADNI_EF","EMCI","c","Atrophy to Cog","0",-3.346016,4.076495,0.138014,1.887663
+"823","Atrophy_Insula","ADNI_EF","LMCI","c","Atrophy to Cog","0",-1.336836,8.456642,3.333685,2.487942
+"824","Atrophy_Insula","ADNI_EF","TOTAL","c","Atrophy to Cog","0",-1.257542,3.710744,1.216827,1.241646
+"825","Atrophy_LateralTemporal","ADNI_MEM","NL","c","Atrophy to Cog","0",-1.758816,3.401638,0.523999,1.33693
+"826","Atrophy_LateralTemporal","ADNI_MEM","EMCI","c","Atrophy to Cog","1",1.774625,6.536592,4.280935,1.259157
+"827","Atrophy_LateralTemporal","ADNI_MEM","LMCI","c","Atrophy to Cog","1",0.309888,4.139606,2.296142,0.987297
+"828","Atrophy_LateralTemporal","ADNI_MEM","TOTAL","c","Atrophy to Cog","1",1.985923,4.489074,3.267174,0.63686
+"829","Atrophy_LateralTemporal","ADNI_EF","NL","c","Atrophy to Cog","0",-2.617689,5.708544,1.083195,2.128592
+"830","Atrophy_LateralTemporal","ADNI_EF","EMCI","c","Atrophy to Cog","0",-1.383964,5.850412,2.231677,1.806349
+"831","Atrophy_LateralTemporal","ADNI_EF","LMCI","c","Atrophy to Cog","0",-0.292057,6.32704,2.857263,1.655787
+"832","Atrophy_LateralTemporal","ADNI_EF","TOTAL","c","Atrophy to Cog","1",0.697049,4.794296,2.687094,1.048508
+"833","Atrophy_MediatTemporal","ADNI_MEM","NL","c","Atrophy to Cog","0",-2.098033,3.160042,0.60001,1.371859
+"834","Atrophy_MediatTemporal","ADNI_MEM","EMCI","c","Atrophy to Cog","0",-0.371362,5.039153,2.346662,1.344363
+"835","Atrophy_MediatTemporal","ADNI_MEM","LMCI","c","Atrophy to Cog","1",1.035368,5.605061,3.29375,1.168887
+"836","Atrophy_MediatTemporal","ADNI_MEM","TOTAL","c","Atrophy to Cog","1",1.835081,4.442845,3.123659,0.656476
+"837","Atrophy_MediatTemporal","ADNI_EF","NL","c","Atrophy to Cog","0",-0.217968,6.879063,3.024794,1.80793
+"838","Atrophy_MediatTemporal","ADNI_EF","EMCI","c","Atrophy to Cog","0",-0.69347,8.523047,3.945087,2.395138
+"839","Atrophy_MediatTemporal","ADNI_EF","LMCI","c","Atrophy to Cog","1",0.027427,7.066711,3.486704,1.793397
+"840","Atrophy_MediatTemporal","ADNI_EF","TOTAL","c","Atrophy to Cog","1",1.307945,5.429653,3.276774,1.063385
+"841","Atrophy_ParahippoGyrus","ADNI_MEM","NL","c","Atrophy to Cog","0",-3.103174,2.9823,-0.414495,1.563479
+"842","Atrophy_ParahippoGyrus","ADNI_MEM","EMCI","c","Atrophy to Cog","1",0.111859,6.291548,2.844963,1.534097
+"843","Atrophy_ParahippoGyrus","ADNI_MEM","LMCI","c","Atrophy to Cog","1",1.158753,6.686601,3.609955,1.378761
+"844","Atrophy_ParahippoGyrus","ADNI_MEM","TOTAL","c","Atrophy to Cog","1",1.82501,4.879357,3.294567,0.792777
+"845","Atrophy_ParahippoGyrus","ADNI_EF","NL","c","Atrophy to Cog","0",-0.829997,8.462437,3.191039,2.353172
+"846","Atrophy_ParahippoGyrus","ADNI_EF","EMCI","c","Atrophy to Cog","0",-3.465056,6.234759,1.225087,2.455681
+"847","Atrophy_ParahippoGyrus","ADNI_EF","LMCI","c","Atrophy to Cog","1",1.344645,9.358258,4.966687,1.992109
+"848","Atrophy_ParahippoGyrus","ADNI_EF","TOTAL","c","Atrophy to Cog","1",1.084655,5.848224,3.261322,1.244676
+"849","Atrophy_PostCingulate","ADNI_MEM","NL","c","Atrophy to Cog","0",-2.174125,1.008876,-0.777981,0.830515
+"850","Atrophy_PostCingulate","ADNI_MEM","EMCI","c","Atrophy to Cog","0",-2.197934,3.077445,0.374169,1.313338
+"851","Atrophy_PostCingulate","ADNI_MEM","LMCI","c","Atrophy to Cog","0",-1.086206,3.787568,1.176231,1.197691
+"852","Atrophy_PostCingulate","ADNI_MEM","TOTAL","c","Atrophy to Cog","0",-0.50787,2.141397,0.736941,0.683957
+"853","Atrophy_PostCingulate","ADNI_EF","NL","c","Atrophy to Cog","0",-2.333428,3.63616,0.479672,1.574859
+"854","Atrophy_PostCingulate","ADNI_EF","EMCI","c","Atrophy to Cog","0",-2.040441,4.034389,0.85684,1.557767
+"855","Atrophy_PostCingulate","ADNI_EF","LMCI","c","Atrophy to Cog","0",-0.070671,8.014817,4.2521,2.10266
+"856","Atrophy_PostCingulate","ADNI_EF","TOTAL","c","Atrophy to Cog","1",0.076441,3.981141,2.048678,1.013399
+"857","Atrophy_SLF_PT","ADNI_MEM","NL","c","Atrophy to Cog","0",-3.549036,2.183378,-0.675434,1.478946
+"858","Atrophy_SLF_PT","ADNI_MEM","EMCI","c","Atrophy to Cog","0",-0.213808,6.772613,3.503215,1.788116
+"859","Atrophy_SLF_PT","ADNI_MEM","LMCI","c","Atrophy to Cog","0",-1.244383,4.871638,1.941827,1.540046
+"860","Atrophy_SLF_PT","ADNI_MEM","TOTAL","c","Atrophy to Cog","1",1.004625,4.675483,2.77811,0.911125
+"861","Atrophy_SLF_PT","ADNI_EF","NL","c","Atrophy to Cog","0",-2.700674,7.268963,1.588838,2.574364
+"862","Atrophy_SLF_PT","ADNI_EF","EMCI","c","Atrophy to Cog","0",-3.267519,6.511078,1.624816,2.548085
+"863","Atrophy_SLF_PT","ADNI_EF","LMCI","c","Atrophy to Cog","1",0.043871,10.770846,5.354055,2.736396
+"864","Atrophy_SLF_PT","ADNI_EF","TOTAL","c","Atrophy to Cog","1",0.784815,6.68224,3.570224,1.515661
+"865","Atrophy_Splenium","ADNI_MEM","NL","c","Atrophy to Cog","0",-3.161454,4.152901,0.255733,1.88296
+"866","Atrophy_Splenium","ADNI_MEM","EMCI","c","Atrophy to Cog","0",-2.592186,5.063016,1.900287,1.954102
+"867","Atrophy_Splenium","ADNI_MEM","LMCI","c","Atrophy to Cog","0",-2.140589,3.749196,0.702247,1.540901
+"868","Atrophy_Splenium","ADNI_MEM","TOTAL","c","Atrophy to Cog","1",0.263308,4.116592,2.218444,0.978761
+"869","Atrophy_Splenium","ADNI_EF","NL","c","Atrophy to Cog","0",-6.231443,5.372846,-0.634111,2.988737
+"870","Atrophy_Splenium","ADNI_EF","EMCI","c","Atrophy to Cog","0",-3.010424,6.444717,1.730604,2.360357
+"871","Atrophy_Splenium","ADNI_EF","LMCI","c","Atrophy to Cog","1",3.031835,9.895034,6.617068,1.710515
+"872","Atrophy_Splenium","ADNI_EF","TOTAL","c","Atrophy to Cog","1",1.220305,6.577838,4.056744,1.355201
+"873","Atrophy_Thalamus","ADNI_MEM","NL","c","Atrophy to Cog","0",-3.393379,2.734614,-0.504141,1.593676
+"874","Atrophy_Thalamus","ADNI_MEM","EMCI","c","Atrophy to Cog","0",-1.247668,5.579705,2.13207,1.750274
+"875","Atrophy_Thalamus","ADNI_MEM","LMCI","c","Atrophy to Cog","0",-1.366798,4.754312,1.787167,1.533639
+"876","Atrophy_Thalamus","ADNI_MEM","TOTAL","c","Atrophy to Cog","1",0.462573,4.039372,2.156678,0.892678
+"877","Atrophy_Thalamus","ADNI_EF","NL","c","Atrophy to Cog","0",-3.275958,5.56122,0.936351,2.29007
+"878","Atrophy_Thalamus","ADNI_EF","EMCI","c","Atrophy to Cog","0",-2.758821,5.521079,0.808596,2.111274
+"879","Atrophy_Thalamus","ADNI_EF","LMCI","c","Atrophy to Cog","1",1.528401,9.521307,5.631043,1.943153
+"880","Atrophy_Thalamus","ADNI_EF","TOTAL","c","Atrophy to Cog","1",0.648555,5.435467,2.939782,1.21201
+"881","Atrophy_Amygdala","ADNI_MEM","NL","C1","C1 = ab2-abc","0",-0.000314,4.4e-05,-7.8e-05,9.1e-05
+"882","Atrophy_Amygdala","ADNI_MEM","EMCI","C1","C1 = ab2-abc","0",-0.000191,0.000663,0.000226,0.000213
+"883","Atrophy_Amygdala","ADNI_MEM","LMCI","C1","C1 = ab2-abc","0",-0.000783,0.000732,1.4e-05,0.000393
+"884","Atrophy_Amygdala","ADNI_MEM","TOTAL","C1","C1 = ab2-abc","0",-0.00023,0.000213,-9e-06,0.000112
+"885","Atrophy_Amygdala","ADNI_EF","NL","C1","C1 = ab2-abc","0",-0.000329,0.000413,1.8e-05,0.000173
+"886","Atrophy_Amygdala","ADNI_EF","EMCI","C1","C1 = ab2-abc","0",-0.001192,0.000271,-0.000335,0.00038
+"887","Atrophy_Amygdala","ADNI_EF","LMCI","C1","C1 = ab2-abc","0",-0.001509,0.001159,2.7e-05,0.000698
+"888","Atrophy_Amygdala","ADNI_EF","TOTAL","C1","C1 = ab2-abc","0",-0.000494,0.000357,-4.8e-05,0.000217
+"889","Atrophy_Entorhinal","ADNI_MEM","NL","C1","C1 = ab2-abc","0",-3e-04,5e-05,-7e-05,8.9e-05
+"890","Atrophy_Entorhinal","ADNI_MEM","EMCI","C1","C1 = ab2-abc","0",-0.00023,0.000667,0.000213,0.000223
+"891","Atrophy_Entorhinal","ADNI_MEM","LMCI","C1","C1 = ab2-abc","0",-0.000507,0.001044,0.000302,0.000411
+"892","Atrophy_Entorhinal","ADNI_MEM","TOTAL","C1","C1 = ab2-abc","0",-0.000118,0.000341,0.00011,0.000118
+"893","Atrophy_Entorhinal","ADNI_EF","NL","C1","C1 = ab2-abc","0",-0.000229,0.000424,5e-05,0.000155
+"894","Atrophy_Entorhinal","ADNI_EF","EMCI","C1","C1 = ab2-abc","0",-0.001462,0.00014,-0.000523,0.000412
+"895","Atrophy_Entorhinal","ADNI_EF","LMCI","C1","C1 = ab2-abc","0",-0.001177,0.001499,0.000321,0.000686
+"896","Atrophy_Entorhinal","ADNI_EF","TOTAL","C1","C1 = ab2-abc","0",-4e-04,0.000404,1.3e-05,0.000211
+"897","Atrophy_Hippocampus","ADNI_MEM","NL","C1","C1 = ab2-abc","0",-0.000299,5e-05,-7.3e-05,8.8e-05
+"898","Atrophy_Hippocampus","ADNI_MEM","EMCI","C1","C1 = ab2-abc","0",-9.4e-05,0.000624,0.000241,0.000183
+"899","Atrophy_Hippocampus","ADNI_MEM","LMCI","C1","C1 = ab2-abc","0",-0.00051,0.000853,0.000228,0.000351
+"900","Atrophy_Hippocampus","ADNI_MEM","TOTAL","C1","C1 = ab2-abc","0",-0.000138,0.000294,7.8e-05,0.000108
+"901","Atrophy_Hippocampus","ADNI_EF","NL","C1","C1 = ab2-abc","0",-0.00027,0.000451,4e-05,0.000168
+"902","Atrophy_Hippocampus","ADNI_EF","EMCI","C1","C1 = ab2-abc","0",-0.001062,0.000388,-0.000241,0.00038
+"903","Atrophy_Hippocampus","ADNI_EF","LMCI","C1","C1 = ab2-abc","0",-0.000916,0.001579,0.000468,6e-04
+"904","Atrophy_Hippocampus","ADNI_EF","TOTAL","C1","C1 = ab2-abc","0",-0.000331,0.000488,8.8e-05,0.000206
+"905","Atrophy_Insula","ADNI_MEM","NL","C1","C1 = ab2-abc","0",-0.000297,5.5e-05,-7.1e-05,9.1e-05
+"906","Atrophy_Insula","ADNI_MEM","EMCI","C1","C1 = ab2-abc","1",2.8e-05,0.000715,0.000323,0.000179
+"907","Atrophy_Insula","ADNI_MEM","LMCI","C1","C1 = ab2-abc","0",-0.000371,0.001425,0.000486,0.000424
+"908","Atrophy_Insula","ADNI_MEM","TOTAL","C1","C1 = ab2-abc","1",3.3e-05,0.000441,0.000219,0.000108
+"909","Atrophy_Insula","ADNI_EF","NL","C1","C1 = ab2-abc","0",-0.000297,0.000442,3.3e-05,0.000172
+"910","Atrophy_Insula","ADNI_EF","EMCI","C1","C1 = ab2-abc","0",-0.000871,0.000372,-0.000155,0.000321
+"911","Atrophy_Insula","ADNI_EF","LMCI","C1","C1 = ab2-abc","0",-0.001666,0.001174,-7.8e-05,0.000733
+"912","Atrophy_Insula","ADNI_EF","TOTAL","C1","C1 = ab2-abc","0",-0.000281,0.000499,0.000119,0.000193
+"913","Atrophy_LateralTemporal","ADNI_MEM","NL","C1","C1 = ab2-abc","0",-0.000291,5.9e-05,-6.4e-05,8.9e-05
+"914","Atrophy_LateralTemporal","ADNI_MEM","EMCI","C1","C1 = ab2-abc","0",-0.000435,0.000448,4.1e-05,0.00022
+"915","Atrophy_LateralTemporal","ADNI_MEM","LMCI","C1","C1 = ab2-abc","0",-0.001019,0.000612,-0.000208,0.000415
+"916","Atrophy_LateralTemporal","ADNI_MEM","TOTAL","C1","C1 = ab2-abc","0",-0.000281,0.000139,-6.9e-05,0.000105
+"917","Atrophy_LateralTemporal","ADNI_EF","NL","C1","C1 = ab2-abc","0",-0.00025,0.00045,4.5e-05,0.000166
+"918","Atrophy_LateralTemporal","ADNI_EF","EMCI","C1","C1 = ab2-abc","0",-0.001087,0.000268,-0.000314,0.00034
+"919","Atrophy_LateralTemporal","ADNI_EF","LMCI","C1","C1 = ab2-abc","0",-0.002172,0.001026,-0.000416,0.000797
+"920","Atrophy_LateralTemporal","ADNI_EF","TOTAL","C1","C1 = ab2-abc","0",-0.000517,0.000314,-9.9e-05,0.000212
+"921","Atrophy_MediatTemporal","ADNI_MEM","NL","C1","C1 = ab2-abc","0",-0.000307,4.9e-05,-7.3e-05,8.8e-05
+"922","Atrophy_MediatTemporal","ADNI_MEM","EMCI","C1","C1 = ab2-abc","0",-0.000315,0.000618,0.000148,0.000227
+"923","Atrophy_MediatTemporal","ADNI_MEM","LMCI","C1","C1 = ab2-abc","0",-0.000631,0.000775,0.000114,0.000381
+"924","Atrophy_MediatTemporal","ADNI_MEM","TOTAL","C1","C1 = ab2-abc","0",-0.000201,0.000256,2.5e-05,0.000116
+"925","Atrophy_MediatTemporal","ADNI_EF","NL","C1","C1 = ab2-abc","0",-0.000258,0.000399,3.2e-05,0.000154
+"926","Atrophy_MediatTemporal","ADNI_EF","EMCI","C1","C1 = ab2-abc","0",-0.001401,0.000177,-0.000475,0.000412
+"927","Atrophy_MediatTemporal","ADNI_EF","LMCI","C1","C1 = ab2-abc","0",-0.00149,0.001227,5.8e-05,0.000704
+"928","Atrophy_MediatTemporal","ADNI_EF","TOTAL","C1","C1 = ab2-abc","0",-0.000498,0.000331,-6.9e-05,0.000213
+"929","Atrophy_ParahippoGyrus","ADNI_MEM","NL","C1","C1 = ab2-abc","0",-0.000284,4.8e-05,-6.5e-05,8.4e-05
+"930","Atrophy_ParahippoGyrus","ADNI_MEM","EMCI","C1","C1 = ab2-abc","0",-0.000233,0.00061,0.000178,0.000203
+"931","Atrophy_ParahippoGyrus","ADNI_MEM","LMCI","C1","C1 = ab2-abc","0",-0.000683,0.000768,3.5e-05,0.000374
+"932","Atrophy_ParahippoGyrus","ADNI_MEM","TOTAL","C1","C1 = ab2-abc","0",-0.000204,0.000249,1.8e-05,0.000112
+"933","Atrophy_ParahippoGyrus","ADNI_EF","NL","C1","C1 = ab2-abc","0",-0.000307,0.000389,1.7e-05,0.00016
+"934","Atrophy_ParahippoGyrus","ADNI_EF","EMCI","C1","C1 = ab2-abc","0",-0.000913,0.000316,-0.000222,0.000321
+"935","Atrophy_ParahippoGyrus","ADNI_EF","LMCI","C1","C1 = ab2-abc","0",-0.001738,0.000948,-0.000219,0.000665
+"936","Atrophy_ParahippoGyrus","ADNI_EF","TOTAL","C1","C1 = ab2-abc","0",-0.000492,0.000337,-6.7e-05,0.000208
+"937","Atrophy_PostCingulate","ADNI_MEM","NL","C1","C1 = ab2-abc","0",-0.000323,4.7e-05,-7.8e-05,9.4e-05
+"938","Atrophy_PostCingulate","ADNI_MEM","EMCI","C1","C1 = ab2-abc","0",0,0.000715,0.000327,0.000187
+"939","Atrophy_PostCingulate","ADNI_MEM","LMCI","C1","C1 = ab2-abc","0",-0.000436,0.001136,0.000333,0.000386
+"940","Atrophy_PostCingulate","ADNI_MEM","TOTAL","C1","C1 = ab2-abc","1",2.9e-05,0.000445,0.000219,0.00011
+"941","Atrophy_PostCingulate","ADNI_EF","NL","C1","C1 = ab2-abc","0",-0.000265,0.000442,4.7e-05,0.000169
+"942","Atrophy_PostCingulate","ADNI_EF","EMCI","C1","C1 = ab2-abc","0",-0.000873,0.000368,-0.000159,0.000319
+"943","Atrophy_PostCingulate","ADNI_EF","LMCI","C1","C1 = ab2-abc","0",-0.001753,0.000871,-0.000343,0.000702
+"944","Atrophy_PostCingulate","ADNI_EF","TOTAL","C1","C1 = ab2-abc","0",-0.000331,0.000434,7.4e-05,0.000191
+"945","Atrophy_SLF_PT","ADNI_MEM","NL","C1","C1 = ab2-abc","0",-0.000292,7.5e-05,-6e-05,9.1e-05
+"946","Atrophy_SLF_PT","ADNI_MEM","EMCI","C1","C1 = ab2-abc","0",-0.000126,0.000659,0.000245,2e-04
+"947","Atrophy_SLF_PT","ADNI_MEM","LMCI","C1","C1 = ab2-abc","0",-0.000462,0.001057,0.000299,0.000381
+"948","Atrophy_SLF_PT","ADNI_MEM","TOTAL","C1","C1 = ab2-abc","0",-9.8e-05,0.000314,0.000107,0.000107
+"949","Atrophy_SLF_PT","ADNI_EF","NL","C1","C1 = ab2-abc","0",-0.000262,0.000419,4.1e-05,0.000166
+"950","Atrophy_SLF_PT","ADNI_EF","EMCI","C1","C1 = ab2-abc","0",-0.000966,0.000342,-0.000207,0.00033
+"951","Atrophy_SLF_PT","ADNI_EF","LMCI","C1","C1 = ab2-abc","0",-0.001586,0.000961,-0.000179,0.000672
+"952","Atrophy_SLF_PT","ADNI_EF","TOTAL","C1","C1 = ab2-abc","0",-0.000423,0.000363,-2e-05,0.000197
+"953","Atrophy_Splenium","ADNI_MEM","NL","C1","C1 = ab2-abc","0",-0.00028,6e-05,-6.6e-05,9.2e-05
+"954","Atrophy_Splenium","ADNI_MEM","EMCI","C1","C1 = ab2-abc","1",1e-05,0.000715,0.000324,0.000182
+"955","Atrophy_Splenium","ADNI_MEM","LMCI","C1","C1 = ab2-abc","0",-0.000342,0.001397,0.000443,0.000432
+"956","Atrophy_Splenium","ADNI_MEM","TOTAL","C1","C1 = ab2-abc","0",-3.7e-05,0.000366,0.000156,0.000105
+"957","Atrophy_Splenium","ADNI_EF","NL","C1","C1 = ab2-abc","0",-3e-04,0.00047,3.9e-05,0.00018
+"958","Atrophy_Splenium","ADNI_EF","EMCI","C1","C1 = ab2-abc","0",-0.000904,0.000377,-0.000163,0.000324
+"959","Atrophy_Splenium","ADNI_EF","LMCI","C1","C1 = ab2-abc","0",-0.002426,0.000161,-0.000845,0.000635
+"960","Atrophy_Splenium","ADNI_EF","TOTAL","C1","C1 = ab2-abc","0",-0.00041,0.000361,-1.9e-05,0.000193
+"961","Atrophy_Thalamus","ADNI_MEM","NL","C1","C1 = ab2-abc","0",-0.000303,5.3e-05,-7e-05,8.9e-05
+"962","Atrophy_Thalamus","ADNI_MEM","EMCI","C1","C1 = ab2-abc","0",-1e-05,0.000727,0.000328,0.000193
+"963","Atrophy_Thalamus","ADNI_MEM","LMCI","C1","C1 = ab2-abc","0",-0.000564,0.001128,0.000238,0.000429
+"964","Atrophy_Thalamus","ADNI_MEM","TOTAL","C1","C1 = ab2-abc","0",-3.7e-05,0.000379,0.000163,0.000108
+"965","Atrophy_Thalamus","ADNI_EF","NL","C1","C1 = ab2-abc","0",-0.000272,0.000449,4.9e-05,0.000168
+"966","Atrophy_Thalamus","ADNI_EF","EMCI","C1","C1 = ab2-abc","0",-0.000849,0.000401,-0.000148,0.000318
+"967","Atrophy_Thalamus","ADNI_EF","LMCI","C1","C1 = ab2-abc","0",-0.002018,0.000711,-0.000476,0.000698
+"968","Atrophy_Thalamus","ADNI_EF","TOTAL","C1","C1 = ab2-abc","0",-0.000371,0.000421,4.9e-05,0.000194
+"969","Atrophy_Amygdala","ADNI_MEM","NL","C2","C2 = ab2-a2c","0",-0.000452,0.000165,-0.000149,0.000162
+"970","Atrophy_Amygdala","ADNI_MEM","EMCI","C2","C2 = ab2-a2c","0",-0.000492,0.000619,3.9e-05,0.000275
+"971","Atrophy_Amygdala","ADNI_MEM","LMCI","C2","C2 = ab2-a2c","0",-0.001201,0.000576,-0.000273,0.000462
+"972","Atrophy_Amygdala","ADNI_MEM","TOTAL","C2","C2 = ab2-a2c","0",-0.000652,1.2e-05,-0.000322,0.000168
+"973","Atrophy_Amygdala","ADNI_EF","NL","C2","C2 = ab2-a2c","0",-0.000666,0.000437,-0.000128,0.00028
+"974","Atrophy_Amygdala","ADNI_EF","EMCI","C2","C2 = ab2-a2c","0",-0.001503,0.000216,-0.000563,0.000447
+"975","Atrophy_Amygdala","ADNI_EF","LMCI","C2","C2 = ab2-a2c","0",-0.001907,0.001147,-0.000247,0.000751
+"976","Atrophy_Amygdala","ADNI_EF","TOTAL","C2","C2 = ab2-a2c","0",-0.000886,0.000234,-0.000312,0.000289
+"977","Atrophy_Entorhinal","ADNI_MEM","NL","C2","C2 = ab2-a2c","0",-0.000461,8.7e-05,-0.000146,0.000142
+"978","Atrophy_Entorhinal","ADNI_MEM","EMCI","C2","C2 = ab2-a2c","0",-0.000312,0.000636,0.00016,0.000238
+"979","Atrophy_Entorhinal","ADNI_MEM","LMCI","C2","C2 = ab2-a2c","0",-0.000913,0.000631,-0.000126,0.000406
+"980","Atrophy_Entorhinal","ADNI_MEM","TOTAL","C2","C2 = ab2-a2c","0",-0.000436,0.00016,-0.000148,0.000155
+"981","Atrophy_Entorhinal","ADNI_EF","NL","C2","C2 = ab2-a2c","0",-0.000594,0.000284,-0.000177,0.000217
+"982","Atrophy_Entorhinal","ADNI_EF","EMCI","C2","C2 = ab2-a2c","0",-0.001594,8e-05,-0.000651,0.000432
+"983","Atrophy_Entorhinal","ADNI_EF","LMCI","C2","C2 = ab2-a2c","0",-0.001618,0.00127,-2.1e-05,0.000718
+"984","Atrophy_Entorhinal","ADNI_EF","TOTAL","C2","C2 = ab2-a2c","0",-0.000802,0.000205,-0.000275,0.000259
+"985","Atrophy_Hippocampus","ADNI_MEM","NL","C2","C2 = ab2-a2c","0",-0.000457,0.000283,-0.00011,0.000181
+"986","Atrophy_Hippocampus","ADNI_MEM","EMCI","C2","C2 = ab2-a2c","0",-0.00053,0.000527,3e-06,0.00026
+"987","Atrophy_Hippocampus","ADNI_MEM","LMCI","C2","C2 = ab2-a2c","0",-0.000998,0.000621,-0.000114,0.000408
+"988","Atrophy_Hippocampus","ADNI_MEM","TOTAL","C2","C2 = ab2-a2c","0",-0.000536,5.6e-05,-0.000248,0.000151
+"989","Atrophy_Hippocampus","ADNI_EF","NL","C2","C2 = ab2-a2c","0",-0.000565,0.000347,-1e-04,0.000233
+"990","Atrophy_Hippocampus","ADNI_EF","EMCI","C2","C2 = ab2-a2c","0",-0.001343,0.000167,-0.000477,4e-04
+"991","Atrophy_Hippocampus","ADNI_EF","LMCI","C2","C2 = ab2-a2c","0",-0.001098,0.00167,0.00038,0.000692
+"992","Atrophy_Hippocampus","ADNI_EF","TOTAL","C2","C2 = ab2-a2c","0",-0.000586,0.000421,-6.7e-05,0.000255
+"993","Atrophy_Insula","ADNI_MEM","NL","C2","C2 = ab2-a2c","0",-0.000283,0.000212,-1.4e-05,0.00012
+"994","Atrophy_Insula","ADNI_MEM","EMCI","C2","C2 = ab2-a2c","1",1.2e-05,0.000736,0.000339,0.000185
+"995","Atrophy_Insula","ADNI_MEM","LMCI","C2","C2 = ab2-a2c","0",-0.000192,0.001345,0.000515,0.000366
+"996","Atrophy_Insula","ADNI_MEM","TOTAL","C2","C2 = ab2-a2c","0",-3e-05,0.000435,0.000189,0.000117
+"997","Atrophy_Insula","ADNI_EF","NL","C2","C2 = ab2-a2c","0",-0.000241,0.000516,0.000111,0.000179
+"998","Atrophy_Insula","ADNI_EF","EMCI","C2","C2 = ab2-a2c","0",-0.000848,0.00041,-0.000146,0.000318
+"999","Atrophy_Insula","ADNI_EF","LMCI","C2","C2 = ab2-a2c","0",-0.001183,0.001289,0.000136,0.000613
+"1000","Atrophy_Insula","ADNI_EF","TOTAL","C2","C2 = ab2-a2c","0",-0.000347,0.000479,7.5e-05,0.000209
+"1001","Atrophy_LateralTemporal","ADNI_MEM","NL","C2","C2 = ab2-a2c","0",-0.000352,0.000123,-9.5e-05,0.000118
+"1002","Atrophy_LateralTemporal","ADNI_MEM","EMCI","C2","C2 = ab2-a2c","0",-0.000461,0.000576,3.6e-05,0.000265
+"1003","Atrophy_LateralTemporal","ADNI_MEM","LMCI","C2","C2 = ab2-a2c","0",-0.000754,0.00081,1.8e-05,0.00039
+"1004","Atrophy_LateralTemporal","ADNI_MEM","TOTAL","C2","C2 = ab2-a2c","0",-0.000423,0.00012,-0.000155,0.000142
+"1005","Atrophy_LateralTemporal","ADNI_EF","NL","C2","C2 = ab2-a2c","0",-0.000469,0.000403,-2.9e-05,0.000211
+"1006","Atrophy_LateralTemporal","ADNI_EF","EMCI","C2","C2 = ab2-a2c","0",-0.001069,0.000263,-0.000312,0.000345
+"1007","Atrophy_LateralTemporal","ADNI_EF","LMCI","C2","C2 = ab2-a2c","0",-0.001614,0.001126,-0.000137,0.000685
+"1008","Atrophy_LateralTemporal","ADNI_EF","TOTAL","C2","C2 = ab2-a2c","0",-0.000614,0.000292,-0.000171,0.000238
+"1009","Atrophy_MediatTemporal","ADNI_MEM","NL","C2","C2 = ab2-a2c","0",-0.000473,0.000195,-0.000126,0.000163
+"1010","Atrophy_MediatTemporal","ADNI_MEM","EMCI","C2","C2 = ab2-a2c","0",-0.000468,0.000562,3.9e-05,0.00026
+"1011","Atrophy_MediatTemporal","ADNI_MEM","LMCI","C2","C2 = ab2-a2c","0",-0.001136,0.000452,-0.000338,0.000422
+"1012","Atrophy_MediatTemporal","ADNI_MEM","TOTAL","C2","C2 = ab2-a2c","0",-0.000625,2.4e-05,-0.000303,0.000165
+"1013","Atrophy_MediatTemporal","ADNI_EF","NL","C2","C2 = ab2-a2c","0",-0.00075,2e-04,-0.00026,0.000243
+"1014","Atrophy_MediatTemporal","ADNI_EF","EMCI","C2","C2 = ab2-a2c","0",-0.001607,8.2e-05,-0.000641,0.000443
+"1015","Atrophy_MediatTemporal","ADNI_EF","LMCI","C2","C2 = ab2-a2c","0",-0.002039,0.000924,-0.000408,0.000747
+"1016","Atrophy_MediatTemporal","ADNI_EF","TOTAL","C2","C2 = ab2-a2c","0",-0.000973,7.4e-05,-0.000414,0.000277
+"1017","Atrophy_ParahippoGyrus","ADNI_MEM","NL","C2","C2 = ab2-a2c","0",-0.00036,0.000262,-2.8e-05,0.000156
+"1018","Atrophy_ParahippoGyrus","ADNI_MEM","EMCI","C2","C2 = ab2-a2c","0",-0.00052,0.000559,4.2e-05,0.000261
+"1019","Atrophy_ParahippoGyrus","ADNI_MEM","LMCI","C2","C2 = ab2-a2c","0",-0.001079,0.000618,-0.000262,0.000433
+"1020","Atrophy_ParahippoGyrus","ADNI_MEM","TOTAL","C2","C2 = ab2-a2c","0",-0.000568,9.2e-05,-0.000242,0.00016
+"1021","Atrophy_ParahippoGyrus","ADNI_EF","NL","C2","C2 = ab2-a2c","0",-0.00076,0.000233,-0.000221,0.000248
+"1022","Atrophy_ParahippoGyrus","ADNI_EF","EMCI","C2","C2 = ab2-a2c","0",-0.000981,0.000335,-0.000276,0.000347
+"1023","Atrophy_ParahippoGyrus","ADNI_EF","LMCI","C2","C2 = ab2-a2c","0",-0.00212,0.000632,-0.000615,0.000711
+"1024","Atrophy_ParahippoGyrus","ADNI_EF","TOTAL","C2","C2 = ab2-a2c","0",-0.000854,0.000163,-0.000325,0.000258
+"1025","Atrophy_PostCingulate","ADNI_MEM","NL","C2","C2 = ab2-a2c","0",-0.000289,0.000149,-4e-05,0.000105
+"1026","Atrophy_PostCingulate","ADNI_MEM","EMCI","C2","C2 = ab2-a2c","0",-7.7e-05,0.000713,0.000307,0.000201
+"1027","Atrophy_PostCingulate","ADNI_MEM","LMCI","C2","C2 = ab2-a2c","0",-0.000217,0.001204,0.000446,0.000352
+"1028","Atrophy_PostCingulate","ADNI_MEM","TOTAL","C2","C2 = ab2-a2c","0",-2.7e-05,0.000441,0.000197,0.000117
+"1029","Atrophy_PostCingulate","ADNI_EF","NL","C2","C2 = ab2-a2c","0",-0.000289,0.000464,4e-05,0.000174
+"1030","Atrophy_PostCingulate","ADNI_EF","EMCI","C2","C2 = ab2-a2c","0",-0.000903,0.000338,-0.000191,0.000324
+"1031","Atrophy_PostCingulate","ADNI_EF","LMCI","C2","C2 = ab2-a2c","0",-0.001102,0.001278,0.000133,0.000628
+"1032","Atrophy_PostCingulate","ADNI_EF","TOTAL","C2","C2 = ab2-a2c","0",-0.000389,0.000411,1.8e-05,2e-04
+"1033","Atrophy_SLF_PT","ADNI_MEM","NL","C2","C2 = ab2-a2c","0",-0.000335,0.000237,-3.6e-05,0.000132
+"1034","Atrophy_SLF_PT","ADNI_MEM","EMCI","C2","C2 = ab2-a2c","0",-0.000301,0.000688,0.000187,0.000243
+"1035","Atrophy_SLF_PT","ADNI_MEM","LMCI","C2","C2 = ab2-a2c","0",-0.000587,0.001111,0.000243,0.00041
+"1036","Atrophy_SLF_PT","ADNI_MEM","TOTAL","C2","C2 = ab2-a2c","0",-0.000264,0.000273,8e-06,0.000136
+"1037","Atrophy_SLF_PT","ADNI_EF","NL","C2","C2 = ab2-a2c","0",-0.000481,0.000411,-4.9e-05,0.00022
+"1038","Atrophy_SLF_PT","ADNI_EF","EMCI","C2","C2 = ab2-a2c","0",-0.001004,0.000364,-0.000215,0.000341
+"1039","Atrophy_SLF_PT","ADNI_EF","LMCI","C2","C2 = ab2-a2c","0",-0.001855,0.000926,-0.000326,0.000717
+"1040","Atrophy_SLF_PT","ADNI_EF","TOTAL","C2","C2 = ab2-a2c","0",-0.000605,0.000298,-0.000148,0.000234
+"1041","Atrophy_Splenium","ADNI_MEM","NL","C2","C2 = ab2-a2c","0",-0.000343,0.000138,-7.9e-05,0.000116
+"1042","Atrophy_Splenium","ADNI_MEM","EMCI","C2","C2 = ab2-a2c","0",-0.00022,0.000662,0.000196,0.000225
+"1043","Atrophy_Splenium","ADNI_MEM","LMCI","C2","C2 = ab2-a2c","0",-0.000247,0.001262,0.000455,0.000387
+"1044","Atrophy_Splenium","ADNI_MEM","TOTAL","C2","C2 = ab2-a2c","0",-0.000211,0.000322,5.5e-05,0.000133
+"1045","Atrophy_Splenium","ADNI_EF","NL","C2","C2 = ab2-a2c","0",-0.000267,0.000484,6.8e-05,0.000189
+"1046","Atrophy_Splenium","ADNI_EF","EMCI","C2","C2 = ab2-a2c","0",-0.001017,0.00029,-0.00026,0.000334
+"1047","Atrophy_Splenium","ADNI_EF","LMCI","C2","C2 = ab2-a2c","0",-0.001565,0.000608,-0.00047,0.000573
+"1048","Atrophy_Splenium","ADNI_EF","TOTAL","C2","C2 = ab2-a2c","0",-0.000626,0.000218,-0.000188,0.000211
+"1049","Atrophy_Thalamus","ADNI_MEM","NL","C2","C2 = ab2-a2c","0",-0.000317,0.00024,-3.5e-05,0.000132
+"1050","Atrophy_Thalamus","ADNI_MEM","EMCI","C2","C2 = ab2-a2c","0",-0.000264,0.000675,0.000216,0.000232
+"1051","Atrophy_Thalamus","ADNI_MEM","LMCI","C2","C2 = ab2-a2c","0",-0.000545,0.001139,0.000256,0.000411
+"1052","Atrophy_Thalamus","ADNI_MEM","TOTAL","C2","C2 = ab2-a2c","0",-0.000198,0.000315,5.4e-05,0.000133
+"1053","Atrophy_Thalamus","ADNI_EF","NL","C2","C2 = ab2-a2c","0",-0.000357,0.00041,1e-06,0.000188
+"1054","Atrophy_Thalamus","ADNI_EF","EMCI","C2","C2 = ab2-a2c","0",-0.000948,0.000337,-0.000202,0.000326
+"1055","Atrophy_Thalamus","ADNI_EF","LMCI","C2","C2 = ab2-a2c","0",-0.001812,0.000774,-0.00041,0.00066
+"1056","Atrophy_Thalamus","ADNI_EF","TOTAL","C2","C2 = ab2-a2c","0",-0.000525,0.000312,-0.000101,0.000215
+"1057","Atrophy_Amygdala","ADNI_MEM","NL","C3","C3 = abc-a2c","0",-0.000355,0.000194,-7.1e-05,0.000135
+"1058","Atrophy_Amygdala","ADNI_MEM","EMCI","C3","C3 = abc-a2c","0",-0.000639,5.5e-05,-0.000187,0.000179
+"1059","Atrophy_Amygdala","ADNI_MEM","LMCI","C3","C3 = abc-a2c","0",-0.001009,0.000255,-0.000287,0.000308
+"1060","Atrophy_Amygdala","ADNI_MEM","TOTAL","C3","C3 = abc-a2c","1",-0.000539,-0.000112,-0.000313,0.000114
+"1061","Atrophy_Amygdala","ADNI_EF","NL","C3","C3 = abc-a2c","0",-0.000574,0.000237,-0.000146,0.000201
+"1062","Atrophy_Amygdala","ADNI_EF","EMCI","C3","C3 = abc-a2c","0",-0.000821,0.000226,-0.000228,0.000251
+"1063","Atrophy_Amygdala","ADNI_EF","LMCI","C3","C3 = abc-a2c","0",-0.001096,0.000291,-0.000274,0.000364
+"1064","Atrophy_Amygdala","ADNI_EF","TOTAL","C3","C3 = abc-a2c","1",-0.000605,-2.3e-05,-0.000264,0.000146
+"1065","Atrophy_Entorhinal","ADNI_MEM","NL","C3","C3 = abc-a2c","0",-0.000361,0.000156,-7.7e-05,0.000126
+"1066","Atrophy_Entorhinal","ADNI_MEM","EMCI","C3","C3 = abc-a2c","0",-0.000348,0.000137,-5.3e-05,0.000118
+"1067","Atrophy_Entorhinal","ADNI_MEM","LMCI","C3","C3 = abc-a2c","0",-0.001161,0.000173,-0.000428,0.000331
+"1068","Atrophy_Entorhinal","ADNI_MEM","TOTAL","C3","C3 = abc-a2c","1",-0.000498,-7.5e-05,-0.000258,0.000108
+"1069","Atrophy_Entorhinal","ADNI_EF","NL","C3","C3 = abc-a2c","0",-0.000664,3.5e-05,-0.000226,0.000189
+"1070","Atrophy_Entorhinal","ADNI_EF","EMCI","C3","C3 = abc-a2c","0",-0.000652,0.000439,-0.000128,0.000266
+"1071","Atrophy_Entorhinal","ADNI_EF","LMCI","C3","C3 = abc-a2c","0",-0.001215,0.000336,-0.000342,0.000387
+"1072","Atrophy_Entorhinal","ADNI_EF","TOTAL","C3","C3 = abc-a2c","1",-0.000603,-5.6e-05,-0.000288,0.00014
+"1073","Atrophy_Hippocampus","ADNI_MEM","NL","C3","C3 = abc-a2c","0",-0.00035,0.000353,-3.7e-05,0.00017
+"1074","Atrophy_Hippocampus","ADNI_MEM","EMCI","C3","C3 = abc-a2c","0",-0.000711,6.7e-05,-0.000238,2e-04
+"1075","Atrophy_Hippocampus","ADNI_MEM","LMCI","C3","C3 = abc-a2c","0",-0.001143,0.000137,-0.000341,0.000332
+"1076","Atrophy_Hippocampus","ADNI_MEM","TOTAL","C3","C3 = abc-a2c","1",-0.000564,-0.000129,-0.000326,0.000116
+"1077","Atrophy_Hippocampus","ADNI_EF","NL","C3","C3 = abc-a2c","0",-0.000587,0.000205,-0.00014,0.000184
+"1078","Atrophy_Hippocampus","ADNI_EF","EMCI","C3","C3 = abc-a2c","0",-9e-04,0.000127,-0.000236,0.000273
+"1079","Atrophy_Hippocampus","ADNI_EF","LMCI","C3","C3 = abc-a2c","0",-0.000842,0.000466,-8.8e-05,0.000309
+"1080","Atrophy_Hippocampus","ADNI_EF","TOTAL","C3","C3 = abc-a2c","0",-0.000487,6.7e-05,-0.000155,0.000137
+"1081","Atrophy_Insula","ADNI_MEM","NL","C3","C3 = abc-a2c","0",-9.1e-05,0.000239,5.6e-05,8.5e-05
+"1082","Atrophy_Insula","ADNI_MEM","EMCI","C3","C3 = abc-a2c","0",-0.000164,0.00022,1.6e-05,9.1e-05
+"1083","Atrophy_Insula","ADNI_MEM","LMCI","C3","C3 = abc-a2c","0",-0.00022,0.000396,2.9e-05,0.000152
+"1084","Atrophy_Insula","ADNI_MEM","TOTAL","C3","C3 = abc-a2c","0",-0.000124,3e-05,-3e-05,4e-05
+"1085","Atrophy_Insula","ADNI_EF","NL","C3","C3 = abc-a2c","0",-0.000148,0.000392,7.9e-05,0.000131
+"1086","Atrophy_Insula","ADNI_EF","EMCI","C3","C3 = abc-a2c","0",-0.000211,0.000262,9e-06,0.000114
+"1087","Atrophy_Insula","ADNI_EF","LMCI","C3","C3 = abc-a2c","0",-0.000219,0.001063,0.000214,0.000332
+"1088","Atrophy_Insula","ADNI_EF","TOTAL","C3","C3 = abc-a2c","0",-0.000198,5.1e-05,-4.5e-05,6.1e-05
+"1089","Atrophy_LateralTemporal","ADNI_MEM","NL","C3","C3 = abc-a2c","0",-0.000233,0.000139,-3.1e-05,9.5e-05
+"1090","Atrophy_LateralTemporal","ADNI_MEM","EMCI","C3","C3 = abc-a2c","0",-0.000412,0.000519,-5e-06,0.000227
+"1091","Atrophy_LateralTemporal","ADNI_MEM","LMCI","C3","C3 = abc-a2c","0",-0.000203,0.000912,0.000226,0.000285
+"1092","Atrophy_LateralTemporal","ADNI_MEM","TOTAL","C3","C3 = abc-a2c","0",-0.000284,0.000117,-8.6e-05,0.000105
+"1093","Atrophy_LateralTemporal","ADNI_EF","NL","C3","C3 = abc-a2c","0",-0.000459,0.000193,-7.4e-05,0.000158
+"1094","Atrophy_LateralTemporal","ADNI_EF","EMCI","C3","C3 = abc-a2c","0",-0.000326,0.000373,2e-06,0.00016
+"1095","Atrophy_LateralTemporal","ADNI_EF","LMCI","C3","C3 = abc-a2c","0",-0.000296,0.001273,0.000279,0.000381
+"1096","Atrophy_LateralTemporal","ADNI_EF","TOTAL","C3","C3 = abc-a2c","0",-0.000284,0.000103,-7.3e-05,9.5e-05
+"1097","Atrophy_MediatTemporal","ADNI_MEM","NL","C3","C3 = abc-a2c","0",-0.000365,0.000247,-5.2e-05,0.000147
+"1098","Atrophy_MediatTemporal","ADNI_MEM","EMCI","C3","C3 = abc-a2c","0",-0.000433,0.000127,-0.000109,0.000142
+"1099","Atrophy_MediatTemporal","ADNI_MEM","LMCI","C3","C3 = abc-a2c","0",-0.001178,0.000116,-0.000452,0.000322
+"1100","Atrophy_MediatTemporal","ADNI_MEM","TOTAL","C3","C3 = abc-a2c","1",-0.000561,-0.000126,-0.000328,0.000113
+"1101","Atrophy_MediatTemporal","ADNI_EF","NL","C3","C3 = abc-a2c","0",-8e-04,3.4e-05,-0.000293,0.000214
+"1102","Atrophy_MediatTemporal","ADNI_EF","EMCI","C3","C3 = abc-a2c","0",-0.000679,0.000282,-0.000166,0.000234
+"1103","Atrophy_MediatTemporal","ADNI_EF","LMCI","C3","C3 = abc-a2c","0",-0.001322,0.000196,-0.000467,0.000393
+"1104","Atrophy_MediatTemporal","ADNI_EF","TOTAL","C3","C3 = abc-a2c","1",-0.000663,-9.7e-05,-0.000345,0.000151
+"1105","Atrophy_ParahippoGyrus","ADNI_MEM","NL","C3","C3 = abc-a2c","0",-0.000233,0.000291,3.7e-05,0.00013
+"1106","Atrophy_ParahippoGyrus","ADNI_MEM","EMCI","C3","C3 = abc-a2c","0",-0.000504,0.000103,-0.000136,0.000154
+"1107","Atrophy_ParahippoGyrus","ADNI_MEM","LMCI","C3","C3 = abc-a2c","0",-0.000868,0.000258,-0.000297,0.000276
+"1108","Atrophy_ParahippoGyrus","ADNI_MEM","TOTAL","C3","C3 = abc-a2c","1",-0.000477,-8.7e-05,-0.00026,9.9e-05
+"1109","Atrophy_ParahippoGyrus","ADNI_EF","NL","C3","C3 = abc-a2c","0",-0.000723,6.5e-05,-0.000238,0.000196
+"1110","Atrophy_ParahippoGyrus","ADNI_EF","EMCI","C3","C3 = abc-a2c","0",-0.000422,0.000225,-5.4e-05,0.000155
+"1111","Atrophy_ParahippoGyrus","ADNI_EF","LMCI","C3","C3 = abc-a2c","0",-0.0012,0.000349,-0.000396,0.000368
+"1112","Atrophy_ParahippoGyrus","ADNI_EF","TOTAL","C3","C3 = abc-a2c","1",-0.00055,-5.8e-05,-0.000258,0.000126
+"1113","Atrophy_PostCingulate","ADNI_MEM","NL","C3","C3 = abc-a2c","0",-6.2e-05,0.000187,3.9e-05,6.2e-05
+"1114","Atrophy_PostCingulate","ADNI_MEM","EMCI","C3","C3 = abc-a2c","0",-0.000237,0.000134,-2e-05,8.4e-05
+"1115","Atrophy_PostCingulate","ADNI_MEM","LMCI","C3","C3 = abc-a2c","0",-0.000203,0.00058,0.000114,0.000196
+"1116","Atrophy_PostCingulate","ADNI_MEM","TOTAL","C3","C3 = abc-a2c","0",-0.000115,3.6e-05,-2.2e-05,3.9e-05
+"1117","Atrophy_PostCingulate","ADNI_EF","NL","C3","C3 = abc-a2c","0",-0.000198,0.000202,-7e-06,9.7e-05
+"1118","Atrophy_PostCingulate","ADNI_EF","EMCI","C3","C3 = abc-a2c","0",-0.000288,0.000148,-3.2e-05,0.000109
+"1119","Atrophy_PostCingulate","ADNI_EF","LMCI","C3","C3 = abc-a2c","0",-0.000374,0.001793,0.000476,0.000578
+"1120","Atrophy_PostCingulate","ADNI_EF","TOTAL","C3","C3 = abc-a2c","0",-0.00025,8.8e-05,-5.6e-05,8.3e-05
+"1121","Atrophy_SLF_PT","ADNI_MEM","NL","C3","C3 = abc-a2c","0",-0.000147,0.000208,2.4e-05,8.4e-05
+"1122","Atrophy_SLF_PT","ADNI_MEM","EMCI","C3","C3 = abc-a2c","0",-0.000437,0.000231,-5.8e-05,0.00016
+"1123","Atrophy_SLF_PT","ADNI_MEM","LMCI","C3","C3 = abc-a2c","0",-0.00052,0.000325,-5.6e-05,0.000203
+"1124","Atrophy_SLF_PT","ADNI_MEM","TOTAL","C3","C3 = abc-a2c","0",-0.000285,3e-05,-9.9e-05,7.9e-05
+"1125","Atrophy_SLF_PT","ADNI_EF","NL","C3","C3 = abc-a2c","0",-0.000484,0.000122,-9e-05,0.000149
+"1126","Atrophy_SLF_PT","ADNI_EF","EMCI","C3","C3 = abc-a2c","0",-0.000303,0.000267,-9e-06,0.000136
+"1127","Atrophy_SLF_PT","ADNI_EF","LMCI","C3","C3 = abc-a2c","0",-0.001127,0.000817,-0.000147,0.000482
+"1128","Atrophy_SLF_PT","ADNI_EF","TOTAL","C3","C3 = abc-a2c","0",-0.000388,3.8e-05,-0.000127,0.00011
+"1129","Atrophy_Splenium","ADNI_MEM","NL","C3","C3 = abc-a2c","0",-0.000235,0.000189,-1.3e-05,0.000101
+"1130","Atrophy_Splenium","ADNI_MEM","EMCI","C3","C3 = abc-a2c","0",-0.000467,8.4e-05,-0.000127,0.000146
+"1131","Atrophy_Splenium","ADNI_MEM","LMCI","C3","C3 = abc-a2c","0",-0.000306,0.000358,1.2e-05,0.000154
+"1132","Atrophy_Splenium","ADNI_MEM","TOTAL","C3","C3 = abc-a2c","0",-0.000267,5e-06,-0.000101,7.4e-05
+"1133","Atrophy_Splenium","ADNI_EF","NL","C3","C3 = abc-a2c","0",-0.000311,0.000352,2.9e-05,0.000161
+"1134","Atrophy_Splenium","ADNI_EF","EMCI","C3","C3 = abc-a2c","0",-0.000414,0.000137,-9.7e-05,0.000147
+"1135","Atrophy_Splenium","ADNI_EF","LMCI","C3","C3 = abc-a2c","0",-0.000647,0.001749,0.000375,0.000622
+"1136","Atrophy_Splenium","ADNI_EF","TOTAL","C3","C3 = abc-a2c","0",-0.000416,2.2e-05,-0.00017,0.000109
+"1137","Atrophy_Thalamus","ADNI_MEM","NL","C3","C3 = abc-a2c","0",-0.000183,0.000272,3.5e-05,0.000109
+"1138","Atrophy_Thalamus","ADNI_MEM","EMCI","C3","C3 = abc-a2c","0",-0.000527,0.000109,-0.000112,0.000163
+"1139","Atrophy_Thalamus","ADNI_MEM","LMCI","C3","C3 = abc-a2c","0",-0.000303,0.000457,1.8e-05,0.000179
+"1140","Atrophy_Thalamus","ADNI_MEM","TOTAL","C3","C3 = abc-a2c","0",-0.00028,2e-06,-0.000109,7.4e-05
+"1141","Atrophy_Thalamus","ADNI_EF","NL","C3","C3 = abc-a2c","0",-0.000372,0.000237,-4.8e-05,0.000149
+"1142","Atrophy_Thalamus","ADNI_EF","EMCI","C3","C3 = abc-a2c","0",-0.000475,0.000199,-5.4e-05,0.000165
+"1143","Atrophy_Thalamus","ADNI_EF","LMCI","C3","C3 = abc-a2c","0",-0.000722,0.001102,6.6e-05,0.000462
+"1144","Atrophy_Thalamus","ADNI_EF","TOTAL","C3","C3 = abc-a2c","0",-0.000403,1e-06,-0.00015,0.000104
+"1145","Atrophy_Amygdala","ADNI_MEM","NL","d","Abeta to Cog","1",0.000419,0.001688,0.001004,0.000318
+"1146","Atrophy_Amygdala","ADNI_MEM","EMCI","d","Abeta to Cog","0",-0.000682,0.001444,0.000415,0.000535
+"1147","Atrophy_Amygdala","ADNI_MEM","LMCI","d","Abeta to Cog","1",0.001292,0.003226,0.002225,0.000507
+"1148","Atrophy_Amygdala","ADNI_MEM","TOTAL","d","Abeta to Cog","1",0.000766,0.001709,0.001254,0.00024
+"1149","Atrophy_Amygdala","ADNI_EF","NL","d","Abeta to Cog","0",-0.000169,0.002048,0.000944,0.000566
+"1150","Atrophy_Amygdala","ADNI_EF","EMCI","d","Abeta to Cog","0",-0.000109,0.002157,0.000999,0.000595
+"1151","Atrophy_Amygdala","ADNI_EF","LMCI","d","Abeta to Cog","1",0.001202,0.004198,0.002662,0.000777
+"1152","Atrophy_Amygdala","ADNI_EF","TOTAL","d","Abeta to Cog","1",0.000787,0.002165,0.001437,0.000344
+"1153","Atrophy_Entorhinal","ADNI_MEM","NL","d","Abeta to Cog","1",0.000419,0.001688,0.001004,0.000318
+"1154","Atrophy_Entorhinal","ADNI_MEM","EMCI","d","Abeta to Cog","0",-0.000682,0.001444,0.000415,0.000535
+"1155","Atrophy_Entorhinal","ADNI_MEM","LMCI","d","Abeta to Cog","1",0.001292,0.003226,0.002225,0.000507
+"1156","Atrophy_Entorhinal","ADNI_MEM","TOTAL","d","Abeta to Cog","1",0.000766,0.001709,0.001254,0.00024
+"1157","Atrophy_Entorhinal","ADNI_EF","NL","d","Abeta to Cog","0",-0.000169,0.002048,0.000944,0.000566
+"1158","Atrophy_Entorhinal","ADNI_EF","EMCI","d","Abeta to Cog","0",-0.000109,0.002157,0.000999,0.000595
+"1159","Atrophy_Entorhinal","ADNI_EF","LMCI","d","Abeta to Cog","1",0.001202,0.004198,0.002662,0.000777
+"1160","Atrophy_Entorhinal","ADNI_EF","TOTAL","d","Abeta to Cog","1",0.000787,0.002165,0.001437,0.000344
+"1161","Atrophy_Hippocampus","ADNI_MEM","NL","d","Abeta to Cog","1",0.000419,0.001688,0.001004,0.000318
+"1162","Atrophy_Hippocampus","ADNI_MEM","EMCI","d","Abeta to Cog","0",-0.000682,0.001444,0.000415,0.000535
+"1163","Atrophy_Hippocampus","ADNI_MEM","LMCI","d","Abeta to Cog","1",0.001292,0.003226,0.002225,0.000507
+"1164","Atrophy_Hippocampus","ADNI_MEM","TOTAL","d","Abeta to Cog","1",0.000766,0.001709,0.001254,0.00024
+"1165","Atrophy_Hippocampus","ADNI_EF","NL","d","Abeta to Cog","0",-0.000169,0.002048,0.000944,0.000566
+"1166","Atrophy_Hippocampus","ADNI_EF","EMCI","d","Abeta to Cog","0",-0.000109,0.002157,0.000999,0.000595
+"1167","Atrophy_Hippocampus","ADNI_EF","LMCI","d","Abeta to Cog","1",0.001202,0.004198,0.002662,0.000777
+"1168","Atrophy_Hippocampus","ADNI_EF","TOTAL","d","Abeta to Cog","1",0.000787,0.002165,0.001437,0.000344
+"1169","Atrophy_Insula","ADNI_MEM","NL","d","Abeta to Cog","1",0.000419,0.001688,0.001004,0.000318
+"1170","Atrophy_Insula","ADNI_MEM","EMCI","d","Abeta to Cog","0",-0.000682,0.001444,0.000415,0.000535
+"1171","Atrophy_Insula","ADNI_MEM","LMCI","d","Abeta to Cog","1",0.001292,0.003226,0.002225,0.000507
+"1172","Atrophy_Insula","ADNI_MEM","TOTAL","d","Abeta to Cog","1",0.000766,0.001709,0.001254,0.00024
+"1173","Atrophy_Insula","ADNI_EF","NL","d","Abeta to Cog","0",-0.000169,0.002048,0.000944,0.000566
+"1174","Atrophy_Insula","ADNI_EF","EMCI","d","Abeta to Cog","0",-0.000109,0.002157,0.000999,0.000595
+"1175","Atrophy_Insula","ADNI_EF","LMCI","d","Abeta to Cog","1",0.001202,0.004198,0.002662,0.000777
+"1176","Atrophy_Insula","ADNI_EF","TOTAL","d","Abeta to Cog","1",0.000787,0.002165,0.001437,0.000344
+"1177","Atrophy_LateralTemporal","ADNI_MEM","NL","d","Abeta to Cog","1",0.000419,0.001688,0.001004,0.000318
+"1178","Atrophy_LateralTemporal","ADNI_MEM","EMCI","d","Abeta to Cog","0",-0.000682,0.001444,0.000415,0.000535
+"1179","Atrophy_LateralTemporal","ADNI_MEM","LMCI","d","Abeta to Cog","1",0.001292,0.003226,0.002225,0.000507
+"1180","Atrophy_LateralTemporal","ADNI_MEM","TOTAL","d","Abeta to Cog","1",0.000766,0.001709,0.001254,0.00024
+"1181","Atrophy_LateralTemporal","ADNI_EF","NL","d","Abeta to Cog","0",-0.000169,0.002048,0.000944,0.000566
+"1182","Atrophy_LateralTemporal","ADNI_EF","EMCI","d","Abeta to Cog","0",-0.000109,0.002157,0.000999,0.000595
+"1183","Atrophy_LateralTemporal","ADNI_EF","LMCI","d","Abeta to Cog","1",0.001202,0.004198,0.002662,0.000777
+"1184","Atrophy_LateralTemporal","ADNI_EF","TOTAL","d","Abeta to Cog","1",0.000787,0.002165,0.001437,0.000344
+"1185","Atrophy_MediatTemporal","ADNI_MEM","NL","d","Abeta to Cog","1",0.000419,0.001688,0.001004,0.000318
+"1186","Atrophy_MediatTemporal","ADNI_MEM","EMCI","d","Abeta to Cog","0",-0.000682,0.001444,0.000415,0.000535
+"1187","Atrophy_MediatTemporal","ADNI_MEM","LMCI","d","Abeta to Cog","1",0.001292,0.003226,0.002225,0.000507
+"1188","Atrophy_MediatTemporal","ADNI_MEM","TOTAL","d","Abeta to Cog","1",0.000766,0.001709,0.001254,0.00024
+"1189","Atrophy_MediatTemporal","ADNI_EF","NL","d","Abeta to Cog","0",-0.000169,0.002048,0.000944,0.000566
+"1190","Atrophy_MediatTemporal","ADNI_EF","EMCI","d","Abeta to Cog","0",-0.000109,0.002157,0.000999,0.000595
+"1191","Atrophy_MediatTemporal","ADNI_EF","LMCI","d","Abeta to Cog","1",0.001202,0.004198,0.002662,0.000777
+"1192","Atrophy_MediatTemporal","ADNI_EF","TOTAL","d","Abeta to Cog","1",0.000787,0.002165,0.001437,0.000344
+"1193","Atrophy_ParahippoGyrus","ADNI_MEM","NL","d","Abeta to Cog","1",0.000419,0.001688,0.001004,0.000318
+"1194","Atrophy_ParahippoGyrus","ADNI_MEM","EMCI","d","Abeta to Cog","0",-0.000682,0.001444,0.000415,0.000535
+"1195","Atrophy_ParahippoGyrus","ADNI_MEM","LMCI","d","Abeta to Cog","1",0.001292,0.003226,0.002225,0.000507
+"1196","Atrophy_ParahippoGyrus","ADNI_MEM","TOTAL","d","Abeta to Cog","1",0.000766,0.001709,0.001254,0.00024
+"1197","Atrophy_ParahippoGyrus","ADNI_EF","NL","d","Abeta to Cog","0",-0.000169,0.002048,0.000944,0.000566
+"1198","Atrophy_ParahippoGyrus","ADNI_EF","EMCI","d","Abeta to Cog","0",-0.000109,0.002157,0.000999,0.000595
+"1199","Atrophy_ParahippoGyrus","ADNI_EF","LMCI","d","Abeta to Cog","1",0.001202,0.004198,0.002662,0.000777
+"1200","Atrophy_ParahippoGyrus","ADNI_EF","TOTAL","d","Abeta to Cog","1",0.000787,0.002165,0.001437,0.000344
+"1201","Atrophy_PostCingulate","ADNI_MEM","NL","d","Abeta to Cog","1",0.000419,0.001688,0.001004,0.000318
+"1202","Atrophy_PostCingulate","ADNI_MEM","EMCI","d","Abeta to Cog","0",-0.000682,0.001444,0.000415,0.000535
+"1203","Atrophy_PostCingulate","ADNI_MEM","LMCI","d","Abeta to Cog","1",0.001292,0.003226,0.002225,0.000507
+"1204","Atrophy_PostCingulate","ADNI_MEM","TOTAL","d","Abeta to Cog","1",0.000766,0.001709,0.001254,0.00024
+"1205","Atrophy_PostCingulate","ADNI_EF","NL","d","Abeta to Cog","0",-0.000169,0.002048,0.000944,0.000566
+"1206","Atrophy_PostCingulate","ADNI_EF","EMCI","d","Abeta to Cog","0",-0.000109,0.002157,0.000999,0.000595
+"1207","Atrophy_PostCingulate","ADNI_EF","LMCI","d","Abeta to Cog","1",0.001202,0.004198,0.002662,0.000777
+"1208","Atrophy_PostCingulate","ADNI_EF","TOTAL","d","Abeta to Cog","1",0.000787,0.002165,0.001437,0.000344
+"1209","Atrophy_SLF_PT","ADNI_MEM","NL","d","Abeta to Cog","1",0.000419,0.001688,0.001004,0.000318
+"1210","Atrophy_SLF_PT","ADNI_MEM","EMCI","d","Abeta to Cog","0",-0.000682,0.001444,0.000415,0.000535
+"1211","Atrophy_SLF_PT","ADNI_MEM","LMCI","d","Abeta to Cog","1",0.001292,0.003226,0.002225,0.000507
+"1212","Atrophy_SLF_PT","ADNI_MEM","TOTAL","d","Abeta to Cog","1",0.000766,0.001709,0.001254,0.00024
+"1213","Atrophy_SLF_PT","ADNI_EF","NL","d","Abeta to Cog","0",-0.000169,0.002048,0.000944,0.000566
+"1214","Atrophy_SLF_PT","ADNI_EF","EMCI","d","Abeta to Cog","0",-0.000109,0.002157,0.000999,0.000595
+"1215","Atrophy_SLF_PT","ADNI_EF","LMCI","d","Abeta to Cog","1",0.001202,0.004198,0.002662,0.000777
+"1216","Atrophy_SLF_PT","ADNI_EF","TOTAL","d","Abeta to Cog","1",0.000787,0.002165,0.001437,0.000344
+"1217","Atrophy_Splenium","ADNI_MEM","NL","d","Abeta to Cog","1",0.000419,0.001688,0.001004,0.000318
+"1218","Atrophy_Splenium","ADNI_MEM","EMCI","d","Abeta to Cog","0",-0.000682,0.001444,0.000415,0.000535
+"1219","Atrophy_Splenium","ADNI_MEM","LMCI","d","Abeta to Cog","1",0.001292,0.003226,0.002225,0.000507
+"1220","Atrophy_Splenium","ADNI_MEM","TOTAL","d","Abeta to Cog","1",0.000766,0.001709,0.001254,0.00024
+"1221","Atrophy_Splenium","ADNI_EF","NL","d","Abeta to Cog","0",-0.000169,0.002048,0.000944,0.000566
+"1222","Atrophy_Splenium","ADNI_EF","EMCI","d","Abeta to Cog","0",-0.000109,0.002157,0.000999,0.000595
+"1223","Atrophy_Splenium","ADNI_EF","LMCI","d","Abeta to Cog","1",0.001202,0.004198,0.002662,0.000777
+"1224","Atrophy_Splenium","ADNI_EF","TOTAL","d","Abeta to Cog","1",0.000787,0.002165,0.001437,0.000344
+"1225","Atrophy_Thalamus","ADNI_MEM","NL","d","Abeta to Cog","1",0.000419,0.001688,0.001004,0.000318
+"1226","Atrophy_Thalamus","ADNI_MEM","EMCI","d","Abeta to Cog","0",-0.000682,0.001444,0.000415,0.000535
+"1227","Atrophy_Thalamus","ADNI_MEM","LMCI","d","Abeta to Cog","1",0.001292,0.003226,0.002225,0.000507
+"1228","Atrophy_Thalamus","ADNI_MEM","TOTAL","d","Abeta to Cog","1",0.000766,0.001709,0.001254,0.00024
+"1229","Atrophy_Thalamus","ADNI_EF","NL","d","Abeta to Cog","0",-0.000169,0.002048,0.000944,0.000566
+"1230","Atrophy_Thalamus","ADNI_EF","EMCI","d","Abeta to Cog","0",-0.000109,0.002157,0.000999,0.000595
+"1231","Atrophy_Thalamus","ADNI_EF","LMCI","d","Abeta to Cog","1",0.001202,0.004198,0.002662,0.000777
+"1232","Atrophy_Thalamus","ADNI_EF","TOTAL","d","Abeta to Cog","1",0.000787,0.002165,0.001437,0.000344
+"1233","Atrophy_Amygdala","ADNI_MEM","NL","dP","dP = Abeta to Cog","1",0.000262,0.001738,0.000996,0.000361
+"1234","Atrophy_Amygdala","ADNI_MEM","EMCI","dP","dP = Abeta to Cog","0",-0.00154,0.000634,-0.000414,0.000559
+"1235","Atrophy_Amygdala","ADNI_MEM","LMCI","dP","dP = Abeta to Cog","0",-0.000343,0.002495,0.001052,0.000739
+"1236","Atrophy_Amygdala","ADNI_MEM","TOTAL","dP","dP = Abeta to Cog","0",-8.6e-05,0.00099,0.000461,0.000276
+"1237","Atrophy_Amygdala","ADNI_EF","NL","dP","dP = Abeta to Cog","0",-0.000479,0.002005,0.000739,0.000646
+"1238","Atrophy_Amygdala","ADNI_EF","EMCI","dP","dP = Abeta to Cog","0",-0.000925,0.002038,0.000602,0.000761
+"1239","Atrophy_Amygdala","ADNI_EF","LMCI","dP","dP = Abeta to Cog","0",-0.000738,0.003573,0.001551,0.001088
+"1240","Atrophy_Amygdala","ADNI_EF","TOTAL","dP","dP = Abeta to Cog","0",-2.5e-05,0.001629,0.000818,0.000426
+"1241","Atrophy_Entorhinal","ADNI_MEM","NL","dP","dP = Abeta to Cog","1",0.000318,0.001731,0.000992,0.000354
+"1242","Atrophy_Entorhinal","ADNI_MEM","EMCI","dP","dP = Abeta to Cog","0",-0.001436,0.00079,-0.000286,0.000553
+"1243","Atrophy_Entorhinal","ADNI_MEM","LMCI","dP","dP = Abeta to Cog","0",-0.00034,0.002399,0.001051,0.000714
+"1244","Atrophy_Entorhinal","ADNI_MEM","TOTAL","dP","dP = Abeta to Cog","1",8.2e-05,0.001107,0.000574,0.000265
+"1245","Atrophy_Entorhinal","ADNI_EF","NL","dP","dP = Abeta to Cog","0",-0.000567,0.001903,0.00067,0.000616
+"1246","Atrophy_Entorhinal","ADNI_EF","EMCI","dP","dP = Abeta to Cog","0",-0.000683,0.001956,0.000604,0.00066
+"1247","Atrophy_Entorhinal","ADNI_EF","LMCI","dP","dP = Abeta to Cog","0",-0.000412,0.003615,0.00164,0.001048
+"1248","Atrophy_Entorhinal","ADNI_EF","TOTAL","dP","dP = Abeta to Cog","1",5.2e-05,0.001611,0.000825,0.000402
+"1249","Atrophy_Hippocampus","ADNI_MEM","NL","dP","dP = Abeta to Cog","1",0.000287,0.001804,0.001033,0.000374
+"1250","Atrophy_Hippocampus","ADNI_MEM","EMCI","dP","dP = Abeta to Cog","0",-0.001591,0.000621,-0.000456,0.00056
+"1251","Atrophy_Hippocampus","ADNI_MEM","LMCI","dP","dP = Abeta to Cog","0",-0.000347,0.002513,0.001103,0.000738
+"1252","Atrophy_Hippocampus","ADNI_MEM","TOTAL","dP","dP = Abeta to Cog","0",-3.6e-05,0.001027,0.000492,0.00027
+"1253","Atrophy_Hippocampus","ADNI_EF","NL","dP","dP = Abeta to Cog","0",-0.000481,0.001999,0.000759,0.000621
+"1254","Atrophy_Hippocampus","ADNI_EF","EMCI","dP","dP = Abeta to Cog","0",-0.000783,0.002088,0.000642,0.000716
+"1255","Atrophy_Hippocampus","ADNI_EF","LMCI","dP","dP = Abeta to Cog","0",-0.000266,0.003968,0.002001,0.001076
+"1256","Atrophy_Hippocampus","ADNI_EF","TOTAL","dP","dP = Abeta to Cog","1",0.000152,0.001841,0.001001,0.000425
+"1257","Atrophy_Insula","ADNI_MEM","NL","dP","dP = Abeta to Cog","1",0.000525,0.001861,0.001129,0.000328
+"1258","Atrophy_Insula","ADNI_MEM","EMCI","dP","dP = Abeta to Cog","0",-0.001337,0.000953,-0.000161,0.000573
+"1259","Atrophy_Insula","ADNI_MEM","LMCI","dP","dP = Abeta to Cog","1",0.000348,0.002857,0.001602,0.000638
+"1260","Atrophy_Insula","ADNI_MEM","TOTAL","dP","dP = Abeta to Cog","1",0.000351,0.001382,0.000859,0.000259
+"1261","Atrophy_Insula","ADNI_EF","NL","dP","dP = Abeta to Cog","0",-0.000227,0.00212,0.000974,0.000597
+"1262","Atrophy_Insula","ADNI_EF","EMCI","dP","dP = Abeta to Cog","0",-0.00038,0.002157,0.00093,0.000652
+"1263","Atrophy_Insula","ADNI_EF","LMCI","dP","dP = Abeta to Cog","1",8.4e-05,0.003855,0.002018,0.000967
+"1264","Atrophy_Insula","ADNI_EF","TOTAL","dP","dP = Abeta to Cog","1",0.000394,0.001878,0.001129,0.000386
+"1265","Atrophy_LateralTemporal","ADNI_MEM","NL","dP","dP = Abeta to Cog","1",0.000403,0.00179,0.001046,0.000342
+"1266","Atrophy_LateralTemporal","ADNI_MEM","EMCI","dP","dP = Abeta to Cog","0",-0.001386,0.000724,-0.000322,0.000524
+"1267","Atrophy_LateralTemporal","ADNI_MEM","LMCI","dP","dP = Abeta to Cog","1",0.000249,0.002703,0.001456,0.000622
+"1268","Atrophy_LateralTemporal","ADNI_MEM","TOTAL","dP","dP = Abeta to Cog","1",0.000151,0.001146,0.000662,0.000255
+"1269","Atrophy_LateralTemporal","ADNI_EF","NL","dP","dP = Abeta to Cog","0",-0.000364,0.002,0.000828,0.000606
+"1270","Atrophy_LateralTemporal","ADNI_EF","EMCI","dP","dP = Abeta to Cog","0",-0.000503,0.002142,0.000844,0.000669
+"1271","Atrophy_LateralTemporal","ADNI_EF","LMCI","dP","dP = Abeta to Cog","1",4.6e-05,0.003724,0.001907,0.000944
+"1272","Atrophy_LateralTemporal","ADNI_EF","TOTAL","dP","dP = Abeta to Cog","1",0.00024,0.001751,0.000989,0.000386
+"1273","Atrophy_MediatTemporal","ADNI_MEM","NL","dP","dP = Abeta to Cog","1",0.000327,0.001758,0.001017,0.000365
+"1274","Atrophy_MediatTemporal","ADNI_MEM","EMCI","dP","dP = Abeta to Cog","0",-0.001505,0.000635,-0.000375,0.000546
+"1275","Atrophy_MediatTemporal","ADNI_MEM","LMCI","dP","dP = Abeta to Cog","0",-0.000415,0.002288,0.000933,0.000706
+"1276","Atrophy_MediatTemporal","ADNI_MEM","TOTAL","dP","dP = Abeta to Cog","0",-5.6e-05,0.000987,0.000463,0.000265
+"1277","Atrophy_MediatTemporal","ADNI_EF","NL","dP","dP = Abeta to Cog","0",-0.000637,0.001786,0.000596,0.000623
+"1278","Atrophy_MediatTemporal","ADNI_EF","EMCI","dP","dP = Abeta to Cog","0",-0.000786,0.002009,0.000594,0.000712
+"1279","Atrophy_MediatTemporal","ADNI_EF","LMCI","dP","dP = Abeta to Cog","0",-0.000665,0.00338,0.001391,0.001034
+"1280","Atrophy_MediatTemporal","ADNI_EF","TOTAL","dP","dP = Abeta to Cog","0",-6e-05,0.001569,0.00073,0.000416
+"1281","Atrophy_ParahippoGyrus","ADNI_MEM","NL","dP","dP = Abeta to Cog","1",0.000416,0.001896,0.001113,0.00036
+"1282","Atrophy_ParahippoGyrus","ADNI_MEM","EMCI","dP","dP = Abeta to Cog","0",-0.001513,0.000696,-0.000385,0.000559
+"1283","Atrophy_ParahippoGyrus","ADNI_MEM","LMCI","dP","dP = Abeta to Cog","0",-0.000124,0.002358,0.001051,0.000645
+"1284","Atrophy_ParahippoGyrus","ADNI_MEM","TOTAL","dP","dP = Abeta to Cog","1",1.6e-05,0.001053,0.00053,0.000264
+"1285","Atrophy_ParahippoGyrus","ADNI_EF","NL","dP","dP = Abeta to Cog","0",-0.000583,0.001862,0.000648,0.000609
+"1286","Atrophy_ParahippoGyrus","ADNI_EF","EMCI","dP","dP = Abeta to Cog","0",-0.000592,0.002241,0.000834,0.000723
+"1287","Atrophy_ParahippoGyrus","ADNI_EF","LMCI","dP","dP = Abeta to Cog","0",-0.000419,0.003173,0.001368,0.000937
+"1288","Atrophy_ParahippoGyrus","ADNI_EF","TOTAL","dP","dP = Abeta to Cog","1",5.2e-05,0.001644,0.000826,0.000415
+"1289","Atrophy_PostCingulate","ADNI_MEM","NL","dP","dP = Abeta to Cog","1",0.000519,0.001835,0.001109,0.000327
+"1290","Atrophy_PostCingulate","ADNI_MEM","EMCI","dP","dP = Abeta to Cog","0",-0.001349,0.000917,-0.000195,0.000571
+"1291","Atrophy_PostCingulate","ADNI_MEM","LMCI","dP","dP = Abeta to Cog","1",0.000445,0.002777,0.001614,0.000607
+"1292","Atrophy_PostCingulate","ADNI_MEM","TOTAL","dP","dP = Abeta to Cog","1",0.000366,0.001388,0.000868,0.00026
+"1293","Atrophy_PostCingulate","ADNI_EF","NL","dP","dP = Abeta to Cog","0",-0.000268,0.002026,0.000894,0.000599
+"1294","Atrophy_PostCingulate","ADNI_EF","EMCI","dP","dP = Abeta to Cog","0",-0.000367,0.002147,0.000888,0.00065
+"1295","Atrophy_PostCingulate","ADNI_EF","LMCI","dP","dP = Abeta to Cog","1",0.000434,0.00382,0.00214,0.000892
+"1296","Atrophy_PostCingulate","ADNI_EF","TOTAL","dP","dP = Abeta to Cog","1",0.000349,0.001832,0.001095,0.00038
+"1297","Atrophy_SLF_PT","ADNI_MEM","NL","dP","dP = Abeta to Cog","1",0.00048,0.00181,0.001103,0.000324
+"1298","Atrophy_SLF_PT","ADNI_MEM","EMCI","dP","dP = Abeta to Cog","0",-0.001324,0.000816,-0.000272,0.000549
+"1299","Atrophy_SLF_PT","ADNI_MEM","LMCI","dP","dP = Abeta to Cog","1",0.000232,0.002668,0.00143,0.000656
+"1300","Atrophy_SLF_PT","ADNI_MEM","TOTAL","dP","dP = Abeta to Cog","1",0.000233,0.001245,0.000737,0.000262
+"1301","Atrophy_SLF_PT","ADNI_EF","NL","dP","dP = Abeta to Cog","0",-0.000441,0.001949,0.00081,0.000599
+"1302","Atrophy_SLF_PT","ADNI_EF","EMCI","dP","dP = Abeta to Cog","0",-0.00039,0.002104,0.000888,0.000651
+"1303","Atrophy_SLF_PT","ADNI_EF","LMCI","dP","dP = Abeta to Cog","0",-0.000267,0.0034,0.001634,0.000963
+"1304","Atrophy_SLF_PT","ADNI_EF","TOTAL","dP","dP = Abeta to Cog","1",0.000204,0.00173,0.00098,0.000383
+"1305","Atrophy_Splenium","ADNI_MEM","NL","dP","dP = Abeta to Cog","1",0.000397,0.001798,0.001062,0.000338
+"1306","Atrophy_Splenium","ADNI_MEM","EMCI","dP","dP = Abeta to Cog","0",-0.001494,0.000851,-0.000304,0.000591
+"1307","Atrophy_Splenium","ADNI_MEM","LMCI","dP","dP = Abeta to Cog","1",0.000326,0.002814,0.001565,0.000634
+"1308","Atrophy_Splenium","ADNI_MEM","TOTAL","dP","dP = Abeta to Cog","1",0.000232,0.001279,0.000758,0.000266
+"1309","Atrophy_Splenium","ADNI_EF","NL","dP","dP = Abeta to Cog","0",-0.000351,0.002128,0.000928,0.000627
+"1310","Atrophy_Splenium","ADNI_EF","EMCI","dP","dP = Abeta to Cog","0",-0.000524,0.002118,0.000822,0.000659
+"1311","Atrophy_Splenium","ADNI_EF","LMCI","dP","dP = Abeta to Cog","0",-2.4e-05,0.003558,0.001787,0.000915
+"1312","Atrophy_Splenium","ADNI_EF","TOTAL","dP","dP = Abeta to Cog","1",0.000162,0.001685,0.000932,0.000388
+"1313","Atrophy_Thalamus","ADNI_MEM","NL","dP","dP = Abeta to Cog","1",0.000418,0.001871,0.001108,0.000345
+"1314","Atrophy_Thalamus","ADNI_MEM","EMCI","dP","dP = Abeta to Cog","0",-0.00142,0.000819,-0.000286,0.000577
+"1315","Atrophy_Thalamus","ADNI_MEM","LMCI","dP","dP = Abeta to Cog","1",0.00024,0.002717,0.00147,0.000641
+"1316","Atrophy_Thalamus","ADNI_MEM","TOTAL","dP","dP = Abeta to Cog","1",0.000216,0.001283,0.000753,0.000266
+"1317","Atrophy_Thalamus","ADNI_EF","NL","dP","dP = Abeta to Cog","0",-0.000393,0.002023,0.000854,0.000628
+"1318","Atrophy_Thalamus","ADNI_EF","EMCI","dP","dP = Abeta to Cog","0",-0.000522,0.002152,0.000871,0.000678
+"1319","Atrophy_Thalamus","ADNI_EF","LMCI","dP","dP = Abeta to Cog","0",-0.000201,0.003432,0.001628,0.000952
+"1320","Atrophy_Thalamus","ADNI_EF","TOTAL","dP","dP = Abeta to Cog","1",0.000212,0.001786,0.000985,0.000399
+"1321","Atrophy_Amygdala","ADNI_MEM","NL","dPrime","dPrime = d-(abc+a2c+ab2)","1",0.000272,0.001735,0.000999,0.00036
+"1322","Atrophy_Amygdala","ADNI_MEM","EMCI","dPrime","dPrime = d-(abc+a2c+ab2)","0",-0.001326,0.000999,-0.000152,0.000584
+"1323","Atrophy_Amygdala","ADNI_MEM","LMCI","dPrime","dPrime = d-(abc+a2c+ab2)","0",-0.000281,0.002509,0.001109,0.000731
+"1324","Atrophy_Amygdala","ADNI_MEM","TOTAL","dPrime","dPrime = d-(abc+a2c+ab2)","1",1.4e-05,0.001097,0.000562,0.000279
+"1325","Atrophy_Amygdala","ADNI_EF","NL","dPrime","dPrime = d-(abc+a2c+ab2)","0",-0.000486,0.002003,0.000742,0.000644
+"1326","Atrophy_Amygdala","ADNI_EF","EMCI","dPrime","dPrime = d-(abc+a2c+ab2)","0",-0.000644,0.002311,0.000832,0.000772
+"1327","Atrophy_Amygdala","ADNI_EF","LMCI","dPrime","dPrime = d-(abc+a2c+ab2)","0",-0.000703,0.003609,0.001581,0.001084
+"1328","Atrophy_Amygdala","ADNI_EF","TOTAL","dPrime","dPrime = d-(abc+a2c+ab2)","1",7.2e-05,0.001726,0.000893,0.00043
+"1329","Atrophy_Entorhinal","ADNI_MEM","NL","dPrime","dPrime = d-(abc+a2c+ab2)","1",0.000339,0.001733,0.000998,0.000353
+"1330","Atrophy_Entorhinal","ADNI_MEM","EMCI","dPrime","dPrime = d-(abc+a2c+ab2)","0",-0.001245,0.001125,-2.5e-05,0.000582
+"1331","Atrophy_Entorhinal","ADNI_MEM","LMCI","dPrime","dPrime = d-(abc+a2c+ab2)","0",-0.000246,0.002435,0.00111,0.000705
+"1332","Atrophy_Entorhinal","ADNI_MEM","TOTAL","dPrime","dPrime = d-(abc+a2c+ab2)","1",0.000176,0.001195,0.000676,0.000267
+"1333","Atrophy_Entorhinal","ADNI_EF","NL","dPrime","dPrime = d-(abc+a2c+ab2)","0",-0.00055,0.001914,0.000678,0.000615
+"1334","Atrophy_Entorhinal","ADNI_EF","EMCI","dPrime","dPrime = d-(abc+a2c+ab2)","0",-0.000439,0.002231,0.000837,0.000679
+"1335","Atrophy_Entorhinal","ADNI_EF","LMCI","dPrime","dPrime = d-(abc+a2c+ab2)","0",-0.000377,0.003618,0.001668,0.001044
+"1336","Atrophy_Entorhinal","ADNI_EF","TOTAL","dPrime","dPrime = d-(abc+a2c+ab2)","1",0.000136,0.001724,0.000902,0.000405
+"1337","Atrophy_Hippocampus","ADNI_MEM","NL","dPrime","dPrime = d-(abc+a2c+ab2)","1",0.000291,0.001806,0.001036,0.000374
+"1338","Atrophy_Hippocampus","ADNI_MEM","EMCI","dPrime","dPrime = d-(abc+a2c+ab2)","0",-0.001395,9e-04,-0.000195,0.000587
+"1339","Atrophy_Hippocampus","ADNI_MEM","LMCI","dPrime","dPrime = d-(abc+a2c+ab2)","0",-0.000287,0.002584,0.00116,0.000732
+"1340","Atrophy_Hippocampus","ADNI_MEM","TOTAL","dPrime","dPrime = d-(abc+a2c+ab2)","1",7e-05,0.00114,0.000593,0.000273
+"1341","Atrophy_Hippocampus","ADNI_EF","NL","dPrime","dPrime = d-(abc+a2c+ab2)","0",-0.000496,0.002,0.000759,0.000622
+"1342","Atrophy_Hippocampus","ADNI_EF","EMCI","dPrime","dPrime = d-(abc+a2c+ab2)","0",-0.000545,0.002325,0.000871,0.000732
+"1343","Atrophy_Hippocampus","ADNI_EF","LMCI","dPrime","dPrime = d-(abc+a2c+ab2)","0",-0.00026,0.004019,0.002029,0.001073
+"1344","Atrophy_Hippocampus","ADNI_EF","TOTAL","dPrime","dPrime = d-(abc+a2c+ab2)","1",0.000221,0.001907,0.001076,0.000429
+"1345","Atrophy_Insula","ADNI_MEM","NL","dPrime","dPrime = d-(abc+a2c+ab2)","1",0.000523,0.001859,0.00113,0.000329
+"1346","Atrophy_Insula","ADNI_MEM","EMCI","dPrime","dPrime = d-(abc+a2c+ab2)","0",-0.001109,0.001254,9.8e-05,0.000599
+"1347","Atrophy_Insula","ADNI_MEM","LMCI","dPrime","dPrime = d-(abc+a2c+ab2)","1",0.000486,0.002884,0.001659,0.000632
+"1348","Atrophy_Insula","ADNI_MEM","TOTAL","dPrime","dPrime = d-(abc+a2c+ab2)","1",0.00044,0.001496,0.000959,0.000262
+"1349","Atrophy_Insula","ADNI_EF","NL","dPrime","dPrime = d-(abc+a2c+ab2)","0",-0.00023,0.00213,0.000974,0.000598
+"1350","Atrophy_Insula","ADNI_EF","EMCI","dPrime","dPrime = d-(abc+a2c+ab2)","0",-0.000137,0.002457,0.001158,0.00067
+"1351","Atrophy_Insula","ADNI_EF","LMCI","dPrime","dPrime = d-(abc+a2c+ab2)","1",0.000127,0.003899,0.002046,0.000964
+"1352","Atrophy_Insula","ADNI_EF","TOTAL","dPrime","dPrime = d-(abc+a2c+ab2)","1",0.00045,0.001946,0.001204,0.000389
+"1353","Atrophy_LateralTemporal","ADNI_MEM","NL","dPrime","dPrime = d-(abc+a2c+ab2)","1",0.000403,0.00179,0.001046,0.000342
+"1354","Atrophy_LateralTemporal","ADNI_MEM","EMCI","dPrime","dPrime = d-(abc+a2c+ab2)","0",-0.001208,0.001013,-6.4e-05,0.000553
+"1355","Atrophy_LateralTemporal","ADNI_MEM","LMCI","dPrime","dPrime = d-(abc+a2c+ab2)","1",0.000326,0.002712,0.001514,0.000615
+"1356","Atrophy_LateralTemporal","ADNI_MEM","TOTAL","dPrime","dPrime = d-(abc+a2c+ab2)","1",0.000255,0.001274,0.000759,0.000258
+"1357","Atrophy_LateralTemporal","ADNI_EF","NL","dPrime","dPrime = d-(abc+a2c+ab2)","0",-0.000378,0.002,0.000827,0.000607
+"1358","Atrophy_LateralTemporal","ADNI_EF","EMCI","dPrime","dPrime = d-(abc+a2c+ab2)","0",-0.000247,0.002362,0.001071,0.000687
+"1359","Atrophy_LateralTemporal","ADNI_EF","LMCI","dPrime","dPrime = d-(abc+a2c+ab2)","1",9.2e-05,0.00375,0.001938,0.000941
+"1360","Atrophy_LateralTemporal","ADNI_EF","TOTAL","dPrime","dPrime = d-(abc+a2c+ab2)","1",0.000318,0.001834,0.001064,0.00039
+"1361","Atrophy_MediatTemporal","ADNI_MEM","NL","dPrime","dPrime = d-(abc+a2c+ab2)","1",0.000334,0.00176,0.00102,0.000364
+"1362","Atrophy_MediatTemporal","ADNI_MEM","EMCI","dPrime","dPrime = d-(abc+a2c+ab2)","0",-0.001326,0.000994,-0.000114,0.000574
+"1363","Atrophy_MediatTemporal","ADNI_MEM","LMCI","dPrime","dPrime = d-(abc+a2c+ab2)","0",-0.000344,0.002348,0.000993,0.000697
+"1364","Atrophy_MediatTemporal","ADNI_MEM","TOTAL","dPrime","dPrime = d-(abc+a2c+ab2)","1",4.9e-05,0.001075,0.000564,0.000269
+"1365","Atrophy_MediatTemporal","ADNI_EF","NL","dPrime","dPrime = d-(abc+a2c+ab2)","0",-0.000631,0.001794,0.000602,0.000622
+"1366","Atrophy_MediatTemporal","ADNI_EF","EMCI","dPrime","dPrime = d-(abc+a2c+ab2)","0",-0.000508,0.002237,0.000824,0.000727
+"1367","Atrophy_MediatTemporal","ADNI_EF","LMCI","dPrime","dPrime = d-(abc+a2c+ab2)","0",-0.000647,0.003405,0.001415,0.001034
+"1368","Atrophy_MediatTemporal","ADNI_EF","TOTAL","dPrime","dPrime = d-(abc+a2c+ab2)","1",1.5e-05,0.001631,0.000805,0.00042
+"1369","Atrophy_ParahippoGyrus","ADNI_MEM","NL","dPrime","dPrime = d-(abc+a2c+ab2)","1",0.00042,0.001895,0.001113,0.000359
+"1370","Atrophy_ParahippoGyrus","ADNI_MEM","EMCI","dPrime","dPrime = d-(abc+a2c+ab2)","0",-0.001369,0.000988,-0.000125,0.000584
+"1371","Atrophy_ParahippoGyrus","ADNI_MEM","LMCI","dPrime","dPrime = d-(abc+a2c+ab2)","0",-4.2e-05,0.002396,0.00111,0.000637
+"1372","Atrophy_ParahippoGyrus","ADNI_MEM","TOTAL","dPrime","dPrime = d-(abc+a2c+ab2)","1",9e-05,0.00114,0.000629,0.000268
+"1373","Atrophy_ParahippoGyrus","ADNI_EF","NL","dPrime","dPrime = d-(abc+a2c+ab2)","0",-0.000583,0.00186,0.000649,0.000609
+"1374","Atrophy_ParahippoGyrus","ADNI_EF","EMCI","dPrime","dPrime = d-(abc+a2c+ab2)","0",-0.000331,0.002473,0.001062,0.000739
+"1375","Atrophy_ParahippoGyrus","ADNI_EF","LMCI","dPrime","dPrime = d-(abc+a2c+ab2)","0",-0.000458,0.003192,0.001383,0.000941
+"1376","Atrophy_ParahippoGyrus","ADNI_EF","TOTAL","dPrime","dPrime = d-(abc+a2c+ab2)","1",0.000122,0.001752,9e-04,0.00042
+"1377","Atrophy_PostCingulate","ADNI_MEM","NL","dPrime","dPrime = d-(abc+a2c+ab2)","1",0.000519,0.001836,0.001108,0.000327
+"1378","Atrophy_PostCingulate","ADNI_MEM","EMCI","dPrime","dPrime = d-(abc+a2c+ab2)","0",-0.001197,0.001226,6.5e-05,0.000597
+"1379","Atrophy_PostCingulate","ADNI_MEM","LMCI","dPrime","dPrime = d-(abc+a2c+ab2)","1",0.000529,0.002844,0.001667,0.000602
+"1380","Atrophy_PostCingulate","ADNI_MEM","TOTAL","dPrime","dPrime = d-(abc+a2c+ab2)","1",0.000458,0.001495,0.000966,0.000263
+"1381","Atrophy_PostCingulate","ADNI_EF","NL","dPrime","dPrime = d-(abc+a2c+ab2)","0",-0.000266,0.002024,0.000896,0.000599
+"1382","Atrophy_PostCingulate","ADNI_EF","EMCI","dPrime","dPrime = d-(abc+a2c+ab2)","0",-0.00018,0.002403,0.001115,0.000669
+"1383","Atrophy_PostCingulate","ADNI_EF","LMCI","dPrime","dPrime = d-(abc+a2c+ab2)","1",0.000468,0.003887,0.002161,0.00089
+"1384","Atrophy_PostCingulate","ADNI_EF","TOTAL","dPrime","dPrime = d-(abc+a2c+ab2)","1",0.000386,0.001908,0.001168,0.000384
+"1385","Atrophy_SLF_PT","ADNI_MEM","NL","dPrime","dPrime = d-(abc+a2c+ab2)","1",0.000478,0.001809,0.001103,0.000324
+"1386","Atrophy_SLF_PT","ADNI_MEM","EMCI","dPrime","dPrime = d-(abc+a2c+ab2)","0",-0.001195,0.001105,-1.4e-05,0.000575
+"1387","Atrophy_SLF_PT","ADNI_MEM","LMCI","dPrime","dPrime = d-(abc+a2c+ab2)","1",3e-04,0.002723,0.001484,0.000649
+"1388","Atrophy_SLF_PT","ADNI_MEM","TOTAL","dPrime","dPrime = d-(abc+a2c+ab2)","1",0.000327,0.001333,0.000835,0.000265
+"1389","Atrophy_SLF_PT","ADNI_EF","NL","dPrime","dPrime = d-(abc+a2c+ab2)","0",-0.000447,0.001948,0.00081,6e-04
+"1390","Atrophy_SLF_PT","ADNI_EF","EMCI","dPrime","dPrime = d-(abc+a2c+ab2)","0",-0.000199,0.002399,0.001115,0.000669
+"1391","Atrophy_SLF_PT","ADNI_EF","LMCI","dPrime","dPrime = d-(abc+a2c+ab2)","0",-0.000233,0.003427,0.001658,0.000961
+"1392","Atrophy_SLF_PT","ADNI_EF","TOTAL","dPrime","dPrime = d-(abc+a2c+ab2)","1",0.000285,0.001809,0.001054,0.000386
+"1393","Atrophy_Splenium","ADNI_MEM","NL","dPrime","dPrime = d-(abc+a2c+ab2)","1",0.000396,0.001799,0.001063,0.000338
+"1394","Atrophy_Splenium","ADNI_MEM","EMCI","dPrime","dPrime = d-(abc+a2c+ab2)","0",-0.001373,0.00113,-4.4e-05,0.000615
+"1395","Atrophy_Splenium","ADNI_MEM","LMCI","dPrime","dPrime = d-(abc+a2c+ab2)","1",0.000441,0.002842,0.001619,0.000629
+"1396","Atrophy_Splenium","ADNI_MEM","TOTAL","dPrime","dPrime = d-(abc+a2c+ab2)","1",0.000341,0.001393,0.000856,0.000269
+"1397","Atrophy_Splenium","ADNI_EF","NL","dPrime","dPrime = d-(abc+a2c+ab2)","0",-0.000351,0.002126,0.000928,0.000628
+"1398","Atrophy_Splenium","ADNI_EF","EMCI","dPrime","dPrime = d-(abc+a2c+ab2)","0",-0.000248,0.002377,0.001048,0.000676
+"1399","Atrophy_Splenium","ADNI_EF","LMCI","dPrime","dPrime = d-(abc+a2c+ab2)","0",-9e-06,0.003595,0.001807,0.000913
+"1400","Atrophy_Splenium","ADNI_EF","TOTAL","dPrime","dPrime = d-(abc+a2c+ab2)","1",0.000266,0.00176,0.001006,0.000393
+"1401","Atrophy_Thalamus","ADNI_MEM","NL","dPrime","dPrime = d-(abc+a2c+ab2)","1",0.000419,0.001873,0.001109,0.000345
+"1402","Atrophy_Thalamus","ADNI_MEM","EMCI","dPrime","dPrime = d-(abc+a2c+ab2)","0",-0.001268,0.001122,-2.7e-05,0.000603
+"1403","Atrophy_Thalamus","ADNI_MEM","LMCI","dPrime","dPrime = d-(abc+a2c+ab2)","1",0.000353,0.002767,0.001525,0.000634
+"1404","Atrophy_Thalamus","ADNI_MEM","TOTAL","dPrime","dPrime = d-(abc+a2c+ab2)","1",0.000323,0.001386,0.000852,0.000269
+"1405","Atrophy_Thalamus","ADNI_EF","NL","dPrime","dPrime = d-(abc+a2c+ab2)","0",-0.000392,0.002031,0.000855,0.000628
+"1406","Atrophy_Thalamus","ADNI_EF","EMCI","dPrime","dPrime = d-(abc+a2c+ab2)","0",-0.000286,0.002435,0.001098,0.000696
+"1407","Atrophy_Thalamus","ADNI_EF","LMCI","dPrime","dPrime = d-(abc+a2c+ab2)","0",-0.000198,0.003475,0.001657,0.00095
+"1408","Atrophy_Thalamus","ADNI_EF","TOTAL","dPrime","dPrime = d-(abc+a2c+ab2)","1",0.000273,0.001854,0.001058,0.000402

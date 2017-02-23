@@ -1,0 +1,658 @@
+\documentclass{article}
+\usepackage{color, colortbl}
+\usepackage{float}
+\usepackage[letterpaper,margin=1in]{geometry}
+\usepackage{xcolor}
+\usepackage{fancyhdr}
+\usepackage{tgschola} % or any other font package you like
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{multicol}
+\usepackage{array,multirow,graphicx}
+\usepackage{booktabs}
+\usepackage{multirow}%\usepackage[nomarginpar]{geometry}%,
+\usepackage{caption, booktabs}
+\usepackage{tabularx}%
+ %\usepackage{rotating}
+ \usepackage{enumitem}
+ \usepackage{pdflscape}
+\usepackage[hyphens]{url}
+\usepackage{hyperref,fancyhdr,enumitem,color,pifont}
+ \usepackage[final]{pdfpages}
+\usepackage{natbib,bibentry}
+\usepackage{Sweave}
+\begin{document}
+\input{tablePaper-concordance}
+
+\section*{Amyloid - $\beta$ Correlations}
+Tables showing effects of amyloid-$\beta$. $\beta$ - estimates, confidences intervals and significance for multivariate regression of amyloid-$\beta$ controlling for age, gender and education and tau (where applicable), with atrophy and or cognitive outcome
+
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Tue Feb 21 15:09:03 2017
+\begin{table}[H]
+\centering
+\caption{Cognitively Normal} 
+\begin{tabular}{lllll}
+   & Variable & Beta & CI & sig \\ 
+ ROI &   &   &   &  \\ 
+   \rowcolor{green!10}  & Amygdala & 0.00011 & [0.000052, 0.000168] & 1 \\ 
+   \rowcolor{green!10}  & Entorhinal & 0.000116 & [0.000001, 0.000226] & 1 \\ 
+   \rowcolor{green!10}  & Hippocampus & 0.000091 & [0.000028, 0.000154] & 1 \\ 
+    & Insula & 0.000048 & [-0.000001, 0.000094] & 0 \\ 
+   \rowcolor{green!10}  & LateralTemporal & 0.000066 & [0.000016, 0.00012] & 1 \\ 
+   \rowcolor{green!10}  & MediatTemporal & 0.000099 & [0.000032, 0.000166] & 1 \\ 
+   \rowcolor{green!10}  & ParahippoGyrus & 0.000081 & [0.000031, 0.000134] & 1 \\ 
+    & PostCingulate & 0.00004 & [-0.000045, 0.000116] & 0 \\ 
+   \rowcolor{green!10}  & SLF.PT & 0.000051 & [0.000003, 0.000101] & 1 \\ 
+   \rowcolor{green!10}  & Splenium & 0.000042 & [0.000001, 0.000084] & 1 \\ 
+   \rowcolor{green!10}  & Thalamus & 0.000057 & [0.000005, 0.000108] & 1 \\ 
+   \midrule
+Cognition &   &   &   &  \\ 
+    & EF & 0.000739 & [-0.000479, 0.002005] & 0 \\ 
+   \rowcolor{green!10}  & MEM & 0.000996 & [0.000262, 0.001738] & 1 \\ 
+   \midrule
+Other &   &   &   &  \\ 
+    & Tau & -0.14054 & [-0.313608, 0.023299] & 0 \\ 
+  \end{tabular}
+\end{table}
+\noindent\rule[0.5ex]{\linewidth}{1pt}
+
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Tue Feb 21 15:09:03 2017
+\begin{table}[H]
+\centering
+\caption{EMCI} 
+\begin{tabular}{lllll}
+   & Variable & Beta & CI & sig \\ 
+ ROI &   &   &   &  \\ 
+   \rowcolor{green!10}  & Amygdala & 0.000114 & [0.000045, 0.000183] & 1 \\ 
+    & Entorhinal & 0.000095 & [-0.000011, 0.000196] & 0 \\ 
+   \rowcolor{green!10}  & Hippocampus & 0.000091 & [0.00001, 0.000165] & 1 \\ 
+    & Insula & 0.000035 & [-0.000052, 0.000127] & 0 \\ 
+    & LateralTemporal & 0.000037 & [-0.000046, 0.000121] & 0 \\ 
+   \rowcolor{green!10}  & MediatTemporal & 0.000086 & [0.000014, 0.000155] & 1 \\ 
+   \rowcolor{green!10}  & ParahippoGyrus & 0.000073 & [0.000012, 0.000135] & 1 \\ 
+    & PostCingulate & 0.000034 & [-0.000056, 0.000125] & 0 \\ 
+    & SLF.PT & 0.000027 & [-0.000035, 0.000093] & 0 \\ 
+   \rowcolor{green!10}  & Splenium & 0.000059 & [0.000004, 0.000121] & 1 \\ 
+    & Thalamus & 0.000052 & [-0.000029, 0.000125] & 0 \\ 
+   \midrule
+Cognition &   &   &   &  \\ 
+    & EF & 0.000602 & [-0.000925, 0.002038] & 0 \\ 
+    & MEM & -0.000414 & [-0.00154, 0.000634] & 0 \\ 
+   \midrule
+Other &   &   &   &  \\ 
+   \rowcolor{green!10}  & Tau & -0.409515 & [-0.660578, -0.178282] & 1 \\ 
+  \end{tabular}
+\end{table}
+\noindent\rule[0.5ex]{\linewidth}{1pt}
+
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Tue Feb 21 15:09:03 2017
+\begin{table}[H]
+\centering
+\caption{LMCI} 
+\begin{tabular}{lllll}
+   & Variable & Beta & CI & sig \\ 
+ ROI &   &   &   &  \\ 
+   \rowcolor{green!10}  & Amygdala & 0.00022 & [0.000082, 0.000347] & 1 \\ 
+   \rowcolor{green!10}  & Entorhinal & 0.000253 & [0.000075, 0.000415] & 1 \\ 
+   \rowcolor{green!10}  & Hippocampus & 0.00017 & [0.000064, 0.000278] & 1 \\ 
+    & Insula & 0.000033 & [-0.000066, 0.00013] & 0 \\ 
+    & LateralTemporal & 0.00007 & [-0.000073, 0.000215] & 0 \\ 
+   \rowcolor{green!10}  & MediatTemporal & 0.000206 & [0.000083, 0.000321] & 1 \\ 
+   \rowcolor{green!10}  & ParahippoGyrus & 0.00016 & [0.00005, 0.000264] & 1 \\ 
+    & PostCingulate & -0.000007 & [-0.000166, 0.000132] & 0 \\ 
+    & SLF.PT & 0.000092 & [-0.000015, 0.00021] & 0 \\ 
+    & Splenium & 0.00005 & [-0.000058, 0.000148] & 0 \\ 
+    & Thalamus & 0.000083 & [-0.000025, 0.000182] & 0 \\ 
+   \midrule
+Cognition &   &   &   &  \\ 
+    & EF & 0.001551 & [-0.000738, 0.003573] & 0 \\ 
+    & MEM & 0.001052 & [-0.000343, 0.002495] & 0 \\ 
+   \midrule
+Other &   &   &   &  \\ 
+   \rowcolor{green!10}  & Tau & -0.637082 & [-0.831067, -0.433944] & 1 \\ 
+  \end{tabular}
+\end{table}
+\noindent\rule[0.5ex]{\linewidth}{1pt}
+
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Tue Feb 21 15:09:03 2017
+\begin{table}[H]
+\centering
+\caption{Total Group} 
+\begin{tabular}{lllll}
+   & Variable & Beta & CI & sig \\ 
+ ROI &   &   &   &  \\ 
+   \rowcolor{green!10}  & Amygdala & 0.000154 & [0.000109, 0.000199] & 1 \\ 
+   \rowcolor{green!10}  & Entorhinal & 0.000166 & [0.000101, 0.000232] & 1 \\ 
+   \rowcolor{green!10}  & Hippocampus & 0.000126 & [0.000083, 0.000169] & 1 \\ 
+   \rowcolor{green!10}  & Insula & 0.000053 & [0.000015, 0.000094] & 1 \\ 
+   \rowcolor{green!10}  & LateralTemporal & 0.000075 & [0.000026, 0.000122] & 1 \\ 
+   \rowcolor{green!10}  & MediatTemporal & 0.000141 & [0.000095, 0.000185] & 1 \\ 
+   \rowcolor{green!10}  & ParahippoGyrus & 0.000114 & [0.000074, 0.000155] & 1 \\ 
+    & PostCingulate & 0.00005 & [-0.000001, 0.00011] & 0 \\ 
+   \rowcolor{green!10}  & SLF.PT & 0.00006 & [0.000023, 0.000098] & 1 \\ 
+   \rowcolor{green!10}  & Splenium & 0.000065 & [0.000031, 0.000101] & 1 \\ 
+   \rowcolor{green!10}  & Thalamus & 0.00007 & [0.00003, 0.000111] & 1 \\ 
+   \midrule
+Cognition &   &   &   &  \\ 
+    & EF & 0.000818 & [-0.000025, 0.001629] & 0 \\ 
+    & MEM & 0.000461 & [-0.000086, 0.00099] & 0 \\ 
+   \midrule
+Other &   &   &   &  \\ 
+   \rowcolor{green!10}  & Tau & -0.369156 & [-0.48795, -0.259339] & 1 \\ 
+  \end{tabular}
+\end{table}
+\newpage
+\section*{Mediations: $\beta_2$ and $\beta_3$}
+
+Table showing $\beta_2$ and $\beta_3$ mediation pathways across diagostic groups. Red indicates significant $\beta_2$ pathway, blue indicates significant $\beta_3$ pathway, and green indicates that both $\beta_2$ and $\beta_3$ were significant.
+
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Tue Feb 21 15:09:03 2017
+\begin{table}[H]
+\centering
+\caption{EMCI: Executive Function} 
+\begin{tabular}{rllrl}
+  \toprule
+\cellcolor{red!30}{B2} & \cellcolor{red!30}{CI} & ROI & \cellcolor{blue!30}{B3} & \cellcolor{blue!30}{CI} \\ 
+  \midrule
+0.0001 & [-0.000051, 0.000389] & Amygdala & 0.0003 & [-0.000237, 0.000962] \\ 
+  0.0002 & [-0.000008, 0.000522] & Entorhinal & 0.0003 & [-0.000068, 0.000869] \\ 
+  0.0000 & [-0.000091, 0.000233] & Hippocampus & 0.0003 & [-0.000116, 0.000918] \\ 
+  0.0000 & [-0.000051, 0.000066] & Insula & -0.0000 & [-0.000195, 0.000182] \\ 
+  0.0001 & [-0.000041, 0.000293] & LateralTemporal & 0.0001 & [-0.000162, 0.000449] \\ 
+  0.0002 & [-0.000028, 0.000529] & MediatTemporal & 0.0003 & [-0.000072, 0.000927] \\ 
+  0.0000 & [-0.000101, 0.000213] & ParahippoGyrus & 0.0001 & [-0.000271, 0.000516] \\ 
+  0.0000 & [-0.000071, 0.0001] & PostCingulate & 0.0000 & [-0.000115, 0.000273] \\ 
+  0.0000 & [-0.000055, 0.000176] & SLF.PT & 0.0000 & [-0.00017, 0.000363] \\ 
+  0.0000 & [-0.000061, 0.000094] & Splenium & 0.0001 & [-0.000138, 0.000404] \\ 
+  -0.0000 & [-0.000085, 0.000067] & Thalamus & 0.0001 & [-0.000191, 0.000456] \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Tue Feb 21 15:09:03 2017
+\begin{table}[H]
+\centering
+\caption{EMCI: Memory} 
+\begin{tabular}{lllll}
+  \toprule
+\cellcolor{red!30}{B2} & \cellcolor{red!30}{CI} & ROI & \cellcolor{blue!30}{B3} & \cellcolor{blue!30}{CI} \\ 
+  \midrule
+0.000051 & [-0.000045, 0.000194] & Amygdala & 0.000238 & [-0.000066, 0.000666] \\ 
+  0.000058 & [-0.000047, 0.000214] & Entorhinal & 0.000111 & [-0.000084, 0.000393] \\ 
+   \rowcolor{blue!30}\cellcolor{white}{0.000043} & \cellcolor{white}{[-0.000068, 0.000174]} & Hippocampus & 0.000281 & [0.000013, 0.000691] \\ 
+  0.000003 & [-0.000041, 0.000054] & Insula & -0.000013 & [-0.000183, 0.000137] \\ 
+   \rowcolor{red!30}0.000144 & [0.000012, 0.000358] & LateralTemporal & \cellcolor{white}{0.000149} & \cellcolor{white}{[-0.000214, 0.000518]} \\ 
+  0.00009 & [-0.000019, 0.000268] & MediatTemporal & 0.0002 & [-0.000034, 0.000531] \\ 
+  0.000075 & [-0.000018, 0.000239] & ParahippoGyrus & 0.000211 & [-0.00002, 0.00059] \\ 
+  0.000001 & [-0.000057, 0.000063] & PostCingulate & 0.000021 & [-0.00012, 0.00022] \\ 
+  0.000042 & [-0.000046, 0.00016] & SLF.PT & 0.0001 & [-0.000125, 0.000456] \\ 
+  0.000003 & [-0.000065, 0.000067] & Splenium & 0.00013 & [-0.000093, 0.000448] \\ 
+  0.000001 & [-0.000074, 0.000084] & Thalamus & 0.000113 & [-0.000088, 0.000495] \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Tue Feb 21 15:09:03 2017
+\begin{table}[H]
+\centering
+\caption{LMCI: Executive Function} 
+\begin{tabular}{lllll}
+  \toprule
+\cellcolor{red!30}{B2} & \cellcolor{red!30}{CI} & ROI & \cellcolor{blue!30}{B3} & \cellcolor{blue!30}{CI} \\ 
+  \midrule
+0.00026 & [-0.000096, 0.000835] & Amygdala & 0.000534 & [-0.000218, 0.001503] \\ 
+  0.00011 & [-0.000076, 0.000492] & Entorhinal & 0.000452 & [-0.000271, 0.001362] \\ 
+  0.000026 & [-0.000293, 0.000337] & Hippocampus & 0.000114 & [-0.000623, 0.000976] \\ 
+  0.000303 & [-0.000108, 0.000865] & Insula & 0.000089 & [-0.000334, 0.000541] \\ 
+  0.000473 & [-0.000048, 0.001171] & LateralTemporal & 0.000194 & [-0.000227, 0.000802] \\ 
+   \rowcolor{blue!30}\cellcolor{white}{0.000241} & \cellcolor{white}{[-0.000007, 0.000703]} & MediatTemporal & 0.000707 & [0.000005, 0.001622] \\ 
+   \rowcolor{green!30}0.000367 & [0.000054, 0.000896] & ParahippoGyrus & 0.000763 & [0.000152, 0.001543] \\ 
+  0.00044 & [-0.000017, 0.001134] & PostCingulate & -0.000036 & [-0.000824, 0.000695] \\ 
+  0.000345 & [-0.000034, 0.000983] & SLF.PT & 0.000492 & [-0.000107, 0.001456] \\ 
+   \rowcolor{red!30}0.000691 & [0.000151, 0.001525] & Splenium & \cellcolor{white}{0.000317} & \cellcolor{white}{[-0.000408, 0.001047]} \\ 
+   \rowcolor{red!30}0.000516 & [0.000103, 0.001151] & Thalamus & \cellcolor{white}{0.000449} & \cellcolor{white}{[-0.000142, 0.001144]} \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Tue Feb 21 15:09:03 2017
+\begin{table}[H]
+\centering
+\caption{LMCI: Memory} 
+\begin{tabular}{lllll}
+  \toprule
+\cellcolor{red!30}{B2} & \cellcolor{red!30}{CI} & ROI & \cellcolor{blue!30}{B3} & \cellcolor{blue!30}{CI} \\ 
+  \rowcolor{green!30} \midrule
+0.000272 & [0.000012, 0.000692] & Amygdala & 0.000559 & [0.000039, 0.0013] \\ 
+   \rowcolor{blue!30}\cellcolor{white}{0.000128} & \cellcolor{white}{[-0.000063, 0.000439]} & Entorhinal & 0.000556 & [0.000058, 0.001203] \\ 
+   \rowcolor{blue!30}\cellcolor{white}{0.000165} & \cellcolor{white}{[-0.000026, 0.000499]} & Hippocampus & 0.000507 & [0.000033, 0.001306] \\ 
+  0.000037 & [-0.000248, 0.000337] & Insula & 0.000008 & [-0.000188, 0.000216] \\ 
+   \rowcolor{red!30}0.000382 & [0.000049, 0.00081] & LateralTemporal & \cellcolor{white}{0.000155} & \cellcolor{white}{[-0.000194, 0.000608]} \\ 
+   \rowcolor{green!30}0.000222 & [0.000021, 0.000529] & MediatTemporal & 0.000674 & [0.000135, 0.001352] \\ 
+   \rowcolor{green!30}0.000261 & [0.000044, 0.000571] & ParahippoGyrus & 0.000558 & [0.000105, 0.001144] \\ 
+  0.000113 & [-0.000113, 0.000415] & PostCingulate & -0.000001 & [-0.000247, 0.000268] \\ 
+  0.000129 & [-0.000077, 0.000436] & SLF.PT & 0.000185 & [-0.000119, 0.00071] \\ 
+  0.000058 & [-0.000266, 0.000409] & Splenium & 0.000047 & [-0.000146, 0.000349] \\ 
+  0.00016 & [-0.000131, 0.000516] & Thalamus & 0.000142 & [-0.000134, 0.000488] \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Tue Feb 21 15:09:03 2017
+\begin{table}[H]
+\centering
+\caption{Total: Executive Function} 
+\begin{tabular}{rllrl}
+  \toprule
+\cellcolor{red!30}{B2} & \cellcolor{red!30}{CI} & ROI & \cellcolor{blue!30}{B3} & \cellcolor{blue!30}{CI} \\ 
+  \rowcolor{green!30} \midrule
+0.0001 & [0.00001, 0.00024] & Amygdala & 0.0004 & [0.000038, 0.000789] \\ 
+   \rowcolor{green!30}0.0001 & [0.000012, 0.000172] & Entorhinal & 0.0004 & [0.000117, 0.000707] \\ 
+  0.0000 & [-0.00002, 0.000123] & Hippocampus & 0.0002 & [-0.000094, 0.000559] \\ 
+  0.0000 & [-0.000019, 0.000082] & Insula & 0.0001 & [-0.000061, 0.000245] \\ 
+   \rowcolor{green!30}0.0001 & [0.000026, 0.000279] & LateralTemporal & 0.0002 & [0.000032, 0.000471] \\ 
+   \rowcolor{green!30}0.0001 & [0.000035, 0.000237] & MediatTemporal & 0.0005 & [0.000164, 0.000844] \\ 
+   \rowcolor{green!30}0.0001 & [0.000028, 0.000236] & ParahippoGyrus & 0.0004 & [0.000102, 0.000716] \\ 
+  0.0000 & [-0.000003, 0.000134] & PostCingulate & 0.0001 & [-0.000017, 0.000294] \\ 
+   \rowcolor{green!30}0.0001 & [0.000013, 0.000211] & SLF.PT & 0.0002 & [0.000029, 0.000514] \\ 
+   \rowcolor{green!30}0.0001 & [0.000007, 0.00023] & Splenium & 0.0003 & [0.000055, 0.000523] \\ 
+   \rowcolor{green!30}0.0001 & [0.000005, 0.000148] & Thalamus & 0.0002 & [0.000031, 0.000478] \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Tue Feb 21 15:09:03 2017
+\begin{table}[H]
+\centering
+\caption{Total: Memory} 
+\begin{tabular}{rllrl}
+  \toprule
+\cellcolor{red!30}{B2} & \cellcolor{red!30}{CI} & ROI & \cellcolor{blue!30}{B3} & \cellcolor{blue!30}{CI} \\ 
+  \rowcolor{green!30} \midrule
+0.0001 & [0.00005, 0.000224] & Amygdala & 0.0004 & [0.000204, 0.000694] \\ 
+   \rowcolor{green!30}0.0001 & [0.000015, 0.00014] & Entorhinal & 0.0003 & [0.000142, 0.000559] \\ 
+   \rowcolor{green!30}0.0001 & [0.000019, 0.000166] & Hippocampus & 0.0004 & [0.0002, 0.000644] \\ 
+  0.0000 & [-0.000013, 0.000053] & Insula & 0.0000 & [-0.000038, 0.000158] \\ 
+   \rowcolor{green!30}0.0002 & [0.000064, 0.000274] & LateralTemporal & 0.0002 & [0.00007, 0.00046] \\ 
+   \rowcolor{green!30}0.0001 & [0.000043, 0.000193] & MediatTemporal & 0.0004 & [0.00023, 0.000683] \\ 
+   \rowcolor{green!30}0.0001 & [0.000047, 0.000201] & ParahippoGyrus & 0.0004 & [0.000175, 0.000621] \\ 
+  0.0000 & [-0.000016, 0.000057] & PostCingulate & 0.0000 & [-0.00003, 0.000146] \\ 
+   \rowcolor{green!30}0.0001 & [0.000016, 0.00015] & SLF.PT & 0.0002 & [0.000039, 0.000361] \\ 
+   \rowcolor{green!30}0.0000 & [0.000003, 0.000114] & Splenium & 0.0001 & [0.000013, 0.000329] \\ 
+   \rowcolor{green!30}0.0000 & [0.000004, 0.000101] & Thalamus & 0.0002 & [0.000028, 0.00033] \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+\newpage
+\section*{Mediations: $\beta_1$}
+Table showing $\beta_1$ mediation pathway across diagostic groups. Orange indicates significant $\beta_1$ pathway. Only EMCI and Total group showed significant pathways in Memory. 
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Tue Feb 21 15:09:03 2017
+\begin{table}[H]
+\centering
+\caption{CN: Executive} 
+\begin{tabular}{lrll}
+  \toprule
+ROI & B1 & CI & sig \\ 
+  \midrule
+Amygdala & 0.0000 & [-0.000286, 0.000435] & 0 \\ 
+  Entorhinal & 0.0000 & [-0.000231, 0.000434] & 0 \\ 
+  Hippocampus & 0.0000 & [-0.000247, 0.000445] & 0 \\ 
+  Insula & 0.0000 & [-0.000268, 0.000442] & 0 \\ 
+  LateralTemporal & 0.0000 & [-0.000246, 0.000444] & 0 \\ 
+  MediatTemporal & 0.0000 & [-0.000246, 0.000423] & 0 \\ 
+  ParahippoGyrus & 0.0000 & [-0.000285, 0.000417] & 0 \\ 
+  PostCingulate & 0.0000 & [-0.000253, 0.000453] & 0 \\ 
+  SLF.PT & 0.0000 & [-0.00025, 0.000435] & 0 \\ 
+  Splenium & 0.0000 & [-0.00028, 0.000457] & 0 \\ 
+  Thalamus & 0.0000 & [-0.000249, 0.000447] & 0 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Tue Feb 21 15:09:04 2017
+\begin{table}[H]
+\centering
+\caption{CN: Memory} 
+\begin{tabular}{lrll}
+  \toprule
+ROI & B1 & CI & sig \\ 
+  \midrule
+Amygdala & -0.0001 & [-0.000299, 0.000044] & 0 \\ 
+  Entorhinal & -0.0001 & [-0.00029, 0.000047] & 0 \\ 
+  Hippocampus & -0.0001 & [-0.000297, 0.000046] & 0 \\ 
+  Insula & -0.0001 & [-0.000294, 0.000047] & 0 \\ 
+  LateralTemporal & -0.0001 & [-0.000293, 0.000046] & 0 \\ 
+  MediatTemporal & -0.0001 & [-0.000294, 0.000047] & 0 \\ 
+  ParahippoGyrus & -0.0001 & [-0.000289, 0.000051] & 0 \\ 
+  PostCingulate & -0.0001 & [-0.00031, 0.000047] & 0 \\ 
+  SLF.PT & -0.0001 & [-0.000289, 0.000062] & 0 \\ 
+  Splenium & -0.0001 & [-0.00029, 0.000048] & 0 \\ 
+  Thalamus & -0.0001 & [-0.000299, 0.000046] & 0 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Tue Feb 21 15:09:04 2017
+\begin{table}[H]
+\centering
+\caption{EMCI: Executive} 
+\begin{tabular}{lrll}
+  \toprule
+ROI & B1 & CI & sig \\ 
+  \midrule
+Amygdala & -0.0002 & [-0.000996, 0.000278] & 0 \\ 
+  Entorhinal & -0.0003 & [-0.001072, 0.000205] & 0 \\ 
+  Hippocampus & -0.0002 & [-0.000947, 0.000375] & 0 \\ 
+  Insula & -0.0002 & [-0.000859, 0.000369] & 0 \\ 
+  LateralTemporal & -0.0002 & [-0.00096, 0.000281] & 0 \\ 
+  MediatTemporal & -0.0003 & [-0.001073, 0.000223] & 0 \\ 
+  ParahippoGyrus & -0.0002 & [-0.000842, 0.000311] & 0 \\ 
+  PostCingulate & -0.0002 & [-0.000868, 0.000339] & 0 \\ 
+  SLF.PT & -0.0002 & [-0.000903, 0.000329] & 0 \\ 
+  Splenium & -0.0002 & [-0.000898, 0.000367] & 0 \\ 
+  Thalamus & -0.0001 & [-0.000866, 0.000381] & 0 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Tue Feb 21 15:09:04 2017
+\begin{table}[H]
+\centering
+\caption{EMCI: Memory} 
+\begin{tabular}{lrll}
+  \toprule
+ROI & B1 & CI & sig \\ 
+  \midrule
+Amygdala & 0.0003 & [-0.000057, 0.000673] & 0 \\ 
+  Entorhinal & 0.0003 & [-0.000078, 0.00067] & 0 \\ 
+  Hippocampus & 0.0003 & [-0.000011, 0.00065] & 0 \\ 
+   \rowcolor{orange!30}Insula & 0.0003 & [0.00003, 0.000711] & 1 \\ 
+  LateralTemporal & 0.0002 & [-0.000146, 0.000555] & 0 \\ 
+  MediatTemporal & 0.0002 & [-0.000111, 0.000644] & 0 \\ 
+  ParahippoGyrus & 0.0003 & [-0.000069, 0.000647] & 0 \\ 
+   \rowcolor{orange!30}PostCingulate & 0.0003 & [0.000021, 0.000702] & 1 \\ 
+  SLF.PT & 0.0003 & [-0.000039, 0.000682] & 0 \\ 
+   \rowcolor{orange!30}Splenium & 0.0003 & [0.000024, 0.000705] & 1 \\ 
+   \rowcolor{orange!30}Thalamus & 0.0003 & [0.000014, 0.000725] & 1 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Tue Feb 21 15:09:04 2017
+\begin{table}[H]
+\centering
+\caption{LMCI: Executive} 
+\begin{tabular}{lrll}
+  \toprule
+ROI & B1 & CI & sig \\ 
+  \midrule
+Amygdala & 0.0003 & [-0.001003, 0.001279] & 0 \\ 
+  Entorhinal & 0.0004 & [-0.000824, 0.001474] & 0 \\ 
+  Hippocampus & 0.0005 & [-0.000721, 0.00148] & 0 \\ 
+  Insula & 0.0002 & [-0.001005, 0.0013] & 0 \\ 
+  LateralTemporal & 0.0001 & [-0.001231, 0.001139] & 0 \\ 
+  MediatTemporal & 0.0003 & [-0.000975, 0.001337] & 0 \\ 
+  ParahippoGyrus & 0.0001 & [-0.000988, 0.001203] & 0 \\ 
+  PostCingulate & 0.0001 & [-0.00097, 0.001095] & 0 \\ 
+  SLF.PT & 0.0002 & [-0.000952, 0.001197] & 0 \\ 
+  Splenium & -0.0002 & [-0.001136, 0.000657] & 0 \\ 
+  Thalamus & 0.0000 & [-0.001156, 0.001042] & 0 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Tue Feb 21 15:09:04 2017
+\begin{table}[H]
+\centering
+\caption{LMCI: Memory} 
+\begin{tabular}{lrll}
+  \toprule
+ROI & B1 & CI & sig \\ 
+  \midrule
+Amygdala & 0.0003 & [-0.000332, 0.00094] & 0 \\ 
+  Entorhinal & 0.0004 & [-0.000251, 0.001142] & 0 \\ 
+  Hippocampus & 0.0004 & [-0.000206, 0.001033] & 0 \\ 
+  Insula & 0.0005 & [-0.000149, 0.001317] & 0 \\ 
+  LateralTemporal & 0.0002 & [-0.000438, 0.00087] & 0 \\ 
+  MediatTemporal & 0.0003 & [-0.000303, 0.00101] & 0 \\ 
+  ParahippoGyrus & 0.0003 & [-0.000326, 0.000996] & 0 \\ 
+  PostCingulate & 0.0004 & [-0.000175, 0.001172] & 0 \\ 
+  SLF.PT & 0.0004 & [-0.000208, 0.001138] & 0 \\ 
+  Splenium & 0.0005 & [-0.000136, 0.001243] & 0 \\ 
+  Thalamus & 0.0004 & [-0.00026, 0.001147] & 0 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Tue Feb 21 15:09:04 2017
+\begin{table}[H]
+\centering
+\caption{Total: Executive} 
+\begin{tabular}{lrll}
+  \toprule
+ROI & B1 & CI & sig \\ 
+  \midrule
+Amygdala & 0.0001 & [-0.000344, 0.000438] & 0 \\ 
+  Entorhinal & 0.0001 & [-0.000307, 0.000481] & 0 \\ 
+  Hippocampus & 0.0001 & [-0.000282, 0.000506] & 0 \\ 
+  Insula & 0.0001 & [-0.00026, 0.000516] & 0 \\ 
+  LateralTemporal & 0.0000 & [-0.000365, 0.000418] & 0 \\ 
+  MediatTemporal & 0.0001 & [-0.000357, 0.000424] & 0 \\ 
+  ParahippoGyrus & 0.0000 & [-0.000357, 0.00042] & 0 \\ 
+  PostCingulate & 0.0001 & [-0.000287, 0.000481] & 0 \\ 
+  SLF.PT & 0.0001 & [-0.000314, 0.000431] & 0 \\ 
+  Splenium & 0.0001 & [-0.000315, 0.000418] & 0 \\ 
+  Thalamus & 0.0001 & [-0.000292, 0.000471] & 0 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Tue Feb 21 15:09:04 2017
+\begin{table}[H]
+\centering
+\caption{Total: Memory} 
+\begin{tabular}{lrll}
+  \toprule
+ROI & B1 & CI & sig \\ 
+  \midrule
+Amygdala & 0.0001 & [-0.000077, 0.00032] & 0 \\ 
+  Entorhinal & 0.0002 & [-0.00002, 0.000399] & 0 \\ 
+  Hippocampus & 0.0002 & [-0.000022, 0.00037] & 0 \\ 
+   \rowcolor{orange!30}Insula & 0.0002 & [0.000041, 0.000449] & 1 \\ 
+  LateralTemporal & 0.0001 & [-0.000083, 0.000269] & 0 \\ 
+  MediatTemporal & 0.0001 & [-0.000061, 0.000351] & 0 \\ 
+  ParahippoGyrus & 0.0001 & [-0.000052, 0.000341] & 0 \\ 
+   \rowcolor{orange!30}PostCingulate & 0.0002 & [0.000042, 0.000453] & 1 \\ 
+  SLF.PT & 0.0002 & [-0.000008, 0.000384] & 0 \\ 
+   \rowcolor{orange!30}Splenium & 0.0002 & [0.000018, 0.000405] & 1 \\ 
+   \rowcolor{orange!30}Thalamus & 0.0002 & [0.000012, 0.000412] & 1 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+\section*{Mediations: $ab$}
+Table showing $ab$ mediation pathway across diagostic groups. Orange indicates significant $ab$ pathway. Only EMCI and Total group showed significant pathways in Memory. 
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Tue Feb 21 15:09:04 2017
+\begin{table}[H]
+\centering
+\caption{CN: Executive} 
+\begin{tabular}{lrll}
+  \toprule
+ROI & B3 & CI & sig \\ 
+  \midrule
+Amygdala & 0.0000 & [-0.000006, 0.000032] & 0 \\ 
+  Entorhinal & -0.0000 & [-0.000027, 0.000022] & 0 \\ 
+  Hippocampus & 0.0000 & [-0.000013, 0.000016] & 0 \\ 
+  Insula & -0.0000 & [-0.000014, 0.000011] & 0 \\ 
+  LateralTemporal & -0.0000 & [-0.000016, 0.000009] & 0 \\ 
+  MediatTemporal & 0.0000 & [-0.000013, 0.000019] & 0 \\ 
+  ParahippoGyrus & 0.0000 & [-0.000005, 0.000017] & 0 \\ 
+  PostCingulate & -0.0000 & [-0.000028, 0.00001] & 0 \\ 
+  SLF.PT & 0.0000 & [-0.000006, 0.000021] & 0 \\ 
+  Splenium & -0.0000 & [-0.000018, 0.000002] & 0 \\ 
+  Thalamus & -0.0000 & [-0.000015, 0.000007] & 0 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Tue Feb 21 15:09:04 2017
+\begin{table}[H]
+\centering
+\caption{CN: Memory} 
+\begin{tabular}{lrll}
+  \toprule
+ROI & B3 & CI & sig \\ 
+  \midrule
+Amygdala & 0.0000 & [-0.000006, 0.000032] & 0 \\ 
+  Entorhinal & -0.0000 & [-0.000027, 0.000022] & 0 \\ 
+  Hippocampus & 0.0000 & [-0.000013, 0.000016] & 0 \\ 
+  Insula & -0.0000 & [-0.000014, 0.000011] & 0 \\ 
+  LateralTemporal & -0.0000 & [-0.000016, 0.000009] & 0 \\ 
+  MediatTemporal & 0.0000 & [-0.000013, 0.000019] & 0 \\ 
+  ParahippoGyrus & 0.0000 & [-0.000005, 0.000017] & 0 \\ 
+  PostCingulate & -0.0000 & [-0.000028, 0.00001] & 0 \\ 
+  SLF.PT & 0.0000 & [-0.000006, 0.000021] & 0 \\ 
+  Splenium & -0.0000 & [-0.000018, 0.000002] & 0 \\ 
+  Thalamus & -0.0000 & [-0.000015, 0.000007] & 0 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Tue Feb 21 15:09:04 2017
+\begin{table}[H]
+\centering
+\caption{EMCI: Executive} 
+\begin{tabular}{lrll}
+  \toprule
+ROI & B3 & CI & sig \\ 
+  \midrule
+Amygdala & 0.0000 & [-0.000012, 0.000085] & 0 \\ 
+   \rowcolor{orange!30}Entorhinal & 0.0001 & [0.000002, 0.000117] & 1 \\ 
+  Hippocampus & 0.0000 & [-0.000019, 0.00006] & 0 \\ 
+  Insula & -0.0000 & [-0.000034, 0.000014] & 0 \\ 
+   \rowcolor{orange!30}LateralTemporal & 0.0000 & [0.000003, 0.000075] & 1 \\ 
+   \rowcolor{orange!30}MediatTemporal & 0.0000 & [0.000003, 0.000084] & 1 \\ 
+  ParahippoGyrus & 0.0000 & [-0.000002, 0.000065] & 0 \\ 
+  PostCingulate & 0.0000 & [-0.000025, 0.000055] & 0 \\ 
+  SLF.PT & 0.0000 & [-0.00001, 0.000044] & 0 \\ 
+  Splenium & 0.0000 & [-0.000015, 0.000029] & 0 \\ 
+  Thalamus & 0.0000 & [-0.000025, 0.000031] & 0 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Tue Feb 21 15:09:04 2017
+\begin{table}[H]
+\centering
+\caption{EMCI: Memory} 
+\begin{tabular}{lrll}
+  \toprule
+ROI & B3 & CI & sig \\ 
+  \midrule
+Amygdala & 0.0000 & [-0.000012, 0.000085] & 0 \\ 
+   \rowcolor{orange!30}Entorhinal & 0.0001 & [0.000002, 0.000117] & 1 \\ 
+  Hippocampus & 0.0000 & [-0.000019, 0.00006] & 0 \\ 
+  Insula & -0.0000 & [-0.000034, 0.000014] & 0 \\ 
+   \rowcolor{orange!30}LateralTemporal & 0.0000 & [0.000003, 0.000075] & 1 \\ 
+   \rowcolor{orange!30}MediatTemporal & 0.0000 & [0.000003, 0.000084] & 1 \\ 
+  ParahippoGyrus & 0.0000 & [-0.000002, 0.000065] & 0 \\ 
+  PostCingulate & 0.0000 & [-0.000025, 0.000055] & 0 \\ 
+  SLF.PT & 0.0000 & [-0.00001, 0.000044] & 0 \\ 
+  Splenium & 0.0000 & [-0.000015, 0.000029] & 0 \\ 
+  Thalamus & 0.0000 & [-0.000025, 0.000031] & 0 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Tue Feb 21 15:09:04 2017
+\begin{table}[H]
+\centering
+\caption{LMCI: Executive} 
+\begin{tabular}{lrll}
+  \toprule
+ROI & B3 & CI & sig \\ 
+  \rowcolor{orange!30} \midrule
+Amygdala & 0.0001 & [0.000036, 0.000207] & 1 \\ 
+  Entorhinal & 0.0001 & [-0.000029, 0.000169] & 0 \\ 
+  Hippocampus & 0.0001 & [-0.000006, 0.000141] & 0 \\ 
+   \rowcolor{orange!30}Insula & 0.0001 & [0.000038, 0.00016] & 1 \\ 
+   \rowcolor{orange!30}LateralTemporal & 0.0002 & [0.000075, 0.000277] & 1 \\ 
+   \rowcolor{orange!30}MediatTemporal & 0.0001 & [0.000011, 0.000155] & 1 \\ 
+   \rowcolor{orange!30}ParahippoGyrus & 0.0001 & [0.000021, 0.000142] & 1 \\ 
+   \rowcolor{orange!30}PostCingulate & 0.0001 & [0.000028, 0.000198] & 1 \\ 
+   \rowcolor{orange!30}SLF.PT & 0.0001 & [0.000005, 0.00014] & 1 \\ 
+   \rowcolor{orange!30}Splenium & 0.0001 & [0.000034, 0.000194] & 1 \\ 
+   \rowcolor{orange!30}Thalamus & 0.0001 & [0.000035, 0.000166] & 1 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Tue Feb 21 15:09:04 2017
+\begin{table}[H]
+\centering
+\caption{LMCI: Memory} 
+\begin{tabular}{lrll}
+  \toprule
+ROI & B3 & CI & sig \\ 
+  \rowcolor{orange!30} \midrule
+Amygdala & 0.0001 & [0.000036, 0.000207] & 1 \\ 
+  Entorhinal & 0.0001 & [-0.000029, 0.000169] & 0 \\ 
+  Hippocampus & 0.0001 & [-0.000006, 0.000141] & 0 \\ 
+   \rowcolor{orange!30}Insula & 0.0001 & [0.000038, 0.00016] & 1 \\ 
+   \rowcolor{orange!30}LateralTemporal & 0.0002 & [0.000075, 0.000277] & 1 \\ 
+   \rowcolor{orange!30}MediatTemporal & 0.0001 & [0.000011, 0.000155] & 1 \\ 
+   \rowcolor{orange!30}ParahippoGyrus & 0.0001 & [0.000021, 0.000142] & 1 \\ 
+   \rowcolor{orange!30}PostCingulate & 0.0001 & [0.000028, 0.000198] & 1 \\ 
+   \rowcolor{orange!30}SLF.PT & 0.0001 & [0.000005, 0.00014] & 1 \\ 
+   \rowcolor{orange!30}Splenium & 0.0001 & [0.000034, 0.000194] & 1 \\ 
+   \rowcolor{orange!30}Thalamus & 0.0001 & [0.000035, 0.000166] & 1 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Tue Feb 21 15:09:04 2017
+\begin{table}[H]
+\centering
+\caption{Total: Executive} 
+\begin{tabular}{lrll}
+  \toprule
+ROI & B3 & CI & sig \\ 
+  \rowcolor{orange!30} \midrule
+Amygdala & 0.0000 & [0.000022, 0.000071] & 1 \\ 
+   \rowcolor{orange!30}Entorhinal & 0.0000 & [0.000008, 0.000068] & 1 \\ 
+   \rowcolor{orange!30}Hippocampus & 0.0000 & [0.000006, 0.000051] & 1 \\ 
+   \rowcolor{orange!30}Insula & 0.0000 & [0.000003, 0.000035] & 1 \\ 
+   \rowcolor{orange!30}LateralTemporal & 0.0000 & [0.000024, 0.000076] & 1 \\ 
+   \rowcolor{orange!30}MediatTemporal & 0.0000 & [0.000016, 0.000058] & 1 \\ 
+   \rowcolor{orange!30}ParahippoGyrus & 0.0000 & [0.000018, 0.000056] & 1 \\ 
+   \rowcolor{orange!30}PostCingulate & 0.0000 & [0.000001, 0.000047] & 1 \\ 
+   \rowcolor{orange!30}SLF.PT & 0.0000 & [0.000009, 0.000045] & 1 \\ 
+   \rowcolor{orange!30}Splenium & 0.0000 & [0.000005, 0.000043] & 1 \\ 
+   \rowcolor{orange!30}Thalamus & 0.0000 & [0.000004, 0.000039] & 1 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}% latex table generated in R 3.3.2 by xtable 1.8-2 package
+% Tue Feb 21 15:09:04 2017
+\begin{table}[H]
+\centering
+\caption{Total: Memory} 
+\begin{tabular}{lrll}
+  \toprule
+ROI & B3 & CI & sig \\ 
+  \rowcolor{orange!30} \midrule
+Amygdala & 0.0000 & [0.000022, 0.000071] & 1 \\ 
+   \rowcolor{orange!30}Entorhinal & 0.0000 & [0.000008, 0.000068] & 1 \\ 
+   \rowcolor{orange!30}Hippocampus & 0.0000 & [0.000006, 0.000051] & 1 \\ 
+   \rowcolor{orange!30}Insula & 0.0000 & [0.000003, 0.000035] & 1 \\ 
+   \rowcolor{orange!30}LateralTemporal & 0.0000 & [0.000024, 0.000076] & 1 \\ 
+   \rowcolor{orange!30}MediatTemporal & 0.0000 & [0.000016, 0.000058] & 1 \\ 
+   \rowcolor{orange!30}ParahippoGyrus & 0.0000 & [0.000018, 0.000056] & 1 \\ 
+   \rowcolor{orange!30}PostCingulate & 0.0000 & [0.000001, 0.000047] & 1 \\ 
+   \rowcolor{orange!30}SLF.PT & 0.0000 & [0.000009, 0.000045] & 1 \\ 
+   \rowcolor{orange!30}Splenium & 0.0000 & [0.000005, 0.000043] & 1 \\ 
+   \rowcolor{orange!30}Thalamus & 0.0000 & [0.000004, 0.000039] & 1 \\ 
+   \bottomrule
+\end{tabular}
+\end{table}
+\end{document}
