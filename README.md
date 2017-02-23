@@ -1,0 +1,109 @@
+# Neuroimaging-Simulation-Study
+Alzheimer's Disease Center, Neuroimaging study. Work with Dr. Fletcher, Dr. DeCarli, Dr. Harvey
+
+## Mediation Analysis
+
+### Summary of changes 
+This document summarizes the new analysis for Evan Fletcher's *Staging of amyloid-$\beta$, tau, regional atrophy rates and cognitive change in a non-demented cohort* paper.
+The new analysis differs from the previous analysis in the following ways:
+ 
+ -   Previous models, plus additions: 
+    + Previously: Total Number of original Models, **60**, 2 cognitive measures (EF,MEM), 10 ROIs (atrophy), 3 Groups (NL, EMCI, LMCI)
+    + We will look at one additional ROI (Medial temporal)
+    + We will run all of these analyses assuming one combinded group, TOTAL (combining NL, EMCI, LMCI), in addition to separately by diagnostic category.
+    + Grand Total: 11 x 2 x 4 = **88**
+    
+ - Changes made in new analysis: 
+    + Estimate cognitive change via mixed effects models simultaneously with mediation models. 
+      + If mixed effect model failed to converge for a particular sample, a linear model was fit. 
+    + Bootstrapped samples will be consistent across all ROIs. 
+      + Prior to running analyses, we generated random samples from reach diagnostic category. 
+      + The TOTAL group was then the combination of the three diagnostic samples for each bootstrapped sample. 
+      + This ensured that the number of individuals in each category was consistent. 
+  
+  
+  
+### Longitudinal Mediation Models
+
+#### Paths estimated
+<div style="float: left; width: 40%;">
+
+**Direct**
+
+* A$\beta$ to Tau ($a$)
+* A$\beta$ to Atrophy ($a_2$)
+* A$\beta$  to $\Delta$ Cog ($d$)
+* Tau to Atrophy ($b$)
+* Tau to $\Delta$ Cog ($b_2$)
+* Atrophy to $\Delta$ Cog ($c$)    
+
+</div>
+
+
+<div style="float: right; width: 60%;">
+
+**Mediated**  
+
+<span style="color:red">Red Path</span>
+
+* A$\beta$ to Tau to Atrophy ($a \times b$)
+* Tau to Atrophy to $\Delta$ Cog ($b \times c$)
+* A$\beta$ to Tau to Atrophy to $\Delta$ Cog ($\beta_2 = a \times b \times c$)  
+
+<span style="color:#FFC300">Yellow Path</span>
+
+* A$\beta$ to Tau to $\Delta$ Cog ($\beta_1 = a \times b_2$)  
+
+<span style="color:darkblue">Blue Path</span>
+
+* A$\beta$ to Atrophy to $\Delta$ Cog ($\beta_3  = a_2 \times c$)
+
+</div>
+
+#### Models
+ 
+<blockquote style="border: 2px solid #666; padding: 10px; background-color: #ccc;">  
+**a:**  
+`fmA = lm(TAU_bl~ABETA_bl+Age75+Educ16+Sex,data = subset(subdf,VISCODE2=='bl'))`    
+**a**  = `ABETA_bl` coef.  
+</blockquote> 
+
+<blockquote style="border: 2px solid #666; padding: 10px; background-color: #ccc;">  
+**a2,b:**  
+`    fmA2 = lm(atrophy~ABETA_bl+TAU_bl+Age75+Educ16+Sex,data = subset(subdf,VISCODE2=='bl'))`   
+**a2**  = `ABETA_bl` coef.  
+**b**  = `TAU_bl` coef. 
+</blockquote> 
+    
+<blockquote style="border: 2px solid #666; padding: 10px; background-color: #ccc;">  
+**d:**  
+`lmeD = if(class(try(lme(cog ~ time2 * (ABETA_bl + Age75 + Sex + Educ16),`  
+             `random = ~(1+time2)|ID,data = subdf,na.action = na.omit),`  
+             `silent = TRUE))=='try-error'){`  
+    `### if random slope won't converge, just run random intercept.`  
+             `lme(cog ~ time2 * (ABETA_bl + Age75 + Sex + Educ16),`  
+             `random = ~(1)|ID,data = subdf,na.action = na.omit)}else{`
+    `### if convergence, take full model `            
+             `lme(cog ~ time2 * (ABETA_bl +Age75 + Sex + Educ16),`  
+        `random = ~(1+time2)|ID,data = subdf,na.action = na.omit)`  
+    `}`   
+**d**  = `time2:ABETA_bl` coef.  
+</blockquote>  
+  
+<blockquote style="border: 2px solid #666; padding: 10px; background-color: #ccc;">  
+**b2,c:**  
+`lmeB2 = if(class(try(lme(cog ~ time2 * (ABETA_bl + TAU_bl + atrophy +Age75 + Sex + Educ16),`  
+              `random = ~(1+time2)|ID,data = subdf,na.action = na.omit),`  
+              `silent = TRUE))=='try-error'){`  
+    `### if random slope won't converge, just run random intercept.`  
+              `lme(cog ~ time2 * (ABETA_bl + TAU_bl + atrophy +Age75 + Sex + Educ16),`  
+              `random = ~(1)|ID,data = subdf,na.action = na.omit)}else{`  
+    ``### if convergence, take full model`      
+                `lme(cog ~ time2 * (ABETA_bl + TAU_bl + atrophy +Age75 + Sex + Educ16),`  
+                `random = ~(1+time2)|ID,data = subdf,na.action = na.omit) `   
+              `}`  
+**b2**  = `time2:TAU_bl` coef.  
+**c**  = `time2:atrophy` coef.
+</blockquote>    
+
+
