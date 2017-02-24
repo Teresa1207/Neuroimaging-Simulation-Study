@@ -326,12 +326,25 @@ demLast$EF2yr = (demLast$ADNI_EF - demLast$EFbl)/as.numeric(demLast$time2)*2
 library(plyr)
 
 ddply(demLast,.(DX),summarise,
+      N = length(DX),
+      Age = mean(AGE,na.rm =TRUE),
+      "Age sd" = sd(AGE,na.rm = TRUE),
+      Educ = mean(PTEDUCAT,na.rm =TRUE),
+      "Educ sd" = sd(PTEDUCAT,na.rm = TRUE),
+      "CSF AB" = mean(ABETA_bl,na.rm = TRUE),
+      "CSF AB sd" = sd(ABETA_bl,na.rm = TRUE),
+      "CSF Tau" = mean(TAU_bl,na.rm = TRUE),
+      "CSF Tau sd" = sd(TAU_bl,na.rm = TRUE),
       "MEM Baseline" = mean(MEMbl,na.rm = TRUE),
       "MEM Baseline sd" = sd(MEMbl,na.rm = TRUE), 
       "EF Baseline" = mean(EFbl,na.rm = TRUE),
       "EF Baseline sd" = sd(EFbl,na.rm = TRUE),
       "MEM 2yr Change" = mean(MEM2yr,na.rm = TRUE),
-      "MEM Baseline sd" = sd(MEM2yr,na.rm = TRUE), 
-      "EF Baseline" = mean(EF2yr,na.rm = TRUE),
-      "EF Baseline sd" = sd(EF2yr,na.rm = TRUE))
+      "MEM 2yr Change sd" = sd(MEM2yr,na.rm = TRUE), 
+      "EF 2yr Change" = mean(EF2yr,na.rm = TRUE),
+      "EF 2yr Change sd" = sd(EF2yr,na.rm = TRUE),
+      "MTL 2yr Change" = mean(Atrophy_MediatTemporal,na.rm = TRUE),
+      "MTL 2yr Change sd" = sd(Atrophy_MediatTemporal,na.rm = TRUE),
+      "LTR 2yr Change" = mean(Atrophy_LateralTemporal,na.rm = TRUE),
+      "LTR 2yr Change sd" = sd(Atrophy_LateralTemporal,na.rm = TRUE))
       
