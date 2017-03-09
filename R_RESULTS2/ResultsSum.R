@@ -1,9 +1,16 @@
 #########################################
 #### EVAN MEDIATION ANALYSIS RESULTS ####
 #########################################
-setwd("~/Documents/Davis 2016-2017/ADC_Evan/R_RESULTS2")
+setwd("~/Documents/Davis 2016-2017/ADC_Evan/Neuroimaging-Simulation-Study/R_RESULTS2")
 library(DT)
 library(data.table)
+library(Rmisc)
+library(gridExtra)
+library(grid)
+library(dplyr)
+library(tidyr)
+`%ni%` <- Negate(`%in%`) 
+
 
 temp = list.files(pattern="*.RDA")
 filenames <- list.files(pattern="*.RDA")
@@ -311,7 +318,8 @@ abMEMTOTAL = data.frame(TOTAL_ADNI_MEM_ab[,c('Atrophy',"B3","CI",'sig')])
 
 ### Demographic Tables
 
-demData = readRDS("~/Documents/Davis 2016-2017/ADC_Evan/R_SERVER/fdata1.RDA")
+demData = readRDS("~/Documents/Davis 2016-2017/ADC_Evan/Neuroimaging-Simulation-Study/R_SERVER2/fdata1.RDA")
+
 # The data set is sorted by subject RID.
 first <- which(!duplicated(demData$RID))
 last <- c(first[-1] -1, nrow(demData))
@@ -348,3 +356,288 @@ ddply(demLast,.(DX),summarise,
       "LTR 2yr Change" = mean(Atrophy_LateralTemporal,na.rm = TRUE),
       "LTR 2yr Change sd" = sd(Atrophy_LateralTemporal,na.rm = TRUE))
       
+
+## FINAL CI graphics
+library(dplyr)
+fig_CN  = fig2CN[,-1]
+fig_CN = fig_CN[which(fig_CN$Beta!=" "),]
+
+fig_tidy = function(df){
+df_tidy = select(tbl_df(df),Variable:sig)
+df_tidy = filter(df_tidy,Beta >" ")
+
+Figure_df  = df_tidy %>% separate(CI,c("lowerCI","upperCI"), ", ") %>% mutate(Beta = as.numeric(Beta))
+Figure_df$upperCI = as.numeric(unlist(lapply(Figure_df$upperCI,function(x){gsub("\\]","",x)})))
+Figure_df$lowerCI = as.numeric(unlist(lapply(Figure_df$lowerCI,function(x){gsub("\\[","",x)})))
+Figure_df$sig = ifelse(Figure_df$sig==0,'Not Significant','Significant')
+Figure_df = Figure_df[order(Figure_df$Beta),] %>% filter(Variable!='MediatTemporal')
+Figure_df$Variable = factor(Figure_df$Variable, levels = Figure_df$Variable)
+df1 =  filter(Figure_df,Variable%ni%c('EF','MEM','Tau'))
+
+list(df1 = df1)
+}
+B2_EMCIdf_mem = with(fig3MEMEMCI,data.frame(Variable = Atrophy,Beta = B2,CI = CI, sig = sig))
+B3_EMCIdf_mem = with(fig3MEMEMCI,data.frame(Variable = Atrophy,Beta = B3,CI = fig3MEMEMCI[,ncol(fig3MEMEMCI)-1], sig = fig3MEMEMCI[,ncol(fig3MEMEMCI)]))
+
+B2_LMCIdf_mem = with(fig3MEMLMCI,data.frame(Variable = Atrophy,Beta = B2,CI = CI, sig = sig))
+B3_LMCIdf_mem = with(fig3MEMLMCI,data.frame(Variable = Atrophy,Beta = B3,CI = fig3MEMLMCI[,ncol(fig3MEMEMCI)-1], sig = fig3MEMLMCI[,ncol(fig3MEMLMCI)]))
+
+B2_LMCIdf_ef = with(fig3EFLMCI,data.frame(Variable = Atrophy,Beta = B2,CI = CI, sig = sig))
+B3_LMCIdf_ef = with(fig3EFLMCI,data.frame(Variable = Atrophy,Beta = B3,CI = fig3EFLMCI[,ncol(fig3EFEMCI)-1], sig = fig3EFLMCI[,ncol(fig3EFLMCI)]))
+
+
+CNfig = fig_tidy(fig2CN)
+
+B2_EMCIfig_mem = fig_tidy(B2_EMCIdf_mem)
+B3_EMCIfig_mem = fig_tidy(B3_EMCIdf_mem)
+B2_EMCIfig_mem$df1$Variable = factor(B2_EMCIfig_mem$df1$Variable,level = levels(B3_EMCIfig_mem$df1$Variable))
+
+EMCI = rbind(B2_EMCIfig_mem$df1,B3_EMCIfig_mem$df1)
+EMCI$grp = c(rep('b2',10),rep('b3',10))
+
+
+B2_LMCIfig_mem = fig_tidy(B2_LMCIdf_mem)
+B3_LMCIfig_mem = fig_tidy(B3_LMCIdf_mem)
+B2_LMCIfig_mem$df1$Variable = factor(B2_LMCIfig_mem$df1$Variable,level = levels(B3_LMCIfig_mem$df1$Variable))
+
+
+B2_LMCIfig_ef = fig_tidy(B2_LMCIdf_ef)
+B3_LMCIfig_ef = fig_tidy(B3_LMCIdf_ef)
+B2_LMCIfig_ef$df1$Variable = factor(B2_LMCIfig_ef$df1$Variable,level = levels(B3_LMCIfig_ef$df1$Variable))
+
+
+LMCI_mem = rbind(B2_LMCIfig_mem$df1,B3_LMCIfig_mem$df1)
+LMCI_mem$grp = c(rep('b2',10),rep('b3',10))
+
+LMCI_ef = rbind(B2_LMCIfig_ef$df1,B3_LMCIfig_ef$df1)
+LMCI_ef$grp = c(rep('b2',10),rep('b3',10))
+
+library(ReporteRs)
+library(ggplot2)
+library(gtable)
+cn = ylim(-.0001,.00024)
+emci = ylim(-0.00022,0.0007)
+lmci = ylim(-0.0009,0.002)
+lmci2 = ylim(-0.001,0.002)
+
+p = ggplot(EMCI, 
+           aes(x = Variable, y = Beta, color = sig)) + 
+  geom_point() + 
+  facet_grid(~grp,scales = 'free') + 
+  coord_flip() + theme_classic()+
+  theme(
+    legend.position = 'bottom',
+    axis.text.x = element_text(size = 24,face = 'bold',colour = 'black'), 
+    axis.text.y = element_text(size = 32,face = 'bold',color = 'black'), 
+    title = element_text(size = 16, face = 'bold',color = 'black'))+
+geom_errorbar(aes(ymin = lowerCI, ymax=upperCI), width=.3, position=position_dodge(0.05),size = 1.1) +
+  geom_hline(yintercept = 0,color = 'black',linetype = 2,size = 1.3) + 
+scale_colour_manual(values = c('black','red')) +
+  labs(color = "")+ylab('')+xlab('') +emci +theme(legend.position = 'bottom')+
+ylim(-.0001,.0005)+scale_y_continuous(breaks = c(0.0000,0.0003,0.0005), labels = c('0','3e-4','5e-4'))+
+  theme(panel.spacing = unit(18, "lines"))
+
+p
+p1 = p+theme(axis.title.y=element_blank(),axis.text.y=element_blank(),axis.ticks.y=element_blank())
+g <- ggplotGrob(p)
+g1 = ggplotGrob(p1)
+axis <- gtable_filter(g, "axis-l")[["grobs"]][[1]][["children"]][["axis"]][,1]
+g[["grobs"]][[4]][["children"]][["axis"]] <- NULL
+
+# build plot & add axis to LHS of left facet
+panels <- subset(g$layout, name %in% grep('panel',g$layout$name,value = TRUE))
+g2 <- gtable_add_grob(g1, grobs=axis, t = unique(panels$t), l=tail(panels$l, -1)-1)
+
+# Locate the tops of the plot panels
+# Locate the tops of the plot panels
+panels <- grep("panel", g2$layout$name)
+top <- unique(g2$layout$t[panels])
+
+g2 = g2[-(top-1), ]
+grid.newpage()
+
+png('gEMCI.png',width = 1200, height = 500)
+
+grid.draw(g2)
+
+dev.off()
+
+
+
+### LMCI MEM
+
+p = ggplot(LMCI_mem, 
+           aes(x = Variable, y = Beta, color = sig)) + 
+  geom_point() + 
+  facet_grid(~grp,scales = 'free') + 
+  coord_flip() + theme_classic()+
+  theme(
+    legend.position = 'bottom',
+    axis.text.x = element_text(size = 24,face = 'bold',colour = 'black'), 
+    axis.text.y = element_text(size = 32,face = 'bold',color = 'black'), 
+    title = element_text(size = 16, face = 'bold',color = 'black'))+
+  geom_errorbar(aes(ymin = lowerCI, ymax=upperCI), width=.3, position=position_dodge(0.05),size = 1.1) +
+  geom_hline(yintercept = 0,color = 'black',linetype = 2,size = 1.3) + 
+  scale_colour_manual(values = c('black','red')) +
+  labs(color = "")+ylab('')+xlab('') +lmci +theme(legend.position = 'bottom')+theme(panel.spacing = unit(18, "lines"))+
+  scale_y_continuous(breaks = c(0.0000,0.0005,0.001), labels = c('0','5e-4','1e-3'))
+
+p
+p1 = p+theme(axis.title.y=element_blank(),axis.text.y=element_blank(),axis.ticks.y=element_blank())
+g <- ggplotGrob(p)
+g1 = ggplotGrob(p1)
+axis <- gtable_filter(g, "axis-l")[["grobs"]][[1]][["children"]][["axis"]][,1]
+g[["grobs"]][[4]][["children"]][["axis"]] <- NULL
+
+# build plot & add axis to LHS of left facet
+panels <- subset(g$layout, name %in% grep('panel',g$layout$name,value = TRUE))
+g2 <- gtable_add_grob(g1, grobs=axis, t = unique(panels$t), l=tail(panels$l, -1)-1)
+
+# Locate the tops of the plot panels
+# Locate the tops of the plot panels
+panels <- grep("panel", g2$layout$name)
+top <- unique(g2$layout$t[panels])
+
+g2 = g2[-(top-1), ]
+grid.newpage()
+
+png('gLMCImem.png',width = 1200, height = 500)
+
+grid.draw(g2)
+
+dev.off()
+
+
+
+
+### LMCI EF
+
+p = ggplot(LMCI_ef, 
+           aes(x = Variable, y = Beta, color = sig)) + 
+  geom_point() + 
+  facet_grid(~grp,scales = 'free') + 
+  coord_flip() + theme_classic()+
+  theme(
+    legend.position = 'bottom',
+    axis.text.x = element_text(size = 24,face = 'bold',colour = 'black'), 
+    axis.text.y = element_text(size = 30,face = 'bold',color = 'black'), 
+    title = element_text(size = 16, face = 'bold',color = 'black'))+
+  geom_errorbar(aes(ymin = lowerCI, ymax=upperCI), width=.3, position=position_dodge(0.05),size = 1.1) +
+  geom_hline(yintercept = 0,color = 'black',linetype = 2,size = 1.3) + 
+  scale_colour_manual(values = c('black','red')) +
+  labs(color = "")+ylab('')+xlab('') +lmci2 +theme(legend.position = 'bottom')+theme(panel.spacing = unit(18, "lines"))+
+  scale_y_continuous(breaks = c(0.0000,0.001), labels = c('0','1e-3'))
+
+p
+p1 = p+theme(axis.title.y=element_blank(),axis.text.y=element_blank(),axis.ticks.y=element_blank())
+g <- ggplotGrob(p)
+g1 = ggplotGrob(p1)
+axis <- gtable_filter(g, "axis-l")[["grobs"]][[1]][["children"]][["axis"]][,1]
+g[["grobs"]][[4]][["children"]][["axis"]] <- NULL
+
+# build plot & add axis to LHS of left facet
+panels <- subset(g$layout, name %in% grep('panel',g$layout$name,value = TRUE))
+g2 <- gtable_add_grob(g1, grobs=axis, t = unique(panels$t), l=tail(panels$l, -1)-1)
+
+# Locate the tops of the plot panels
+# Locate the tops of the plot panels
+panels <- grep("panel", g2$layout$name)
+top <- unique(g2$layout$t[panels])
+
+g2 = g2[-(top-1), ]
+grid.newpage()
+
+png('gLMCIef.png',width = 1200, height = 500)
+
+grid.draw(g2)
+
+dev.off()
+
+
+
+
+
+
+
+
+plot1CI = function(df,name,ylimit){
+
+  themePlots = theme(legend.position = 'bottom',axis.text.x = element_text(size = 12,face = 'bold',colour = 'black'), 
+                     axis.text.y = element_text(size = 12,face = 'bold',color = 'black'), 
+                     title = element_text(size = 16, face = 'bold',color = 'black')) + theme_classic()
+  
+  plot1 = ggplot(data = df$df1, aes(x = Variable, y = Beta,color = sig))+geom_point() + 
+  geom_errorbar(aes(ymin = lowerCI, ymax=upperCI), width=.3, position=position_dodge(0.05),size = 1) + 
+  coord_flip() + 
+  geom_hline(yintercept = 0,color = 'black',linetype = 2,size = 1.3) + 
+  scale_colour_manual(values = c('black','red')) +
+  labs(color = "")+ylab('')+xlab('') +ylimit + themePlots +theme(legend.position = 'bottom')
+
+doc = docx()
+
+doc = addPlot(doc = doc, fun = print, x = plot1)
+writeDoc(doc, file = name, height = 2, width = 2)
+list(plot1)
+}
+
+cn = ylim(-.0001,.00024)
+emci = ylim(-0.00022,0.0007)
+lmci = ylim(-0.0009,0.002)
+lmci2 = ylim(-0.001,0.002)
+
+df.cn = list(CNfig)
+df.cn.list = list('cn.docx')
+df.list = list(B2_EMCIfig_mem, B3_EMCIfig_mem)
+df.listLMCI = list(B2_LMCIfig_ef,B3_LMCIfig_ef)
+df.listLMCI2 = list(B2_LMCIfig_mem,B3_LMCIfig_mem)
+file.list = list('EMCI1.docx','EMCI2.docx')
+file.listLMCI = list('l1.docx','l2.docx')
+file.listLMCI2 = list('l3.docx','l4.docx')
+
+plotCN =  mapply(function(x,y){plot1CI(x,y,cn)}, x = df.cn, y = df.cn.list)
+plotR = mapply(function(x,y){plot1CI(x,y,emci)}, x = df.list, y = file.list)
+plotR1 = mapply(function(x,y){plot1CI(x,y,lmci)}, x = df.listLMCI, y = file.listLMCI)
+plotR2 = mapply(function(x,y){plot1CI(x,y,lmci2)}, x = df.listLMCI2, y = file.listLMCI2)
+
+
+g_legend<-function(a.gplot){
+  tmp <- ggplot_gtable(ggplot_build(a.gplot))
+  leg <- which(sapply(tmp$grobs, function(x) x$name) == "guide-box")
+  legend <- tmp$grobs[[leg]]
+  return(legend)}
+
+mylegend<-g_legend(plotR[[1]])
+
+png('plotCN.png',width = 800,height = 800)
+plot = grid.arrange(arrangeGrob(plotCN[[1]] + theme(legend.position="none"),
+                                    nrow=1),
+                        mylegend,nrow = 2,heights=c(25, .5))
+dev.off()
+
+
+
+png('plotEMCI.png',width = 800,height = 800)
+plotEMCI = grid.arrange(arrangeGrob(plotR[[1]] + theme(legend.position="none") +
+                                    theme(axis.title.y=element_blank(),
+                                          axis.text.y=element_blank(),
+                                          axis.ticks.y=element_blank())+ylim(-.0001,.0005)+scale_y_continuous(breaks = c(0.0000,0.00025,0.00050)),
+                         plotR[[2]] + theme(legend.position="none")+scale_y_continuous(breaks = c(0.0000,0.00025,0.00050)),
+                         nrow=1),
+             mylegend,nrow = 2,heights=c(1, 1))
+dev.off()
+
+png('plotLMCI_EF.png',width = 800,height = 800)
+plotEMCI = grid.arrange(arrangeGrob(plotR1[[1]] + theme(legend.position="none")+ggtitle(expression(beta[2]))+theme(title  = element_text(size = 16,face = 'bold'))+
+                                      theme(axis.title.x=element_blank(),
+                                            axis.text.x=element_blank(),
+                                            axis.ticks.x=element_blank()),
+                                    plotR1[[2]] + theme(legend.position="none")+ggtitle(expression(beta[3]))+theme(title  = element_text(size = 16,face = 'bold')),
+                                    nrow=1),
+                        mylegend,nrow = 2,heights=c(1, 1))
+dev.off()
+png('plotLMCI_MEM.png',width = 800,height = 800)
+plotEMCI = grid.arrange(arrangeGrob(plotR2[[1]] + theme(legend.position="none")+ggtitle(expression(beta[2]))+theme(title  = element_text(size = 16,face = 'bold')),
+                                    plotR2[[2]] + theme(legend.position="none")+ggtitle(expression(beta[3]))+theme(title  = element_text(size = 16,face = 'bold')),
+                                    nrow=1),
+                        mylegend,nrow = 2,heights=c(1, 1))
+dev.off()
