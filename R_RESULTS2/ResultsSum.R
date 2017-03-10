@@ -420,22 +420,22 @@ emci = ylim(-0.00022,0.0007)
 lmci = ylim(-0.0009,0.002)
 lmci2 = ylim(-0.001,0.002)
 
-p = ggplot(EMCI, 
-           aes(x = Variable, y = Beta, color = sig)) + 
-  geom_point() + 
+p = ggplot(EMCI, aes(x = Variable, y = Beta, color = sig)) + 
+  geom_point(aes(shape = sig,size = 1.5)) + 
   facet_grid(~grp,scales = 'free') + 
   coord_flip() + theme_classic()+
+  geom_errorbar(aes(ymin = lowerCI, ymax=upperCI), width=.7, position=position_dodge(0.05),size = 1.5) +
+  geom_hline(yintercept = 0,color = 'black',linetype = 2,size = 1.3) + 
+  scale_colour_manual(values = c('black','red')) +
+  scale_shape_manual(values = c(1,19)) +
+  labs(color = "")+ylab('')+xlab('') + emci +theme(legend.position = 'bottom')+
+  ylim(-.0001,.0005)+scale_y_continuous(breaks = c(0.0000,0.0003,0.0005), labels = c('0','3e-4','5e-4'))+
   theme(
-    legend.position = 'bottom',
+    panel.spacing = unit(18, "lines"),
+    legend.position = 'none',
     axis.text.x = element_text(size = 24,face = 'bold',colour = 'black'), 
     axis.text.y = element_text(size = 32,face = 'bold',color = 'black'), 
-    title = element_text(size = 16, face = 'bold',color = 'black'))+
-geom_errorbar(aes(ymin = lowerCI, ymax=upperCI), width=.3, position=position_dodge(0.05),size = 1.1) +
-  geom_hline(yintercept = 0,color = 'black',linetype = 2,size = 1.3) + 
-scale_colour_manual(values = c('black','red')) +
-  labs(color = "")+ylab('')+xlab('') +emci +theme(legend.position = 'bottom')+
-ylim(-.0001,.0005)+scale_y_continuous(breaks = c(0.0000,0.0003,0.0005), labels = c('0','3e-4','5e-4'))+
-  theme(panel.spacing = unit(18, "lines"))
+    title = element_text(size = 16, face = 'bold',color = 'black')) 
 
 p
 p1 = p+theme(axis.title.y=element_blank(),axis.text.y=element_blank(),axis.ticks.y=element_blank())
@@ -468,19 +468,20 @@ dev.off()
 
 p = ggplot(LMCI_mem, 
            aes(x = Variable, y = Beta, color = sig)) + 
-  geom_point() + 
+  geom_point(aes(shape = sig,size = 1.5)) + 
   facet_grid(~grp,scales = 'free') + 
   coord_flip() + theme_classic()+
-  theme(
-    legend.position = 'bottom',
-    axis.text.x = element_text(size = 24,face = 'bold',colour = 'black'), 
-    axis.text.y = element_text(size = 32,face = 'bold',color = 'black'), 
-    title = element_text(size = 16, face = 'bold',color = 'black'))+
-  geom_errorbar(aes(ymin = lowerCI, ymax=upperCI), width=.3, position=position_dodge(0.05),size = 1.1) +
+  scale_shape_manual(values = c(1,19)) +
+  geom_errorbar(aes(ymin = lowerCI, ymax=upperCI), width=.7, position=position_dodge(0.05),size = 1.5) +
   geom_hline(yintercept = 0,color = 'black',linetype = 2,size = 1.3) + 
   scale_colour_manual(values = c('black','red')) +
   labs(color = "")+ylab('')+xlab('') +lmci +theme(legend.position = 'bottom')+theme(panel.spacing = unit(18, "lines"))+
-  scale_y_continuous(breaks = c(0.0000,0.0005,0.001), labels = c('0','5e-4','1e-3'))
+  scale_y_continuous(breaks = c(0.0000,0.0005,0.001), labels = c('0','5e-4','1e-3'))+
+theme(
+  legend.position = 'none',
+  axis.text.x = element_text(size = 24,face = 'bold',colour = 'black'), 
+  axis.text.y = element_text(size = 32,face = 'bold',color = 'black'), 
+  title = element_text(size = 16, face = 'bold',color = 'black'))
 
 p
 p1 = p+theme(axis.title.y=element_blank(),axis.text.y=element_blank(),axis.ticks.y=element_blank())
@@ -514,19 +515,20 @@ dev.off()
 
 p = ggplot(LMCI_ef, 
            aes(x = Variable, y = Beta, color = sig)) + 
-  geom_point() + 
+  geom_point(aes(shape = sig,size = 1.5)) + 
   facet_grid(~grp,scales = 'free') + 
   coord_flip() + theme_classic()+
-  theme(
-    legend.position = 'bottom',
-    axis.text.x = element_text(size = 24,face = 'bold',colour = 'black'), 
-    axis.text.y = element_text(size = 30,face = 'bold',color = 'black'), 
-    title = element_text(size = 16, face = 'bold',color = 'black'))+
-  geom_errorbar(aes(ymin = lowerCI, ymax=upperCI), width=.3, position=position_dodge(0.05),size = 1.1) +
+  geom_errorbar(aes(ymin = lowerCI, ymax=upperCI), width=.7, position=position_dodge(0.05),size = 1.5) +
   geom_hline(yintercept = 0,color = 'black',linetype = 2,size = 1.3) + 
   scale_colour_manual(values = c('black','red')) +
   labs(color = "")+ylab('')+xlab('') +lmci2 +theme(legend.position = 'bottom')+theme(panel.spacing = unit(18, "lines"))+
-  scale_y_continuous(breaks = c(0.0000,0.001), labels = c('0','1e-3'))
+  scale_y_continuous(breaks = c(0.0000,0.001), labels = c('0','1e-3'))+
+  scale_shape_manual(values = c(1,19)) +
+  theme(
+    legend.position = 'none',
+    axis.text.x = element_text(size = 24,face = 'bold',colour = 'black'), 
+    axis.text.y = element_text(size = 30,face = 'bold',color = 'black'), 
+    title = element_text(size = 16, face = 'bold',color = 'black'))
 
 p
 p1 = p+theme(axis.title.y=element_blank(),axis.text.y=element_blank(),axis.ticks.y=element_blank())
@@ -562,15 +564,17 @@ dev.off()
 
 plot1CI = function(df,name,ylimit){
 
-  themePlots = theme(legend.position = 'bottom',axis.text.x = element_text(size = 12,face = 'bold',colour = 'black'), 
-                     axis.text.y = element_text(size = 12,face = 'bold',color = 'black'), 
+  themePlots = theme(legend.position = 'bottom',axis.text.x = element_text(size = 24,face = 'bold',colour = 'black'), 
+                     axis.text.y = element_text(size = 32,face = 'bold',color = 'black'), 
                      title = element_text(size = 16, face = 'bold',color = 'black')) + theme_classic()
   
-  plot1 = ggplot(data = df$df1, aes(x = Variable, y = Beta,color = sig))+geom_point() + 
-  geom_errorbar(aes(ymin = lowerCI, ymax=upperCI), width=.3, position=position_dodge(0.05),size = 1) + 
+  plot1 = ggplot(data = df$df1, aes(x = Variable, y = Beta,color = sig))+geom_point(aes(size = 2, shape = sig)) + 
+  geom_errorbar(aes(ymin = lowerCI, ymax=upperCI), width=.7, position=position_dodge(0.05),size = 1.5) + 
   coord_flip() + 
   geom_hline(yintercept = 0,color = 'black',linetype = 2,size = 1.3) + 
   scale_colour_manual(values = c('black','red')) +
+    scale_shape_manual(values = c(1,19)) +
+    
   labs(color = "")+ylab('')+xlab('') +ylimit + themePlots +theme(legend.position = 'bottom')
 
 doc = docx()
@@ -606,12 +610,11 @@ g_legend<-function(a.gplot){
   legend <- tmp$grobs[[leg]]
   return(legend)}
 
-mylegend<-g_legend(plotR[[1]])
+mylegend<-g_legend(plotCN[[1]])
 
 png('plotCN.png',width = 800,height = 800)
 plot = grid.arrange(arrangeGrob(plotCN[[1]] + theme(legend.position="none"),
-                                    nrow=1),
-                        mylegend,nrow = 2,heights=c(25, .5))
+                                    nrow=1),nrow = 2,heights=c(25, .5))
 dev.off()
 
 
